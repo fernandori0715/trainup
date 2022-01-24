@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #555;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.link-card:link,
+.link-card:visited {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.5s;
+}
+
+.link-card .card-header:hover,
+.link-card .card-header:active {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card {
+  --paddding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  display: block;
+  color: rgb(28, 184, 124);
+  background: #fff;
+  text-align: center;
+}
+
+.title_blue {
+  display: block;
+  color: rgb(30, 2, 107);
+  background: #fff;
+  text-align: center;
+}
+
+.lesson-title-grammar {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(28, 184, 124);
+}
+
+.card-header {
+  color: rgb(28, 184, 124);
+  font-weight: bold;
+  text-align: center;
+}
+.card-header-blue {
+  color: rgb(30, 2, 107);
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  margin-bottom: 1px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.content .topic {
+  display: inline-block;
+  color: rgb(28, 184, 124);
+}
+.content .topic-blue {
+  display: inline-block;
+  color: rgb(30, 2, 107);
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    max-width: 1140px;
+    margin: 0 10px;
+  }
+}

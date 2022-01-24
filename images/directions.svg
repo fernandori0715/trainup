@@ -1,0 +1,44 @@
+<svg width="2183" height="1600" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="imagebot_20" y2="1">
+   <stop offset="0" stop-color="#e470e6"/>
+   <stop offset="1" stop-color="#a849a3"/>
+  </linearGradient>
+  <linearGradient id="imagebot_21" y2="1">
+   <stop offset="0" stop-color="#fbe9ba"/>
+   <stop offset="0.5" stop-color="#fbcd4d"/>
+   <stop offset="1" stop-color="#fbdf93"/>
+  </linearGradient>
+  <linearGradient id="imagebot_25" y2="1">
+   <stop offset="0" stop-color="#d4cda5"/>
+   <stop offset="1" stop-color="#b6ac70"/>
+  </linearGradient>
+ </defs>
+ <g id="imagebot_2">
+  <g transform="matrix(1 0 0 1 -45.752 -33.541)" id="imagebot_4">
+   <polygon id="imagebot_5" points="1239.734,378.949 1228.405,186.733 1326.463,186.733 1137,33.541 947.563,186.733      1045.621,186.733 1034.291,378.949    " fill="#007fff"/>
+  </g>
+  <g transform="matrix(1 0 0 1 -45.752 -33.541)" id="imagebot_6">
+   <polygon id="imagebot_7" points="1027.934,380.459 794.976,239.771 873.001,202.302 523.344,152.048 549.331,357.732      639.103,314.622 869.566,469.384    " fill="url(#imagebot_20)"/>
+  </g>
+  <g transform="matrix(1 0 0 1 -45.752 -33.541)" id="imagebot_8">
+   <polygon id="imagebot_9" points="866.242,473.422 474.532,473.422 499.254,404.861 45.752,542.298 391.8,702.867 422.936,616.515      845.153,616.515    " fill="#ff7f00"/>
+  </g>
+  <g transform="matrix(1 0 0 1 -45.752 -33.541)" id="imagebot_10">
+   <polygon id="imagebot_11" points="847.413,621.228 482.837,841.403 408.202,771.163 97.878,1203.127 726.595,1070.81      635.924,985.478 1005.625,737.213    " fill="#7fff00"/>
+  </g>
+  <g transform="matrix(1 0 0 1 -45.752 -33.541)" id="imagebot_12">
+   <polygon id="imagebot_13" points="1013.046,739.407 991.237,1109.415 834.829,1109.415 1137.04,1633.541 1439.196,1109.415      1282.788,1109.415 1260.979,739.407    " fill="url(#imagebot_25)"/>
+  </g>
+  <g transform="translate(4.76837 0) matrix(1 0 0 1 -45.752 -33.541)" id="imagebot_14">
+   <polygon id="imagebot_15" points="1268.4,737.213 1638.101,985.478 1547.43,1070.81 2176.168,1203.099 1865.824,771.163      1791.188,841.403 1426.612,621.228    " fill="url(#imagebot_21)"/>
+  </g>
+  <g transform="matrix(1 0 0 1 -45.752 -33.541)" id="imagebot_16">
+   <polygon id="imagebot_17" points="1428.872,616.515 1851.089,616.515 1882.226,702.867 2228.26,542.276 1774.771,404.861      1799.493,473.422 1407.783,473.422    " fill="#ff007f"/>
+  </g>
+  <g transform="matrix(1 0 0 1 -45.752 -33.541)" id="imagebot_18">
+   <polygon id="imagebot_19" points="1404.46,469.384 1634.922,314.622 1724.694,357.732 1750.658,152.038 1401.024,202.302      1479.049,239.771 1246.091,380.459    " fill="#7f00ff"/>
+  </g>
+  <title>imagebot_2</title>
+ </g>
+</svg>

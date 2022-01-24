@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1"
+    />
+    <title>Lesson 07</title>
+
+    <link rel="stylesheet" type="text/css" href="../../../css/geral.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/scrollBack.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/card_church.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="../../../index.html" class="active">TrainUp</a>
+        <a href="../courses.html" class="">Courses</a>
+        <a href="../internet.html" class="">The Best of the Internet</a>
+        <a href="../review.html" class="">Review</a>
+      
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+
+    <h4 class="mt-3 text-center blue">Lesson 07 - Grammar</h4>
+
+    <!--START OF  VIDEOS -->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+      <h5 class="card-header">Videos</h5>
+
+      <div class="card card-body h-100">
+        <div id="videoGrammar">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/EyPhGIjZKEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+        </div>
+        <!--BUTTONS OF MODAL-->
+        <!-- <div id="buttons">
+          <button
+            type="button"
+            class="btn btn-primary me-2 my-2 mr-2"
+            id="text_en"
+            onclick="changeVideoEn()"
+          >
+            English
+          </button>
+          <button
+            type="button"
+            class="btn btn-info"
+            id="text-pt"
+            onclick="changeVideoPt()"
+          >
+            Portuguese
+          </button>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- END OF VIDEOS -->
+
+    <!-- START OF SUMMARY -->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+
+      <h5 class="card-header">Summary</h5>
+    
+      
+      <div class="card-body" id="text_summary">
+
+      <div class="resumo">
+        <a href="../files/Ebooks/EbookLicoes.pdf" target="_blank">
+        <button type="button" class="btn btn-warning">
+          Resumo - PDF
+        </button>
+      </a>
+      </div>
+               
+        <!--WILL START-->
+        <audio id="Dois1" src="./audio/Grammar/Sentences/1.mp3"></audio>
+        <audio id="Dois2" src="./audio/Grammar/Sentences/2.mp3"></audio>
+        <audio id="Dois3" src="./audio/Grammar/Sentences/3.mp3"></audio>
+        <audio id="Dois4" src="./audio/Grammar/Sentences/4.mp3"></audio>
+        <audio id="Dois5" src="./audio/Grammar/Sentences/5.mp3"></audio>
+        <audio id="Dois6" src="./audio/Grammar/Sentences/6.mp3"></audio>
+        <audio id="Dois7" src="./audio/Grammar/Sentences/7.mp3"></audio>
+        <audio id="Dois8" src="./audio/Grammar/Sentences/8.mp3"></audio>
+        <audio id="Dois9" src="./audio/Grammar/Sentences/9.mp3"></audio>
+        <audio id="Dois10" src="./audio/Grammar/Sentences/10.mp3"></audio>
+        <audio id="Dois11" src="./audio/Grammar/Sentences/11.mp3"></audio>
+        <audio id="Dois12" src="./audio/Grammar/Sentences/12.mp3"></audio>
+        <audio id="Dois13" src="./audio/Grammar/Sentences/13.mp3"></audio>
+        <audio id="Dois14" src="./audio/Grammar/Sentences/14.mp3"></audio>
+        <audio id="Dois15" src="./audio/Grammar/Sentences/15.mp3"></audio>
+        <audio id="Dois16" src="./audio/Grammar/Sentences/16.mp3"></audio>
+        <audio id="Dois17" src="./audio/Grammar/Sentences/17.mp3"></audio>
+        <audio id="Dois18" src="./audio/Grammar/Sentences/18.mp3"></audio>
+       
+        
+        <div>
+          <div class="title">
+            <img
+                src="../../../images/audio.png"
+                style="width: 30px; height: 30px"
+                class="frases cyan mb-2"
+                onclick="play(v2)"
+              />
+              <p>will</p>
+          </div>
+         <p class="frases" onclick="play(Dois1)"><span class="blue">1. I will go to the cinema tonight.</p>
+        <p class="frases" onclick="play(Dois2)"><span class="blue">2. Will you tell him the truth?</p>
+        <p class="frases" onclick="play(Dois3)"><span class="blue">3. Don't worry, He won't tell anyone.</p>
+        <p class="frases" onclick="play(Dois4)"><span class="blue">4. She will be happy with her test results.</p>
+        <p class="frases" onclick="play(Dois5)"><span class="blue">5. They will not stay here.</p>
+        <p class="frases" onclick="play(Dois6)"><span class="blue">6. She answered, "I will pay ten cents only".	</p>
+        <p class="frases" onclick="play(Dois7)"><span class="blue">7. I will play with you.	</p>
+        </div>
+        <!--WILL END-->
+
+        <!-- GOING TO START-->
+         <div class="title">
+            <img
+                src="../../../images/audio.png"
+                style="width: 30px; height: 30px"
+                class="frases cyan mb-2"
+                onclick="play(v2)"
+              />
+               <p>going to</p>
+          </div>
+       
+        <p class="frases" onclick="play(Dois8)"><span class="green">8. I'm going to have another cup of coffee.</p>
+        <p class="frases" onclick="play(Dois9)"><Where class="green">9. Where are you going to summer?</p>
+        <p class="frases" onclick="play(Dois10)"><span class="green">10. He's going to tell his boss he's resigning today.</p>
+        <p class="frases" onclick="play(Dois11)"><span class="green">11. We're going to a match on Sunday.</p>
+        <p class="frases" onclick="play(Dois12)"><span class="green">12. Are they going to sleep all day?</p>
+        <p class="frases" onclick="play(Dois13)"><span class="green">13. He's going to say he loves me.</p>
+          <!--GOING TO  END-->
+
+          <!-- BE + GOING TO START-->
+        <div class="title">
+            <img
+                src="../../../images/audio.png"
+                style="width: 30px; height: 30px"
+                class="frases cyan mb-2"
+                onclick="play(v2)"
+              />
+               <p>be + going to</p>
+          </div>
+                  <p class="frases" onclick="play(Dois14)"><span class="blue">14. I am travelling to Japan next week.</p>
+                  <p class="frases" onclick="play(Dois15)"><span class="blue">15. She´s travelling to Bahia next month.</p>
+                  <p class="frases" onclick="play(Dois16)"><span class="blue">16. He´s not getting a new bike.</p>
+                  <p class="frases" onclick="play(Dois17)"><span class="blue">17. We are having a party next month.</p>
+                  <p class="frases" onclick="play(Dois18)"><span class="blue">18. They are visiting us tomorrow.</p>
+                  
+
+                 
+          <!--BE + GOING TO END-->
+      </div>
+    </div>
+
+    <!-- END OF SUMMARY -->
+
+    <!-- START OF EXERCISES -->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+      <h5 class="card-header">Exercises</h5>
+      <div class="card-body">
+        <a href="https://www.englisch-hilfen.de/en/exercises/tenses/will_going_to_future.htm" target="_blank">Will x Going to</a>
+      </div>
+    </div>
+    <!-- END OF EXERCISES -->
+
+ 
+
+    <!--START OF QUESTIONS-->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+      <h5 class="card-header">Questions</h5>
+    
+      <!-- <div class="buttons">
+        <button
+          type="button"
+          class="btn btn-dark my-2 ms-2"
+          id="text_en"
+          onclick="questionsEn()"
+        >
+          English
+        </button>
+        <button
+          type="button"
+          class="btn btn-info"
+          id="text-pt"
+          onclick="questionsPt()"
+        >
+          Portuguese
+        </button>
+      </div> -->
+      <div class="card-body" id="text">
+        <audio
+          id="v22"
+          src="../licoes/audio/licao1/Obrigatorio/Verbs/1.mp3"
+          type="audio/mpeg"
+        ></audio>
+        <img
+          src="../../../images/audio.png"
+          style="width: 30px; height: 30px"
+          class="frases cyan mb-2"
+          onclick="play(v22s)"
+        />
+        <span class=""> Clique on the sentences to listen.
+        <div id="questions">
+                        <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
+                        <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
+                        <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
+                        <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
+                        <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
+                        <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
+                        <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
+                        <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
+                        <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
+                        <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
+                        <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
+                        <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
+                        <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
+                        <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
+                        <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
+                        <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
+                        <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
+                        <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
+                        <audio id="Quatro19" src="./audio/Grammar/Questions/19.mp3"></audio>
+                        <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
+                        
+                        
+                        <p class="frases" onclick="play(Quatro1)"><span class="blue">1. What will you do this weekend?</p>
+                        <p class="frases" onclick="play(Quatro2)"><span class="blue">2. What will life be like when you are 40?</p>
+                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3. Will computers ever take over the world?</p>
+                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4. When will humans live on another planet?</p>
+                        <p class="frases" onclick="play(Quatro5)"><span class="blue">5. What will you do after you finish university?</p>
+                        <p class="frases" onclick="play(Quatro6)"><span class="blue">6. What will you do before you get married?</p>
+                        <p class="frases" onclick="play(Quatro7)"><span class="blue">7. Will humans ever meet aliens? What will the meeting be like?</p>
+                        <p class="frases" onclick="play(Quatro8)"><span class="blue">8. Where will we get our energy when we run out of oil?</p>
+                        <p class="frases" onclick="play(Quatro9)"><span class="blue">9. What will happen if we keep polluting the environment? </p>
+                        <p class="frases" onclick="play(Quatro10)"><span class="blue">10. Will the climate keep changing or go back to normal?</p>
+                        <p class="frases" onclick="play(Quatro11)"><span class="blue">11. Is he going to play basketball on Monday?</p>
+                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12. Are the girls going to ride their bikes at the weekend?</p>
+                        <p class="frases" onclick="play(Quatro13)"><span class="blue">13. Is Jane going to clean the house today?</p>
+                        <p class="frases" onclick="play(Quatro14)"><span class="blue">14. Is his father going to buy a new coat on Saturday?</p>
+                        <p class="frases" onclick="play(Quatro15)"><span class="blue">15. Are they going to meet their friends at the club?</p>
+                        <p class="frases" onclick="play(Quatro16)"><span class="blue">16. Is she going to feed her cat in the evening?</p>
+                        <p class="frases" onclick="play(Quatro17)"><span class="blue">17. Are you going to do your homework tonight?</p>
+                        <p class="frases" onclick="play(Quatro18)"><span class="blue">18. Are Bob and Jane going to work late tomorrow?</p>
+                        <p class="frases" onclick="play(Quatro19)"><span class="blue">19. Are we going to help our father today?</p>
+                        <p class="frases" onclick="play(Quatro20)"><span class="blue">20. Is Jane going to talk to her mother about that topic?</p>           
+                                           
+                        
+                        
+                        
+        </div>
+      </div>
+    </div>
+
+    <!-- END OF QUESTIONS -->
+
+    <!-- START OF PAGINATION -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="./licao2.html">Anterior</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./licao3.html">4</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./licao4.html">5</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./licao5.html">6</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./licao4.html">Próxima</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- END OF PAGINATION -->
+
+    <script src="../../../js/playFrases.js"></script>
+    <script src="../../../js/tabs.js"></script>
+    <script src="../../../js/menu.js"></script>
+    <script src="../../../js/scrollBack.js"></script>
+    <script src="../../../js/videoModal.js"></script>
+    <script src="../../../js/changeContent7.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

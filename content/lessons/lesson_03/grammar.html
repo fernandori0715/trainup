@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1"
+    />
+    <title>Lesson 03</title>
+
+    <link rel="stylesheet" type="text/css" href="../../../css/geral.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/menu.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/scrollBack.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/card_church.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="../../../index.html" class="active">TrainUp</a>
+        <a href="../courses.html" class="">Courses</a>
+        <a href="../internet.html" class="">The Best of the Internet</a>
+        <a href="../review.html" class="">Review</a>
+      
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+
+    <h4 class="mt-3 text-center blue">Lição 03 - Grammar</h4>
+
+    <!--START OF  VIDEOS -->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+      <h5 class="card-header">Videos</h5>
+
+      <div class="card card-body h-100">
+        <div id="videoGrammar">
+           <iframe width="370" height="300" src="https://www.youtube.com/embed/tiCaJ3uzgiE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+        </div>
+        <!--BUTTONS OF MODAL-->
+        <div id="buttons">
+          <button
+            type="button"
+            class="btn btn-primary me-2 my-2 mr-2"
+            id="text_en"
+            onclick="changeVideoEn()"
+          >
+            English
+          </button>
+          <button
+            type="button"
+            class="btn btn-info"
+            id="text-pt"
+            onclick="changeVideoPt()"
+          >
+            Portuguese
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- END OF VIDEOS -->
+
+    <!-- START OF TEXT -->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+      <h5 class="card-header">Summary</h5>
+      
+      <div class="card-body" id="text_summary">
+               
+        <img src="./img/past_simple.png" width="400" height="400" alt="Verb To Be - Grammar">
+
+        <!--START OF VERBS & WORDS-->
+        <button
+          type="button"
+          class="btn btn-warning mt-2"
+          href="#"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Verbs & Words
+        </button>
+        <!-- START OF MODAL VERBS & WORDS-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Verbs and Words - 03 <span><img
+                                        src="../../../images/audio.png" style="width:25px;height:25px"></span></h5><br>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                    <audio id="v1" src="./audio/Grammar/VerbsWords/Verbs/1.mp3" type="audio/mpeg"></audio>
+                    <audio id="v2" src="./audio/Grammar/VerbsWords/Verbs/2.mp3" type="audio/mpeg"></audio>
+                    <audio id="v3" src="./audio/Grammar/VerbsWords/Verbs/3.mp3" type="audio/mpeg"></audio>
+                    <audio id="v4" src="./audio/Grammar/VerbsWords/Verbs/4.mp3" type="audio/mpeg"></audio>
+                    <audio id="v5" src="./audio/Grammar/VerbsWords/Verbs/5.mp3" type="audio/mpeg"></audio>
+                    <audio id="v6" src="./audio/Grammar/VerbsWords/Verbs/6.mp3" type="audio/mpeg"></audio>
+                    <audio id="v7" src="./audio/Grammar/VerbsWords/Verbs/7.mp3" type="audio/mpeg"></audio>
+                    <audio id="v8" src="./audio/Grammar/VerbsWords/Verbs/8.mp3" type="audio/mpeg"></audio>
+                    <audio id="v9" src="./audio/Grammar/VerbsWords/Verbs/9.mp3" type="audio/mpeg"></audio>
+                    <audio id="v10" src="./audio/Grammar/VerbsWords/Verbs/10.mp3" type="audio/mpeg"></audio>
+                    <audio id="v11" src="./audio/Grammar/VerbsWords/Verbs/11.mp3" type="audio/mpeg"></audio>
+                    
+                    <table class="table">
+                        <thead>
+                            <tr><span class="vermelho">VERBS</span></tr>
+                            <tr>
+
+                                <th scope="col">Verbs </th>
+                                <th scope="col">3° Person</th>
+                                <th scope="col">Past</th>
+                                <th scope="col">Translation </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v1)"> To Stop</span></td>
+                                <td>stops</td>
+                                <td>stopped</td>
+                                <td>Parar</td>
+
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v2)"> To Finish</span></td>
+                                <td>finished</td>
+                                <td>finished</td>
+                                <td>Terminar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v3)"> To Wash</span></td>
+                                <td>washed</td>
+                                <td>washed</td>
+                                <td>Lavar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v4)"> To Wake up</span></td>
+                                <td>wakes up</td>
+                                <td>woke up</td>
+                                <td>Acordar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v5)"> To Give<span></td>
+                                <td>gives</td>
+                                <td>gave</td>s
+                                <td>Dar, entregar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v6)"> To Use<span></td>
+                                <td>uses</td>
+                                <td>used</td>
+                                <td>Usar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v7)"> To Need<span></td>
+                                <td>needs</td>
+                                <td>needed</td>
+                                <td>Precisar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v8)"> To lose<span></td>
+                                <td>loses</td>
+                                <td>lost</td>
+                                <td>Perder</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v9)"> To Wear<span></td>
+                                <td>wears</td>
+                                <td>wore</td>
+                                <td>Vestir</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v10)"> To Take<span></td>
+                                <td>takes</td>
+                                <td>took</td>
+                                <td>Levar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(v11)"> To Travel<span></td>
+                                <td>travels</td>
+                                <td>traveled</td>
+                                <td>Viajar</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+
+                    <audio id="w1" src="./audio/Grammar/VerbsWords/Words/1.mp3" type="audio/mpeg"></audio>
+                    <audio id="w2" src="./audio/Grammar/VerbsWords/Words/2.mp3" type="audio/mpeg"></audio>
+                    <audio id="w3" src="./audio/Grammar/VerbsWords/Words/3.mp3" type="audio/mpeg"></audio>
+                    <audio id="w4" src="./audio/Grammar/VerbsWords/Words/4.mp3" type="audio/mpeg"></audio>
+                    <audio id="w5" src="./audio/Grammar/VerbsWords/Words/5.mp3" type="audio/mpeg"></audio>
+                    <audio id="w6" src="./audio/Grammar/VerbsWords/Words/6.mp3" type="audio/mpeg"></audio>
+                    <audio id="w7" src="./audio/Grammar/VerbsWords/Words/7.mp3" type="audio/mpeg"></audio>
+                    <audio id="w8" src="./audio/Grammar/VerbsWords/Words/8.mp3" type="audio/mpeg"></audio>
+                    <audio id="w9" src="./audio/Grammar/VerbsWords/Words/9.mp3" type="audio/mpeg"></audio>
+                    <audio id="w10" src="./audio/Grammar/VerbsWords/Words/10.mp3" type="audio/mpeg"></audio>
+                    <audio id="w11" src="./audio/Grammar/VerbsWords/Words/11.mp3" type="audio/mpeg"></audio>
+                    <audio id="w12" src="./audio/Grammar/VerbsWords/Words/12.mp3" type="audio/mpeg"></audio>
+                    <audio id="w13" src="./audio/Grammar/VerbsWords/Words/13.mp3" type="audio/mpeg"></audio>
+                    <audio id="w14" src="./audio/Grammar/VerbsWords/Words/14.mp3" type="audio/mpeg"></audio>
+                    <audio id="w15" src="./audio/Grammar/VerbsWords/Words/15.mp3" type="audio/mpeg"></audio>
+                    <audio id="w16" src="./audio/Grammar/VerbsWords/Words/16.mp3" type="audio/mpeg"></audio>
+                    <audio id="w17" src="./audio/Grammar/VerbsWords/Words/17.mp3" type="audio/mpeg"></audio>
+                    <audio id="w18" src="./audio/Grammar/VerbsWords/Words/18.mp3" type="audio/mpeg"></audio>
+                    <audio id="w19" src="./audio/Grammar/VerbsWords/Words/19.mp3" type="audio/mpeg"></audio>
+                    <audio id="w20" src="./audio/Grammar/VerbsWords/Words/20.mp3" type="audio/mpeg"></audio>
+                    <audio id="w21" src="./audio/Grammar/VerbsWords/Words/21.mp3" type="audio/mpeg"></audio>
+                    <audio id="w22" src="./audio/Grammar/VerbsWords/Words/22.mp3" type="audio/mpeg"></audio>
+                    <audio id="w23" src="./audio/Grammar/VerbsWords/Words/23.mp3" type="audio/mpeg"></audio>
+                    <audio id="w24" src="./audio/Grammar/VerbsWords/Words/24.mp3" type="audio/mpeg"></audio>
+                    <audio id="w25" src="./audio/Grammar/VerbsWords/Words/25.mp3" type="audio/mpeg"></audio>
+                    <audio id="w26" src="./audio/Grammar/VerbsWords/Words/26.mp3" type="audio/mpeg"></audio>
+                    <audio id="w27" src="./audio/Grammar/VerbsWords/Words/27.mp3" type="audio/mpeg"></audio>
+                    <audio id="w28" src="./audio/Grammar/VerbsWords/Words/28.mp3" type="audio/mpeg"></audio>
+                    <audio id="w29" src="./audio/Grammar/VerbsWords/Words/29.mp3" type="audio/mpeg"></audio>
+                    <audio id="w30" src="./audio/Grammar/VerbsWords/Words/30.mp3" type="audio/mpeg"></audio>
+                    <audio id="w31" src="./audio/Grammar/VerbsWords/Words/31.mp3" type="audio/mpeg"></audio>
+                    <audio id="w32" src="./audio/Grammar/VerbsWords/Words/32.mp3" type="audio/mpeg"></audio>
+                    <audio id="w33" src="./audio/Grammar/VerbsWords/Words/33.mp3" type="audio/mpeg"></audio>
+                    <audio id="w34" src="./audio/Grammar/VerbsWords/Words/34.mp3" type="audio/mpeg"></audio>
+                    <audio id="w35" src="./audio/Grammar/VerbsWords/Words/35.mp3" type="audio/mpeg"></audio>
+                    <audio id="w36" src="./audio/Grammar/VerbsWords/Words/36.mp3" type="audio/mpeg"></audio>
+                    <audio id="w37" src="./audio/Grammar/VerbsWords/Words/37.mp3" type="audio/mpeg"></audio>
+                    <audio id="w38" src="./audio/Grammar/VerbsWords/Words/38.mp3" type="audio/mpeg"></audio>
+                    <audio id="w39" src="./audio/Grammar/VerbsWords/Words/39.mp3" type="audio/mpeg"></audio>
+                    <audio id="w40" src="./audio/Grammar/VerbsWords/Words/40.mp3" type="audio/mpeg"></audio>
+                    <audio id="w41" src="./audio/Grammar/VerbsWords/Words/41.mp3" type="audio/mpeg"></audio>
+                    <audio id="w42" src="./audio/Grammar/VerbsWords/Words/42.mp3" type="audio/mpeg"></audio>
+                    <table class="table">
+                        <thead>
+                            <tr><span class="vermelho">WORDS</span></tr>
+                            <tr>
+                                <th scope="col">Words </th>
+                                <th scope="col"> </th>
+                                <th scope="col">Words </th>
+                                <th scope="col"> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w1)"> Teacher</span></td>
+                                <td>professor</td>
+                                <td><span class="frases cyan" onclick="play(w2)"> Wine</span></td>
+                                <td>vinho</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w3)"> Speed</span></td>
+                                <td>velocidade</td>
+                                <td><span class="frases cyan" onclick="play(w4)"> Glad</span></td>
+                                <td>alegre</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w5)"> Silence</span></td>
+                                <td>silêncio</td>
+                                <td><span class="frases cyan" onclick="play(w6)"> Birds</span></td>
+                                <td>pássaros</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w7)"> Kitchen</span></td>
+                                <td>cozinha</td>
+                                <td><span class="frases cyan" onclick="play(w8)"> Child</span></td>
+                                <td>criança</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w9)"> Books</span></td>
+                                <td>livros</td>
+                                <td><span class="frases cyan" onclick="play(w10)"> Water</span></td>
+                                <td>água</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w11)"> Shirts</span></td>
+                                <td>camisas</td>
+                                <td><span class="frases cyan" onclick="play(w12)"> Cigarret</span></td>
+                                <td>cigarro</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w13)"> Rain</span></td>
+                                <td>chuva</td>
+                                <td><span class="frases cyan" onclick="play(w14)"> Mother</span></td>
+                                <td>mãe</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w15)"> Year</span></td>
+                                <td>ano</td>
+                                <td><span class="frases cyan" onclick="play(w16)"> Exercices</span></td>
+                                <td>exercícios</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w17)"> Classes</span></td>
+                                <td>aulas</td>
+                                <td><span class="frases cyan" onclick="play(w18)"> Place</span></td>
+                                <td>lugar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w19)"> Money</span></td>
+                                <td>dinheiro</td>
+                                <td><span class="frases cyan" onclick="play(w20)"> Party</span></td>
+                                <td>festa</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w21)"> Surprise</span></td>
+                                <td>surpresa</td>
+                                <td><span class="frases cyan" onclick="play(w22)"> Nice</span></td>
+                                <td>legal, bonito</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w23)"> Years</span></td>
+                                <td>anos</td>
+                                <td><span class="frases cyan" onclick="play(w24)"> Course</span></td>
+                                <td>curso</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w25)"> Movies</span></td>
+                                <td>filmes</td>
+                                <td><span class="frases cyan" onclick="play(w26)"> Pasta</span></td>
+                                <td>pasta</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w27)"> Soup</span></td>
+                                <td>sopa</td>
+                                <td><span class="frases cyan" onclick="play(w28)"> Full</span></td>
+                                <td>cheio, completo</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w29)"> Please</span></td>
+                                <td>por favor</td>
+                                <td><span class="frases cyan" onclick="play(w30)"> List</span></td>
+                                <td>lista</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w31)"> Best</span></td>
+                                <td>melhor</td>
+                                <td><span class="frases cyan" onclick="play(w32)"> Vacation</span></td>
+                                <td>férias</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w33)"> Where</span></td>
+                                <td>aonde</td>
+                                <td><span class="frases cyan" onclick="play(w34)"> Shopping</span></td>
+                                <td>shopping</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w35)"> Clothes</span></td>
+                                <td>roupas</td>
+                                <td><span class="frases cyan" onclick="play(w36)"> Online</span></td>
+                                <td>online</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w37)"> Person</span></td>
+                                <td>pessoa</td>
+                                <td><span class="frases cyan" onclick="play(w38)"> Things</span></td>
+                                <td>coisas</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w39)"> Before</span></td>
+                                <td>antes</td>
+                                <td><span class="frases cyan" onclick="play(w40)"> Goals</span></td>
+                                <td>objetvos</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w41)"> Hobbies</span></td>
+                                <td>hobbies</td>
+                                <td><span class="frases cyan" onclick="play(w42)"> kid</span></td>
+                                <td>criança</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF MODAL -->
+        <!--END OF VERBS & WORDS-->
+      </div>
+    </div>
+
+    <!-- END OF TEXT -->
+
+    <!-- START OF EXERCISES -->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+      <h5 class="card-header">Exercises</h5>
+      <div class="card-body">
+        <div class="game1 mb-2">
+          <a target="_blank" href="https://wordwall.net/pt/resource/17530760/efl/past-simple-verbs?ref=embed-image"><img src="//az779572.vo.msecnd.net/screens-200/412ff0348eb140b3bb5674921b17cb97" width="200" height="150" style="border:1px solid grey;display:block" /><span>Past simple verbs</span></a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF EXERCISES -->
+
+    <!-- START OF REPETITION -->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+      <h5 class="card-header">Repetition</h5>
+      <p class="cyan ms-2">
+        <strong>Instructions:</strong><br />
+        a) Speak the sentences aloud changing them into positive, negative and
+        interrogative.<br />
+        b) Speak the sentences aloud, replacing the clored words with the words
+        inside the parentheses.
+      </p>
+      <div class="buttons">
+        <button
+          type="button"
+          class="btn btn-dark my-2 ms-2"
+          id="text_en"
+          onclick="repetitionEn()"
+        >
+          English
+        </button>
+        <button
+          type="button"
+          class="btn btn-info"
+          id="text-pt"
+          onclick="repetitionPt()"
+        >
+          Portuguese
+        </button>
+      </div>
+      <div class="card-body" id="repetition-sentences">
+        <audio
+          id="v22"
+          src="../licoes/audio/licao1/Obrigatorio/Verbs/1.mp3"
+          type="audio/mpeg"
+        ></audio>
+        <img
+          src="../../../images/audio.png"
+          style="width: 30px; height: 30px"
+          class="frases cyan mb-2"
+          onclick="play(v22s)"
+        />
+        <span class="cyan"> Clique on the sentences to listen.</span>
+
+                        <audio id="Tres1" src="./audio/Grammar/Sentences/1.mp3"></audio>
+                        <audio id="Tres2" src="./audio/Grammar/Sentences/2.mp3"></audio>
+                        <audio id="Tres3" src="./audio/Grammar/Sentences/3.mp3"></audio>
+                        <audio id="Tres4" src="./audio/Grammar/Sentences/4.mp3"></audio>
+                        <audio id="Tres5" src="./audio/Grammar/Sentences/5.mp3"></audio>
+                        <audio id="Tres6" src="./audio/Grammar/Sentences/6.mp3"></audio>
+                        <audio id="Tres7" src="./audio/Grammar/Sentences/7.mp3"></audio>
+                        <audio id="Tres8" src="./audio/Grammar/Sentences/8.mp3"></audio>
+                        <audio id="Tres9" src="./audio/Grammar/Sentences/9.mp3"></audio>
+                        <audio id="Tres10" src="./audio/Grammar/Sentences/10.mp3"></audio>
+                        <audio id="Tres11" src="./audio/Grammar/Sentences/11.mp3"></audio>
+                        <audio id="Tres12" src="./audio/Grammar/Sentences/12.mp3"></audio>
+                        <audio id="Tres13" src="./audio/Grammar/Sentences/13.mp3"></audio>
+                        <audio id="Tres14" src="./audio/Grammar/Sentences/14.mp3"></audio>
+                        <audio id="Tres15" src="./audio/Grammar/Sentences/15.mp3"></audio>
+                        <audio id="Tres16" src="./audio/Grammar/Sentences/16.mp3"></audio>
+                        <audio id="Tres17" src="./audio/Grammar/Sentences/17.mp3"></audio>
+                        <audio id="Tres18" src="./audio/Grammar/Sentences/18.mp3"></audio>
+                        <audio id="Tres19" src="./audio/Grammar/Sentences/19.mp3"></audio>
+                        <audio id="Tres20" src="./audio/Grammar/Sentences/20.mp3"></audio>
+                        
+                       
+                        
+                        <p class="frases" onclick="play(Tres1)"><span class="green">1. I had twobook.(cars)</span></p>
+                        <p class="frases" onclick="play(Tres2)"><span class="green">2. You needed to buy 2 houses.(tables)</span></p>
+                        <p class="frases" onclick="play(Tres3)"><span class="green">3. He drank three glasses of water.(juice)</span></p>
+                        <p class="frases" onclick="play(Tres4)"><span class="green">4. She lost her keys all the time.(voice)</span></p>
+                        <p class="frases" onclick="play(Tres5)"><span class="green">5. It had several colors.</span></p>
+                        <p class="frases" onclick="play(Tres6)"><span class="green">6. We took two boxes.(tickets)</span></p>
+                        <p class="frases" onclick="play(Tres7)"><span class="green">7. You wore nice shirts.(rings)</span></p>
+                        <p class="frases" onclick="play(Tres8)"><span class="green">8. They watched films at night.(movies)</span></p>
+
+                        <p class="frases" onclick="play(Tres9)"><span class="green">9. I met my wife 9 years ago.(5)</span></p>
+                        <p class="frases" onclick="play(Tres10)"><span class="green">10. The rain stopped an hour ago.(30min)</span></p>
+                        <p class="frases" onclick="play(Tres11)"><span class="green">11. We were good friends.(Brothers)</span></p>
+                        <p class="frases" onclick="play(Tres12)"><span class="green">12. I forgot my wallet.(Keys)</span></p>
+                        <p class="frases" onclick="play(Tres13)"><span class="green">13. Last year I traveled to Italy.(Spain)</span></p>
+                        <p class="frases" onclick="play(Tres14)"><span class="green">14. He finished all the exercices.(jobs)</span></p>
+                        <p class="frases" onclick="play(Tres15)"><span class="green">15. I missed the class last week.</span></p>
+                        <p class="frases" onclick="play(Tres16)"><span class="green">16. She smoked a cigarrette.</span></p>
+
+                        <p class="frases" onclick="play(Tres17)"><span class="green">17. I liked the film.(speeches)</span></p>
+                        <p class="frases" onclick="play(Tres18)"><span class="green">18. They listened to music. (songs)</span></p>
+                        <p class="frases" onclick="play(Tres19)"><span class="green">19. We went to church yesterday.(school)</span></p>
+                        <p class="frases" onclick="play(Tres20)"><span class="green">20. Jane changed her place. (plate)</span></p>
+                       
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- END OF REPETITION -->
+
+    <!--START OF QUESTIONS-->
+    <div class="card me-3 ms-3 mt-3 mb-2">
+      <h5 class="card-header">Questions</h5>
+      <p class="cyan ms-2">
+        <strong>Instructions:</strong><br />
+        a) Listen to the questions and answer them
+      </p>
+      <div class="buttons">
+        <button
+          type="button"
+          class="btn btn-dark my-2 ms-2"
+          id="text_en"
+          onclick="questionsEn()"
+        >
+          English
+        </button>
+        <button
+          type="button"
+          class="btn btn-info"
+          id="text-pt"
+          onclick="questionsPt()"
+        >
+          Portuguese
+        </button>
+      </div>
+      <div class="card-body" id="text">
+        <audio
+          id="v22"
+          src="../licoes/audio/licao1/Obrigatorio/Verbs/1.mp3"
+          type="audio/mpeg"
+        ></audio>
+        <img
+          src="../../../images/audio.png"
+          style="width: 30px; height: 30px"
+          class="frases cyan mb-2"
+          onclick="play(v22s)"
+        />
+        <span class="cyan"> Clique on the sentences to listen.
+        <div id="questions">
+          
+                        <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
+                        <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
+                        <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
+                        <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
+                        <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
+                        <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
+                        <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
+                        <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
+                        <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
+                        <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
+                        <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
+                        <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
+                        <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
+                        <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
+                        <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
+                        <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
+                        <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
+                        <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
+                        
+                        
+                        
+                        <p class="frases" onclick="play(Quatro1)"><span class="blue">1. What did you do for your last birthday?</p>
+                        <p class="frases" onclick="play(Quatro2)"><span class="blue">2. Did you study hard in high school?</p>
+                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3. Where did you go last weekend?</p>
+                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4. What did you eat last dinner?</p>
+                        <p class="frases" onclick="play(Quatro5)"><span class="blue">5. Did you paint your house last year?</p>
+                        <p class="frases" onclick="play(Quatro6)"><span class="blue">6. What color towel did you use last time?</p>
+                        <p class="frases" onclick="play(Quatro7)"><span class="blue">7. Did they lose the match?</p>
+                        <p class="frases" onclick="play(Quatro8)"><span class="blue">8. Did you have dinner last night?</p>
+                        <p class="frases" onclick="play(Quatro9)"><span class="blue">9. Did you just call Jane?</p>
+                        <p class="frases" onclick="play(Quatro10)"><span class="blue">10. Did Phillip buy his mother a gift?</p>
+                        <p class="frases" onclick="play(Quatro11)"><span class="blue">11. Did Amanda sing at the festival?</p>
+                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12. Did John give you all this money?</p>
+                        <p class="frases" onclick="play(Quatro13)"><span class="blue">13. Did you watch tvlast night?</p>
+                        <p class="frases" onclick="play(Quatro14)"><span class="blue">14. Did you enjoy the party yesterday?</p>
+                        <p class="frases" onclick="play(Quatro15)"><span class="blue">15. Did she like the surprise?</p>
+                        <p class="frases" onclick="play(Quatro16)"><span class="blue">16. Did he arrive on time?</p>
+                        <p class="frases" onclick="play(Quatro17)"><span class="blue">17. What did you say to Bob?</p>
+                        <p class="frases" onclick="play(Quatro18)"><span class="blue">18. Did they bring their friends?</p>
+                        <p class="frases" onclick="play(Quatro19)"><span class="blue">19. Did you have a nice weekend?</p>
+                        <p class="frases" onclick="play(Quatro20)"><span class="blue">20. What did you have for dinner last night?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- END OF QUESTIONS -->
+
+    <!-- START OF PAGINATION -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="./licao2.html">Anterior</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./licao3.html">4</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./licao4.html">5</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./licao5.html">6</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="./licao4.html">Próxima</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- END OF PAGINATION -->
+
+    <script src="../../../js/playFrases.js"></script>
+    <script src="../../../js/tabs.js"></script>
+    <script src="../../../js/menu.js"></script>
+    <script src="../../../js/scrollBack.js"></script>
+    <script src="../../../js/videoModal.js"></script>
+
+    <script src="../../../js/changeContent3.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

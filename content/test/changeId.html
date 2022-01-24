@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button"onclick="changePt()">Portuguese</button>
+    <button type="button"onclick="changeEn()">English</button>
+    <div id="text">
+        <h1>English Grammar Resume</h1>
+        <p>We use Simple Present ...</p>
+    </div>
+
+    <script>
+        function changePt(){
+            let element = document.getElementById("text");
+            let newContent = `
+                <h1>Resumo Gramatical em Português</h1>
+                <p>Usamos o Presente Simples</p>
+            `;
+
+            //changing the content in your element
+            element.innerHTML = newContent;
+        }
+        function changeEn() {
+                let element = document.getElementById("text");
+                let newContent = `
+                <h1>English Grammar Resume</h1>
+                <p>New Content</p>
+            `;
+
+                //changing the content in your element
+                element.innerHTML = newContent;
+            }
+        
+    </script>
+</body>
+</html>
