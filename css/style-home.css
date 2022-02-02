@@ -38,6 +38,7 @@ body {
   color: #343a40;
   text-decoration: none;
   font-family: sans-serif;
+  margin-top: 1rem;
 }
 
 #menu-links a:hover {

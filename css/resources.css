@@ -29,6 +29,8 @@ body {
   .navigation {
     position: fixed;
   }
+  
+  /*
   header {
     display: flex;
     flex-direction: column;
@@ -49,7 +51,11 @@ body {
     letter-spacing: 1px;
     font-size: 2rem;
   }
+  */
   
+
+
+
   .container-resource {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
