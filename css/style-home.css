@@ -30,7 +30,6 @@ body {
   width: 960px;
   margin: 90px auto 0;
   padding: 15px;
-  box-shadow: 0 1px 4px #dfdddd;
   background: #fff;
 }
 /* MENU START*/
@@ -165,7 +164,6 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 64px;
 }
 
 header img {
@@ -218,7 +216,7 @@ img {
 .testimonial-section {
   background-color: #087f5b;
   color: #fff;
-  padding: 24px;
+  padding: 30px;
   border-radius: 12px;
 }
 
