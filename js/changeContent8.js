@@ -1,7 +1,7 @@
 function changePtSummary() {
   let element = document.getElementById("text_summary");
   let newContent = `
-            <img src="img/pronouns.jpg" width="100%" alt="pronouns"/>
+            <img src="img/prepositions.jpg" width="100%" alt="pronouns"/>
 
           
             
@@ -13,286 +13,318 @@ function changePtSummary() {
 function changeEnSummary() {
   let element = document.getElementById("text_summary");
   let newContent = `
-        <img src="img/adverbs.png" width="100%" alt="adverbs">
-        
-        <!--START OF VERBS & WORDS-->
-        <button
-          type="button"
-          class="btn btn-warning"
-          href="#"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-        >
-          Adverbs - Audio
-        </button>
-        <!-- START OF MODAL VERBS & WORDS-->
-        <!-- START OF MODAL VERBS & WORDS-->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Verbs and Words - 01 <span><img
-                                        src="../../../images/audio.png" style="width:25px;height:25px"></span></h5><br>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
+  <div class="card-body" id="text_summary">
 
-                            <audio id="v1" src="../licoes/audio/licao2/Obrigatorio/Verbs/1.mp3" type="audio/mpeg"></audio>
-                    <audio id="v2" src="../licoes/audio/licao2/Obrigatorio/Verbs/2.mp3" type="audio/mpeg"></audio>
-                    <audio id="v3" src="../licoes/audio/licao2/Obrigatorio/Verbs/3.mp3" type="audio/mpeg"></audio>
-                    <audio id="v4" src="../licoes/audio/licao2/Obrigatorio/Verbs/4.mp3" type="audio/mpeg"></audio>
-                    <audio id="v5" src="../licoes/audio/licao2/Obrigatorio/Verbs/5.mp3" type="audio/mpeg"></audio>
-                    <audio id="v6" src="../licoes/audio/licao2/Obrigatorio/Verbs/6.mp3" type="audio/mpeg"></audio>
-                    <audio id="v7" src="../licoes/audio/licao2/Obrigatorio/Verbs/7.mp3" type="audio/mpeg"></audio>
-                    <audio id="v8" src="../licoes/audio/licao2/Obrigatorio/Verbs/8.mp3" type="audio/mpeg"></audio>
-                    
-                    <table class="table">
-                        <thead>
-                            <tr><span class="vermelho">VERBS</span></tr>
-                            <tr>
+  <img src="img/adverbs.png" alt="">
+  <br/>
+ 
 
-                                <th scope="col">Verbs </th>
-                                <th scope="col">3° Person</th>
-                                <th scope="col">Past</th>
-                                <th scope="col">Translation </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(v1)"> To jump</span></td>
-                                <td>jumps</td>
-                                <td>jumped</td>
-                                <td>Pular</td>
+  <!--START OF VERBS & WORDS-->
+  <button
+    type="button"
+    class="btn btn-warning"
+    href="#"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"
+  >
+    Adverbs - Audio
+  </button>
+  <!-- START OF MODAL VERBS & WORDS-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Adverbs <span><img
+                                  src="../../../images/audio.png" style="width:25px;height:25px"></span></h5><br>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
 
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(v2)"> To keep</span></td>
-                                <td>keeps</td>
-                                <td>kept</td>
-                                <td>Manter</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(v3)"> To kiss</span></td>
-                                <td>kisses</td>
-                                <td>kissed</td>
-                                <td>Beijar</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(v4)"> To know</span></td>
-                                <td>knows</td>
-                                <td>knew</td>
-                                <td>Saber, conhecer</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(v5)"> To learn<span></td>
-                                <td>learned /learnt</td>
-                                <td>learned /learnt</td>s
-                                <td>Aprender</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(v6)"> To lend<span></td>
-                                <td>lent</td>
-                                <td>lent</td>
-                                <td>Emprestar</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(v7)"> To like<span></td>
-                                <td>liked</td>
-                                <td>liked</td>
-                                <td>Gostar</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(v8)"> To listen<span></td>
-                                <td>listened</td>
-                                <td>listened</td>
-                                <td>Ouvir</td>
-                            </tr>
-                            
-                        </tbody>
-                    </table>
+                     
 
-                    <audio id="w1" src="../licoes/audio/licao2/Obrigatorio/Words/1.mp3" type="audio/mpeg"></audio>
-                    <audio id="w2" src="../licoes/audio/licao2/Obrigatorio/Words/2.mp3" type="audio/mpeg"></audio>
-                    <audio id="w3" src="../licoes/audio/licao2/Obrigatorio/Words/3.mp3" type="audio/mpeg"></audio>
-                    <audio id="w4" src="../licoes/audio/licao2/Obrigatorio/Words/4.mp3" type="audio/mpeg"></audio>
-                    <audio id="w5" src="../licoes/audio/licao2/Obrigatorio/Words/5.mp3" type="audio/mpeg"></audio>
-                    <audio id="w6" src="../licoes/audio/licao2/Obrigatorio/Words/6.mp3" type="audio/mpeg"></audio>
-                    <audio id="w7" src="../licoes/audio/licao2/Obrigatorio/Words/7.mp3" type="audio/mpeg"></audio>
-                    <audio id="w8" src="../licoes/audio/licao2/Obrigatorio/Words/8.mp3" type="audio/mpeg"></audio>
-                    <audio id="w9" src="../licoes/audio/licao2/Obrigatorio/Words/9.mp3" type="audio/mpeg"></audio>
-                    <audio id="w10" src="../licoes/audio/licao2/Obrigatorio/Words/10.mp3" type="audio/mpeg"></audio>
-                    <audio id="w11" src="../licoes/audio/licao2/Obrigatorio/Words/11.mp3" type="audio/mpeg"></audio>
-                    <audio id="w12" src="../licoes/audio/licao2/Obrigatorio/Words/12.mp3" type="audio/mpeg"></audio>
-                    <audio id="w13" src="../licoes/audio/licao2/Obrigatorio/Words/13.mp3" type="audio/mpeg"></audio>
-                    <audio id="w14" src="../licoes/audio/licao2/Obrigatorio/Words/14.mp3" type="audio/mpeg"></audio>
-                    <audio id="w15" src="../licoes/audio/licao2/Obrigatorio/Words/15.mp3" type="audio/mpeg"></audio>
-                    <audio id="w16" src="../licoes/audio/licao2/Obrigatorio/Words/16.mp3" type="audio/mpeg"></audio>
-                    <audio id="w17" src="../licoes/audio/licao2/Obrigatorio/Words/17.mp3" type="audio/mpeg"></audio>
-                    <audio id="w18" src="../licoes/audio/licao2/Obrigatorio/Words/18.mp3" type="audio/mpeg"></audio>
-                    <audio id="w19" src="../licoes/audio/licao2/Obrigatorio/Words/19.mp3" type="audio/mpeg"></audio>
-                    <audio id="w20" src="../licoes/audio/licao2/Obrigatorio/Words/20.mp3" type="audio/mpeg"></audio>
-                    <audio id="w21" src="../licoes/audio/licao2/Obrigatorio/Words/21.mp3" type="audio/mpeg"></audio>
-                    <audio id="w22" src="../licoes/audio/licao2/Obrigatorio/Words/22.mp3" type="audio/mpeg"></audio>
-                    <audio id="w23" src="../licoes/audio/licao2/Obrigatorio/Words/23.mp3" type="audio/mpeg"></audio>
-                    <audio id="w24" src="../licoes/audio/licao2/Obrigatorio/Words/24.mp3" type="audio/mpeg"></audio>
-                    <audio id="w25" src="../licoes/audio/licao2/Obrigatorio/Words/25.mp3" type="audio/mpeg"></audio>
-                    <audio id="w26" src="../licoes/audio/licao2/Obrigatorio/Words/26.mp3" type="audio/mpeg"></audio>
-                    <audio id="w27" src="../licoes/audio/licao2/Obrigatorio/Words/27.mp3" type="audio/mpeg"></audio>
-                    <audio id="w28" src="../licoes/audio/licao2/Obrigatorio/Words/28.mp3" type="audio/mpeg"></audio>
-                    <audio id="w29" src="../licoes/audio/licao2/Obrigatorio/Words/29.mp3" type="audio/mpeg"></audio>
-                    <audio id="w30" src="../licoes/audio/licao2/Obrigatorio/Words/30.mp3" type="audio/mpeg"></audio>
-                    <audio id="w31" src="../licoes/audio/licao2/Obrigatorio/Words/31.mp3" type="audio/mpeg"></audio>
-                    <audio id="w32" src="../licoes/audio/licao2/Obrigatorio/Words/32.mp3" type="audio/mpeg"></audio>
-                    <audio id="w33" src="../licoes/audio/licao2/Obrigatorio/Words/33.mp3" type="audio/mpeg"></audio>
-                    <audio id="w34" src="../licoes/audio/licao2/Obrigatorio/Words/34.mp3" type="audio/mpeg"></audio>
-                    <audio id="w35" src="../licoes/audio/licao2/Obrigatorio/Words/35.mp3" type="audio/mpeg"></audio>
-                    <audio id="w36" src="../licoes/audio/licao2/Obrigatorio/Words/36.mp3" type="audio/mpeg"></audio>
-                    <audio id="w37" src="../licoes/audio/licao2/Obrigatorio/Words/37.mp3" type="audio/mpeg"></audio>
-                    <audio id="w38" src="../licoes/audio/licao2/Obrigatorio/Words/38.mp3" type="audio/mpeg"></audio>
-                    <audio id="w39" src="../licoes/audio/licao2/Obrigatorio/Words/39.mp3" type="audio/mpeg"></audio>
-                    <audio id="w40" src="../licoes/audio/licao2/Obrigatorio/Words/40.mp3" type="audio/mpeg"></audio>
-                    <table class="table">
-                        <thead>
-                            <tr><span class="vermelho">WORDS</span></tr>
-                            <tr>
-
-                                <th scope="col">Words </th>
-                                <th scope="col"> </th>
-                                <th scope="col">Words </th>
-                                <th scope="col"> </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w1)"> Baby</span></td>
-                                <td>bebê</td>
-                                <td><span class="frases cyan" onclick="play(w2)"> Floor</span></td>
-                                <td>chão</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w3)"> Keys</span></td>
-                                <td>chaves</td>
-                                <td><span class="frases cyan" onclick="play(w4)"> Car</span></td>
-                                <td>carro</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w5)"> Money</span></td>
-                                <td>dinheiro</td>
-                                <td><span class="frases cyan" onclick="play(w6)"> Really</span></td>
-                                <td>realmente, sério</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w7)"> Heart</span></td>
-                                <td>coração</td>
-                                <td><span class="frases cyan" onclick="play(w8)"> Apple</span></td>
-                                <td>maça</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w9)"> City</span></td>
-                                <td>cidade</td>
-                                <td><span class="frases cyan" onclick="play(w10)"> House</span></td>
-                                <td>casa</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w11)"> Park</span></td>
-                                <td>parque</td>
-                                <td><span class="frases cyan" onclick="play(w12)"> Yesterday</span></td>
-                                <td>ontem</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w13)"> Last</span></td>
-                                <td>último(a)</td>
-                                <td><span class="frases cyan" onclick="play(w14)"> Married</span></td>
-                                <td>casado(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w15)"> Tired</span></td>
-                                <td>cansado(a)</td>
-                                <td><span class="frases cyan" onclick="play(w16)"> Tall</span></td>
-                                <td>alto(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w17)"> Happy</span></td>
-                                <td>Feliz</td>
-                                <td><span class="frases cyan" onclick="play(w18)"> Brave</span></td>
-                                <td>corajoso(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w19)"> Clever</span></td>
-                                <td>inteligente</td>
-                                <td><span class="frases cyan" onclick="play(w20)"> easy-going</span></td>
-                                <td>fácil de lidar</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w21)"> Friendly</span></td>
-                                <td>amigável</td>
-                                <td><span class="frases cyan" onclick="play(w22)"> Funny</span></td>
-                                <td>engraçado(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w23)"> Hard-working</span></td>
-                                <td>trabalhador(a)</td>
-                                <td><span class="frases cyan" onclick="play(w24)"> Honest</span></td>
-                                <td>honesto(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w25)"> Lazy</span></td>
-                                <td>preguiçoso(a)</td>
-                                <td><span class="frases cyan" onclick="play(w26)"> Moody</span></td>
-                                <td>mal-humorado(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w27)"> Polite</span></td>
-                                <td>educado(a)</td>
-                                <td><span class="frases cyan" onclick="play(w28)"> Nervous</span></td>
-                                <td>nervoso(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w29)"> Quite</span></td>
-                                <td>quieto(a)</td>
-                                <td><span class="frases cyan" onclick="play(w30)"> shy</span></td>
-                                <td>tímido(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w31)"> Creative</span></td>
-                                <td>criativo(a)</td>
-                                <td><span class="frases cyan" onclick="play(w32)"> Impulsive</span></td>
-                                <td>impulsivo(a)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w33)"> Big</span></td>
-                                <td>grande</td>
-                                <td><span class="frases cyan" onclick="play(w34)"> Hours</span></td>
-                                <td>horas</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w35)"> Birthday</span></td>
-                                <td>aniversário</td>
-                                <td><span class="frases cyan" onclick="play(w36)"> Little</span></td>
-                                <td>pouco</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w37)"> Small</span></td>
-                                <td>pequeno</td>
-                                <td><span class="frases cyan" onclick="play(w38)"> Favourite</span></td>
-                                <td>favorito</td>
-                            </tr>
-                            <tr>
-                                <td><span class="frases cyan" onclick="play(w39)"> Just</span></td>
-                                <td>só</td>
-                                <td><span class="frases cyan" onclick="play(w40)"> Age</span></td>
-                                <td>idade</td>
-
-                            </tr>
-
-                        </tbody>
-                    </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END OF MODAL -->
-            
+                      <audio id="w1" src="./audio/Grammar/VerbsWords/Words/1.mp3" type="audio/mpeg"></audio>
+                      <audio id="w2" src="./audio/Grammar/VerbsWords/Words/2.mp3" type="audio/mpeg"></audio>
+                      <audio id="w3" src="./audio/Grammar/VerbsWords/Words/3.mp3" type="audio/mpeg"></audio>
+                      <audio id="w4" src="./audio/Grammar/VerbsWords/Words/4.mp3" type="audio/mpeg"></audio>
+                      <audio id="w5" src="./audio/Grammar/VerbsWords/Words/5.mp3" type="audio/mpeg"></audio>
+                      <audio id="w6" src="./audio/Grammar/VerbsWords/Words/6.mp3" type="audio/mpeg"></audio>
+                      <audio id="w7" src="./audio/Grammar/VerbsWords/Words/7.mp3" type="audio/mpeg"></audio>
+                      <audio id="w8" src="./audio/Grammar/VerbsWords/Words/8.mp3" type="audio/mpeg"></audio>
+                      <audio id="w9" src="./audio/Grammar/VerbsWords/Words/9.mp3" type="audio/mpeg"></audio>
+                      <audio id="w10" src="./audio/Grammar/VerbsWords/Words/10.mp3" type="audio/mpeg"></audio>
+                      <audio id="w11" src="./audio/Grammar/VerbsWords/Words/11.mp3" type="audio/mpeg"></audio>
+                      <audio id="w12" src="./audio/Grammar/VerbsWords/Words/12.mp3" type="audio/mpeg"></audio>
+                      <audio id="w13" src="./audio/Grammar/VerbsWords/Words/13.mp3" type="audio/mpeg"></audio>
+                      <audio id="w14" src="./audio/Grammar/VerbsWords/Words/14.mp3" type="audio/mpeg"></audio>
+                      <audio id="w15" src="./audio/Grammar/VerbsWords/Words/15.mp3" type="audio/mpeg"></audio>
+                      <audio id="w16" src="./audio/Grammar/VerbsWords/Words/16.mp3" type="audio/mpeg"></audio>
+                      <audio id="w17" src="./audio/Grammar/VerbsWords/Words/17.mp3" type="audio/mpeg"></audio>
+                      <audio id="w18" src="./audio/Grammar/VerbsWords/Words/18.mp3" type="audio/mpeg"></audio>
+                      <audio id="w19" src="./audio/Grammar/VerbsWords/Words/19.mp3" type="audio/mpeg"></audio>
+                      <audio id="w20" src="./audio/Grammar/VerbsWords/Words/20.mp3" type="audio/mpeg"></audio>
+                      <audio id="w21" src="./audio/Grammar/VerbsWords/Words/21.mp3" type="audio/mpeg"></audio>
+                      <audio id="w22" src="./audio/Grammar/VerbsWords/Words/22.mp3" type="audio/mpeg"></audio>
+                      <audio id="w23" src="./audio/Grammar/VerbsWords/Words/23.mp3" type="audio/mpeg"></audio>
+                      <audio id="w24" src="./audio/Grammar/VerbsWords/Words/24.mp3" type="audio/mpeg"></audio>
+                      <audio id="w25" src="./audio/Grammar/VerbsWords/Words/25.mp3" type="audio/mpeg"></audio>
+                      <audio id="w26" src="./audio/Grammar/VerbsWords/Words/26.mp3" type="audio/mpeg"></audio>
+                      <audio id="w27" src="./audio/Grammar/VerbsWords/Words/27.mp3" type="audio/mpeg"></audio>
+                      <audio id="w28" src="./audio/Grammar/VerbsWords/Words/28.mp3" type="audio/mpeg"></audio>
+                      <audio id="w29" src="./audio/Grammar/VerbsWords/Words/29.mp3" type="audio/mpeg"></audio>
+                      <audio id="w30" src="./audio/Grammar/VerbsWords/Words/30.mp3" type="audio/mpeg"></audio>
+                      <audio id="w31" src="./audio/Grammar/VerbsWords/Words/31.mp3" type="audio/mpeg"></audio>
+                      <audio id="w32" src="./audio/Grammar/VerbsWords/Words/32.mp3" type="audio/mpeg"></audio>
+                      <audio id="w33" src="./audio/Grammar/VerbsWords/Words/33.mp3" type="audio/mpeg"></audio>
+                      <audio id="w34" src="./audio/Grammar/VerbsWords/Words/34.mp3" type="audio/mpeg"></audio>
+                      <audio id="w35" src="./audio/Grammar/VerbsWords/Words/35.mp3" type="audio/mpeg"></audio>
+                      <audio id="w36" src="./audio/Grammar/VerbsWords/Words/36.mp3" type="audio/mpeg"></audio>
+                      <audio id="w37" src="./audio/Grammar/VerbsWords/Words/37.mp3" type="audio/mpeg"></audio>
+                      <audio id="w38" src="./audio/Grammar/VerbsWords/Words/38.mp3" type="audio/mpeg"></audio>
+                      <audio id="w39" src="./audio/Grammar/VerbsWords/Words/39.mp3" type="audio/mpeg"></audio>
+                      <audio id="w40" src="./audio/Grammar/VerbsWords/Words/40.mp3" type="audio/mpeg"></audio>
+                      <audio id="w41" src="./audio/Grammar/VerbsWords/Words/41.mp3" type="audio/mpeg"></audio>
+                      <audio id="w42" src="./audio/Grammar/VerbsWords/Words/42.mp3" type="audio/mpeg"></audio>
+                      <audio id="w43" src="./audio/Grammar/VerbsWords/Words/43.mp3" type="audio/mpeg"></audio>
+                      <audio id="w44" src="./audio/Grammar/VerbsWords/Words/44.mp3" type="audio/mpeg"></audio>
+                      <audio id="w45" src="./audio/Grammar/VerbsWords/Words/45.mp3" type="audio/mpeg"></audio>
+                      <audio id="w46" src="./audio/Grammar/VerbsWords/Words/46.mp3" type="audio/mpeg"></audio>
+                      <audio id="w47" src="./audio/Grammar/VerbsWords/Words/47.mp3" type="audio/mpeg"></audio>
+                      <audio id="w48" src="./audio/Grammar/VerbsWords/Words/48.mp3" type="audio/mpeg"></audio>
+                      <audio id="w49" src="./audio/Grammar/VerbsWords/Words/49.mp3" type="audio/mpeg"></audio>
+                      <audio id="w50" src="./audio/Grammar/VerbsWords/Words/50.mp3" type="audio/mpeg"></audio>
+                      <audio id="w51" src="./audio/Grammar/VerbsWords/Words/51.mp3" type="audio/mpeg"></audio>
+                      <audio id="w52" src="./audio/Grammar/VerbsWords/Words/52.mp3" type="audio/mpeg"></audio>
+                      <audio id="w53" src="./audio/Grammar/VerbsWords/Words/53.mp3" type="audio/mpeg"></audio>
+                      <audio id="w54" src="./audio/Grammar/VerbsWords/Words/54.mp3" type="audio/mpeg"></audio>
+                      <audio id="w55" src="./audio/Grammar/VerbsWords/Words/55.mp3" type="audio/mpeg"></audio>
+                      <audio id="w56" src="./audio/Grammar/VerbsWords/Words/56.mp3" type="audio/mpeg"></audio>
+                      <audio id="w57" src="./audio/Grammar/VerbsWords/Words/57.mp3" type="audio/mpeg"></audio>
+                      <audio id="w58" src="./audio/Grammar/VerbsWords/Words/58.mp3" type="audio/mpeg"></audio>
+                      <table class="table">
+                          <!-- <thead>
+                              <tr><span class="vermelho">Adverbs</span></tr>
+                              <tr>
+  
+                                  <th scope="col">Words </th>
+                                  <th scope="col"> </th>
+                                  <th scope="col">Words </th>
+                                  <th scope="col"> </th>
+                              </tr>
+                          </thead> -->
+                          <tbody>
+                             <tr>
+                                <td class="vermelho">How Often</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w1)"> Never</span></td>
+                                  <td>nunca</td>
+                                  <td><span class="frases cyan" onclick="play(w2)"> Sometimes</span></td>
+                                  <td>as vezes</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w3)"> Often</span></td>
+                                  <td>fenquentemente</td>
+                                  <td><span class="frases cyan" onclick="play(w4)"> Usually</span></td>
+                                  <td>usualmente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w5)"> Generally</span></td>
+                                  <td>geralmente</td>
+                                  <td><span class="frases cyan" onclick="play(w6)"> Occasionally</span></td>
+                                  <td>Ocasionalmente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w7)"> Seldom</span></td>
+                                  <td>raramente</td>
+                                  <td><span class="frases cyan" onclick="play(w8)"> Rarely</span></td>
+                                  <td>raramente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w9)"> Normally</span></td>
+                                  <td>normalmente</td>
+                                  <td><span class="frases cyan" onclick="play(w10)"> Frequently</span></td>
+                                  <td>frenquentemente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w11)"> Hardly ever</span></td>
+                                  <td>quase nunca</td>
+                                  <td><span class="frases cyan" onclick="play(w12)"> Always</span></td>
+                                  <td>sempre</td>
+                              </tr>
+                              <tr>
+                                <td class="vermelho">When</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w13)"> Last year</span></td>
+                                  <td>Ano passado</td>
+                                  <td><span class="frases cyan" onclick="play(w14)"> Last month</span></td>
+                                  <td>Mês passado</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w15)"> today</span></td>
+                                  <td>hoje</td>
+                                  <td><span class="frases cyan" onclick="play(w16)"> Soon</span></td>
+                                  <td>Em breve</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w17)"> Last week</span></td>
+                                  <td>Semana passada</td>
+                                  <td><span class="frases cyan" onclick="play(w18)"> soon</span></td>
+                                  <td>logo</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w19)"> Yesterday</span></td>
+                                  <td>ontem</td>
+                                  <td><span class="frases cyan" onclick="play(w20)"> Tonight</span></td>
+                                  <td>Esta noite</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w21)"> Already</span></td>
+                                  <td>Já</td>
+                                  <td><span class="frases cyan" onclick="play(w22)"> then</span></td>
+                                  <td>então, depois</td>
+                              </tr>
+                              <tr>
+                                <td class="vermelho">Where</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w23)"> Towards</span></td>
+                                  <td>em direção</td>
+                                  <td><span class="frases cyan" onclick="play(w24)"> There</span></td>
+                                  <td>lá</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w25)"> Inside</span></td>
+                                  <td>dentro</td>
+                                  <td><span class="frases cyan" onclick="play(w26)"> Here</span></td>
+                                  <td>aqui</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w27)"> Back</span></td>
+                                  <td>para atrás, tás, de volta</td>
+                                  <td><span class="frases cyan" onclick="play(w28)"> Far</span></td>
+                                  <td>longe</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w29)"> Abroad</span></td>
+                                  <td>No exterior</td>
+                                  <td><span class="frases cyan" onclick="play(w30)"> Behind</span></td>
+                                  <td>Atrás</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w31)"> Away</span></td>
+                                  <td>longe</td>
+                                  <td><span class="frases cyan" onclick="play(w32)"> Outside</span></td>
+                                  <td>Lado de fora</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w33)"> Downstairs</span></td>
+                                  <td>Andar de baixo</td>
+                                  <td><span class="frases cyan" onclick="play(w34)"> Nearby</span></td>
+                                  <td>Próximo</td>
+                              </tr>
+                              <tr>
+                                <td class="vermelho">How </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w35)"> Secretly</span></td>
+                                  <td>Secretamente</td>
+                                  <td><span class="frases cyan" onclick="play(w36)"> Fast</span></td>
+                                  <td>rápido</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w37)"> Well</span></td>
+                                  <td>bem</td>
+                                  <td><span class="frases cyan" onclick="play(w38)"> Quickly</span></td>
+                                  <td>rapidamente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w39)"> Easily</span></td>
+                                  <td>Facilmente</td>
+                                   <td><span class="frases cyan" onclick="play(w40)"> Slowly</span></td>
+                                  <td>Lentamente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w41)"> Lowly</span></td>
+                                  <td>Facilmente</td>
+                                   <td><span class="frases cyan" onclick="play(w42)"> Accidentally</span></td>
+                                  <td>Acidentalmente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w43)"> Weekly</span></td>
+                                  <td>Semanalmente</td>
+                                   <td><span class="frases cyan" onclick="play(w44)"> Badly</span></td>
+                                  <td>Seriamente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w45)"> Carefully</span></td>
+                                  <td>Cuidadosamente</td>
+                                   <td><span class="frases cyan" onclick="play(w46)"> Closely</span></td>
+                                  <td>De perto</td>
+                              </tr>
+                                   <tr>
+                                <td class="vermelho">How Much</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w47)"> Fully</span></td>
+                                  <td>Completamente</td>
+                                   <td><span class="frases cyan" onclick="play(w48)"> Almost</span></td>
+                                  <td>Quase</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w49)"> Extremely</span></td>
+                                  <td>Extremamente</td>
+                                   <td><span class="frases cyan" onclick="play(w50)"> Entirely</span></td>
+                                  <td>Inteiramente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w51)"> Very</span></td>
+                                  <td>Muito</td>
+                                   <td><span class="frases cyan" onclick="play(w52)"> Barely</span></td>
+                                  <td>Por muito pouco, mal, apenas</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w53)"> Enough</span></td>
+                                  <td>O suficiente</td>
+                                   <td><span class="frases cyan" onclick="play(w54)"> Deeply</span></td>
+                                  <td>Profundamente</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w55)"> Completely</span></td>
+                                  <td>Completamente</td>
+                                   <td><span class="frases cyan" onclick="play(w56)"> A lot</span></td>
+                                  <td>Bastante</td>
+                              </tr>
+                              <tr>
+                                  <td><span class="frases cyan" onclick="play(w57)"> A few</span></td>
+                                  <td>Uns poucos</td>
+                                   <td><span class="frases cyan" onclick="play(w58)"> Little</span></td>
+                                  <td>Pequeno, pouco</td>
+                              </tr>
+                          </tbody>
+                      </table>       
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- END OF MODAL -->
+  <!--END OF VERBS & WORDS-->
+</div>
             `;
 
   //changing the content in your element
@@ -314,8 +346,9 @@ function changeVideoEn() {
 function changeVideoPt() {
   let element = document.getElementById("videoGrammar");
   let newContent = `
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/8x4-yfS8GYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/R43MuLhW1MU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/K9fM9seuk_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/eTBLv00Dx3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/lpDlqIcS7kM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         
                 `;
 
