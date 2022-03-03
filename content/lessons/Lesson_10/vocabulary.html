@@ -77,110 +77,358 @@
             data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              <img
-                src="./img/colors.png"
-                alt="Colors"
-                width="100%"
-                height="100%"
-              />
+                <!-- START OF Slideshow container -->
+       <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img src="./img/seasons.jpg" style="width:100%">
+          
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img src="./img/fourseasons.png" style="width:100%">
+          
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img src="./img/weather.jpg" style="width:100%">
+         
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    <!-- END OF Slideshow container -->
               <img
                 src="../../../images/audio.png"
                 style="width: 30px; height: 30px"
                 class="frases cyan mb-2"
                 onclick="play(v2)"
               />
-               <span class="cyan"> Click to listen</span>
-              <audio id="VW1_1" src="./audio/Vocabulary/Vocabulary1/Words/1.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_2" src="./audio/Vocabulary/Vocabulary1/Words/2.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_3" src="./audio/Vocabulary/Vocabulary1/Words/3.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_4" src="./audio/Vocabulary/Vocabulary1/Words/4.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_5" src="./audio/Vocabulary/Vocabulary1/Words/5.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_6" src="./audio/Vocabulary/Vocabulary1/Words/6.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_7" src="./audio/Vocabulary/Vocabulary1/Words/7.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_8" src="./audio/Vocabulary/Vocabulary1/Words/8.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_9" src="./audio/Vocabulary/Vocabulary1/Words/9.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_10" src="./audio/Vocabulary/Vocabulary1/Words/10.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_11" src="./audio/Vocabulary/Vocabulary1/Words/11.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_12" src="./audio/Vocabulary/Vocabulary1/Words/12.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_13" src="./audio/Vocabulary/Vocabulary1/Words/13.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_14" src="./audio/Vocabulary/Vocabulary1/Words/14.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_15" src="./audio/Vocabulary/Vocabulary1/Words/15.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_16" src="./audio/Vocabulary/Vocabulary1/Words/16.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_17" src="./audio/Vocabulary/Vocabulary1/Words/17.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_18" src="./audio/Vocabulary/Vocabulary1/Words/18.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_19" src="./audio/Vocabulary/Vocabulary1/Words/19.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_20" src="./audio/Vocabulary/Vocabulary1/Words/20.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_21" src="./audio/Vocabulary/Vocabulary1/Words/21.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_22" src="./audio/Vocabulary/Vocabulary1/Words/22.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_23" src="./audio/Vocabulary/Vocabulary1/Words/23.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_24" src="./audio/Vocabulary/Vocabulary1/Words/24.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_25" src="./audio/Vocabulary/Vocabulary1/Words/25.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_26" src="./audio/Vocabulary/Vocabulary1/Words/26.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_27" src="./audio/Vocabulary/Vocabulary1/Words/27.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_28" src="./audio/Vocabulary/Vocabulary1/Words/28.mp3" type="audio/mpeg"></audio>
-              <audio id="VW1_29" src="./audio/Vocabulary/Vocabulary1/Words/29.mp3" type="audio/mpeg"></audio>
-              
-        <table class="table">   
-            <tbody>
-                <tr>
-                    <td class="frases" onclick="play(VW1_1)"> red</td>
-                    <td class="frases" onclick="play(VW1_2)"> blue </td>
-                    <td class="frases" onclick="play(VW1_3)"> pink </td>  
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_4)"> yellow </td>
-                    <td class="frases" onclick="play(VW1_5)"> brown </td>
-                    <td class="frases" onclick="play(VW1_6)"> purple</td>
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_7)"> black</td>
-                    <td class="frases" onclick="play(VW1_8)"> white</td>
-                    <td class="frases" onclick="play(VW1_9)"> green</td>
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_10)"> orange</td>
-                    <td class="frases" onclick="play(VW1_11)"> gray</td>
-                    <td class="frases" onclick="play(VW1_12)"> azure</td>
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_13)">light green</td>
-                    <td class="frases" onclick="play(VW1_14)"> maroon</td>
-                    <td class="frases" onclick="play(VW1_15)"> lime</td>
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_16)"> wheat</td>
-                    <td class="frases" onclick="play(VW1_17)"> gold</td>
-                    <td class="frases" onclick="play(VW1_18)"> chocolate</td>
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_19)"> bronze</td>
-                    <td class="frases" onclick="play(VW1_20)"> dark blue</td>
-                    <td class="frases" onclick="play(VW1_21)"> spring green</td>
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_22)"> turquoise</td>
-                    <td class="frases" onclick="play(VW1_23)"> squa</td>
-                    <td class="frases" onclick="play(VW1_24)"> crimson</td>
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_25)"> silver</td>
-                    <td class="frases" onclick="play(VW1_26)"> dark red</td>
-                    <td class="frases" onclick="play(VW1_27)"> navy</td>
-                </tr>
-                <tr>
-                    <td class="frases" onclick="play(VW1_28)"> orchild</td>
-                    <td class="frases" onclick="play(VW1_29)"> teal</td>
-                    <td class="frases" onclick="play(VW1_30)"> </td>
-                </tr>
-               
-            </tbody>
-        </table>
-                   
+
+              <!--START OF VOCABULARY1 words-->
+              <audio id="w1" src="./audio/Vocabulary/Vocabulary1/Words/1.mp3" type="audio/mpeg"></audio>
+                    <audio id="w2" src="./audio/Vocabulary/Vocabulary1/Words/2.mp3" type="audio/mpeg"></audio>
+                    <audio id="w3" src="./audio/Vocabulary/Vocabulary1/Words/3.mp3" type="audio/mpeg"></audio>
+                    <audio id="w4" src="./audio/Vocabulary/Vocabulary1/Words/4.mp3" type="audio/mpeg"></audio>
+                    <audio id="w5" src="./audio/Vocabulary/Vocabulary1/Words/5.mp3" type="audio/mpeg"></audio>
+                    <audio id="w6" src="./audio/Vocabulary/Vocabulary1/Words/6.mp3" type="audio/mpeg"></audio>
+                    <audio id="w7" src="./audio/Vocabulary/Vocabulary1/Words/7.mp3" type="audio/mpeg"></audio>
+                    <audio id="w8" src="./audio/Vocabulary/Vocabulary1/Words/8.mp3" type="audio/mpeg"></audio>
+                    <audio id="w9" src="./audio/Vocabulary/Vocabulary1/Words/9.mp3" type="audio/mpeg"></audio>
+                    <audio id="w10" src="./audio/Vocabulary/Vocabulary1/Words/10.mp3" type="audio/mpeg"></audio>
+                    <audio id="w11" src="./audio/Vocabulary/Vocabulary1/Words/11.mp3" type="audio/mpeg"></audio>
+                    <audio id="w12" src="./audio/Vocabulary/Vocabulary1/Words/12.mp3" type="audio/mpeg"></audio>
+                    <audio id="w13" src="./audio/Vocabulary/Vocabulary1/Words/13.mp3" type="audio/mpeg"></audio>
+                    <audio id="w14" src="./audio/Vocabulary/Vocabulary1/Words/14.mp3" type="audio/mpeg"></audio>
+                    <audio id="w15" src="./audio/Vocabulary/Vocabulary1/Words/15.mp3" type="audio/mpeg"></audio>
+                    <audio id="w16" src="./audio/Vocabulary/Vocabulary1/Words/16.mp3" type="audio/mpeg"></audio>
+                    <audio id="w17" src="./audio/Vocabulary/Vocabulary1/Words/17.mp3" type="audio/mpeg"></audio>
+                    <audio id="w18" src="./audio/Vocabulary/Vocabulary1/Words/18.mp3" type="audio/mpeg"></audio>
+                    <audio id="w19" src="./audio/Vocabulary/Vocabulary1/Words/19.mp3" type="audio/mpeg"></audio>
+                    <audio id="w20" src="./audio/Vocabulary/Vocabulary1/Words/20.mp3" type="audio/mpeg"></audio>
+                    <audio id="w21" src="./audio/Vocabulary/Vocabulary1/Words/21.mp3" type="audio/mpeg"></audio>
+                    <audio id="w22" src="./audio/Vocabulary/Vocabulary1/Words/22.mp3" type="audio/mpeg"></audio>
+                    <audio id="w23" src="./audio/Vocabulary/Vocabulary1/Words/23.mp3" type="audio/mpeg"></audio>
+                    <audio id="w24" src="./audio/Vocabulary/Vocabulary1/Words/24.mp3" type="audio/mpeg"></audio>
+                    <audio id="w25" src="./audio/Vocabulary/Vocabulary1/Words/25.mp3" type="audio/mpeg"></audio>
+                    <audio id="w26" src="./audio/Vocabulary/Vocabulary1/Words/26.mp3" type="audio/mpeg"></audio>
+                    <audio id="w27" src="./audio/Vocabulary/Vocabulary1/Words/27.mp3" type="audio/mpeg"></audio>
+                    <audio id="w28" src="./audio/Vocabulary/Vocabulary1/Words/28.mp3" type="audio/mpeg"></audio>
+                    <audio id="w29" src="./audio/Vocabulary/Vocabulary1/Words/29.mp3" type="audio/mpeg"></audio>
+                    <audio id="w30" src="./audio/Vocabulary/Vocabulary1/Words/30.mp3" type="audio/mpeg"></audio>
+                    <audio id="w31" src="./audio/Vocabulary/Vocabulary1/Words/31.mp3" type="audio/mpeg"></audio>
+                    <audio id="w32" src="./audio/Vocabulary/Vocabulary1/Words/32.mp3" type="audio/mpeg"></audio>
+                    <audio id="w33" src="./audio/Vocabulary/Vocabulary1/Words/33.mp3" type="audio/mpeg"></audio>
+                    <audio id="w34" src="./audio/Vocabulary/Vocabulary1/Words/34.mp3" type="audio/mpeg"></audio>
+                    <audio id="w35" src="./audio/Vocabulary/Vocabulary1/Words/35.mp3" type="audio/mpeg"></audio>
+                    <audio id="w36" src="./audio/Vocabulary/Vocabulary1/Words/36.mp3" type="audio/mpeg"></audio>
+                    <audio id="w37" src="./audio/Vocabulary/Vocabulary1/Words/37.mp3" type="audio/mpeg"></audio>
+                    <audio id="w38" src="./audio/Vocabulary/Vocabulary1/Words/38.mp3" type="audio/mpeg"></audio>
+                    <audio id="w39" src="./audio/Vocabulary/Vocabulary1/Words/39.mp3" type="audio/mpeg"></audio>
+                    <audio id="w40" src="./audio/Vocabulary/Vocabulary1/Words/40.mp3" type="audio/mpeg"></audio>
+                    <audio id="w41" src="./audio/Vocabulary/Vocabulary1/Words/41.mp3" type="audio/mpeg"></audio>
+                    <audio id="w42" src="./audio/Vocabulary/Vocabulary1/Words/42.mp3" type="audio/mpeg"></audio>
+                    <audio id="w43" src="./audio/Vocabulary/Vocabulary1/Words/43.mp3" type="audio/mpeg"></audio>
+                    <audio id="w44" src="./audio/Vocabulary/Vocabulary1/Words/44.mp3" type="audio/mpeg"></audio>
+                    <audio id="w45" src="./audio/Vocabulary/Vocabulary1/Words/45.mp3" type="audio/mpeg"></audio>
+                    <audio id="w46" src="./audio/Vocabulary/Vocabulary1/Words/46.mp3" type="audio/mpeg"></audio>
+                    <audio id="w47" src="./audio/Vocabulary/Vocabulary1/Words/47.mp3" type="audio/mpeg"></audio>
+                    <audio id="w48" src="./audio/Vocabulary/Vocabulary1/Words/48.mp3" type="audio/mpeg"></audio>
+                    <audio id="w49" src="./audio/Vocabulary/Vocabulary1/Words/49.mp3" type="audio/mpeg"></audio>
+                    <audio id="w50" src="./audio/Vocabulary/Vocabulary1/Words/50.mp3" type="audio/mpeg"></audio>
+                    <audio id="w51" src="./audio/Vocabulary/Vocabulary1/Words/51.mp3" type="audio/mpeg"></audio>
+                    <audio id="w52" src="./audio/Vocabulary/Vocabulary1/Words/52.mp3" type="audio/mpeg"></audio>
+                    <audio id="w53" src="./audio/Vocabulary/Vocabulary1/Words/53.mp3" type="audio/mpeg"></audio>
+                    <audio id="w54" src="./audio/Vocabulary/Vocabulary1/Words/54.mp3" type="audio/mpeg"></audio>
+                    <audio id="w55" src="./audio/Vocabulary/Vocabulary1/Words/55.mp3" type="audio/mpeg"></audio>
+                    <audio id="w56" src="./audio/Vocabulary/Vocabulary1/Words/56.mp3" type="audio/mpeg"></audio>
+                    <audio id="w57" src="./audio/Vocabulary/Vocabulary1/Words/57.mp3" type="audio/mpeg"></audio>
+                    <audio id="w58" src="./audio/Vocabulary/Vocabulary1/Words/58.mp3" type="audio/mpeg"></audio>
+                    <audio id="w59" src="./audio/Vocabulary/Vocabulary1/Words/59.mp3" type="audio/mpeg"></audio>
+                    <audio id="w60" src="./audio/Vocabulary/Vocabulary1/Words/60.mp3" type="audio/mpeg"></audio>
+                    <audio id="w61" src="./audio/Vocabulary/Vocabulary1/Words/61.mp3" type="audio/mpeg"></audio>
+                    <audio id="w62" src="./audio/Vocabulary/Vocabulary1/Words/62.mp3" type="audio/mpeg"></audio>
+                    <audio id="w63" src="./audio/Vocabulary/Vocabulary1/Words/63.mp3" type="audio/mpeg"></audio>
+                    <audio id="w64" src="./audio/Vocabulary/Vocabulary1/Words/64.mp3" type="audio/mpeg"></audio>
+                    <audio id="w65" src="./audio/Vocabulary/Vocabulary1/Words/65.mp3" type="audio/mpeg"></audio>
+                    <audio id="w66" src="./audio/Vocabulary/Vocabulary1/Words/66.mp3" type="audio/mpeg"></audio>
+                    <audio id="w67" src="./audio/Vocabulary/Vocabulary1/Words/67.mp3" type="audio/mpeg"></audio>
+                    <audio id="w68" src="./audio/Vocabulary/Vocabulary1/Words/68.mp3" type="audio/mpeg"></audio>
+                    <audio id="w69" src="./audio/Vocabulary/Vocabulary1/Words/69.mp3" type="audio/mpeg"></audio>
+                    <audio id="w70" src="./audio/Vocabulary/Vocabulary1/Words/70.mp3" type="audio/mpeg"></audio>
+                    <audio id="w71" src="./audio/Vocabulary/Vocabulary1/Words/71.mp3" type="audio/mpeg"></audio>
+                    <audio id="w72" src="./audio/Vocabulary/Vocabulary1/Words/72.mp3" type="audio/mpeg"></audio>
+                    <audio id="w73" src="./audio/Vocabulary/Vocabulary1/Words/73.mp3" type="audio/mpeg"></audio>
+                    
+                    <table class="table">
+                        <thead>
+                            <tr><span class="vermelho">The Seasons and Weather</span></tr>
                             
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w1)"> WINTER</span></td>
+                                <td>Inverno</td>
+                                <td><span class="frases cyan" onclick="play(w2)"> COLD DAYS</span></td>
+                                <td>Dias frios</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w3)"> SNOW</span></td>
+                                <td>Neve</td>
+                                <td><span class="frases cyan" onclick="play(w4)"> RAIN</span></td>
+                                <td>Chuva</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w5)"> UMBRELLA</span></td>
+                                <td>Guarda-chuva</td>
+                                <td><span class="frases cyan" onclick="play(w6)"> GLOVES</span></td>
+                                <td>Luvas</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w7)"> SCARF</span></td>
+                                <td>Cachecol</td>
+                                <td><span class="frases cyan" onclick="play(w8)"> SKIING</span></td>
+                                <td>Esquiar</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w9)"> HOT DRINKS</span></td>
+                                <td>Bebida quente</td>
+                                <td><span class="frases cyan" onclick="play(w10)"> SPRING</span></td>
+                                <td>Primavera</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w11)"> WARM DAYS</span></td>
+                                <td>Dias quentes</td>
+                                <td><span class="frases cyan" onclick="play(w12)"> FLOWERS</span></td>
+                                <td>Flores</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w13)"> BUTTERFLIES</span></td>
+                                <td>Borboletas</td>
+                                <td><span class="frases cyan" onclick="play(w14)"> RAINBOWS</span></td>
+                                <td>Arco-íris</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w15)"> GARDENING</span></td>
+                                <td>Jardinagem</td>
+                                <td><span class="frases cyan" onclick="play(w16)"> ALLERGIES</span></td>
+                                <td>Alergias</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w17)"> BABY ANIMALS</span></td>
+                                <td>Animais bebes</td>
+                                <td><span class="frases cyan" onclick="play(w18)"> SUMMER</span></td>
+                                <td>Verão</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w19)"> HOT DAYS</span></td>
+                                <td>Dias Quentes</td>
+                                <td><span class="frases cyan" onclick="play(w20)"> BEACH</span></td>
+                                <td>Praia</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w21)"> VACATION</span></td>
+                                <td>Férias</td>
+                                <td><span class="frases cyan" onclick="play(w22)"> CAMPING</span></td>
+                                <td>Acampamento</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w23)"> ICE CREAM</span></td>
+                                <td>Sorvete</td>
+                                <td><span class="frases cyan" onclick="play(w24)"> SUNGLASSES</span></td>
+                                <td>Óculos de sol</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w25)"> SUNSCREEN</span></td>
+                                <td>Protetor solar</td>
+                                <td><span class="frases cyan" onclick="play(w26)"> SWIMMING POOL</span></td>
+                                <td>Piscina</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w27)"> COOL DAYS</span></td>
+                                <td>Dias Frios</td>
+                                <td><span class="frases cyan" onclick="play(w28)"> LEAVES FALL</span></td>
+                                <td>Queda das folhas</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w29)"> WIND</span></td>
+                                <td>vento</td>
+                                <td><span class="frases cyan" onclick="play(w30)"> HARVEST</span></td>
+                                <td>Colheita</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w31)"> RAKE</span></td>
+                                <td>Ancinho</td>
+                                <td><span class="frases cyan" onclick="play(w32)"> ACORNS</span></td>
+                                <td>Nozes</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w33)"> PUMPKINS</span></td>
+                                <td>Abóboras</td>
+                                <td><span class="frases cyan" onclick="play(w34)"> SPRING</span></td>
+                                <td>Dentes</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w35)"> SUMMER</span></td>
+                                <td>Verão</td>
+                                <td><span class="frases cyan" onclick="play(w36)"> AUTUMN</span></td>
+                                <td>Autono</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w37)"> FALL</span></td>
+                                <td>Autono</td>
+                                <td><span class="frases cyan" onclick="play(w38)"> WINTER</span></td>
+                                <td>Inverno</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w39)"> CLOUD</span></td>
+                                <td>Nuvem</td>
+                                <td><span class="frases cyan" onclick="play(w40)"> CLOUDY</span></td>
+                                <td>Nublado</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w41)"> FLOOD</span></td>
+                                <td>Enchente</td>
+                                <td><span class="frases cyan" onclick="play(w42)"> FOG</span></td>
+                                <td>Névoa</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w43)"> FOGGY</span></td>
+                                <td>Enevoado</td>
+                                <td><span class="frases cyan" onclick="play(w44)"> HAIL</span></td>
+                                <td>saraiva, granizo</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w45)"> HAILING</span></td>
+                                <td>granizo</td>
+                                <td><span class="frases cyan" onclick="play(w46)"> HURRICANE</span></td>
+                                <td>Furacão</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w47)"> ICE</span></td>
+                                <td>Gelo</td>
+                                <td><span class="frases cyan" onclick="play(w48)"> ICY</span></td>
+                                <td>Gelado</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w49)"> LIGHTNING</span></td>
+                                <td>Relâmpago</td>
+                                <td><span class="frases cyan" onclick="play(w50)"> RAIN</span></td>
+                                <td>Chuva</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w51)"> RAINY</span></td>
+                                <td>Chuvoso</td>
+                                <td><span class="frases cyan" onclick="play(w52)"> RAINING</span></td>
+                                <td>Chuvendo</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w53)"> RAINBOW</span></td>
+                                <td>Arco-íris</td>
+                                <td><span class="frases cyan" onclick="play(w54)"> SNOW</span></td>
+                                <td>Neve</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w55)"> SNOWY</span></td>
+                                <td>Nevada</td>
+                                <td><span class="frases cyan" onclick="play(w56)"> SNOWING</span></td>
+                                <td>Nevando</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w57)"> STORM</span></td>
+                                <td>Tempestade</td>
+                                <td><span class="frases cyan" onclick="play(w58)"> STORMY</span></td>
+                                <td>Tormentoso</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w59)"> SUN</span></td>
+                                <td>Sol</td>
+                                <td><span class="frases cyan" onclick="play(w60)"> SUNNY</span></td>
+                                <td>Ensolarado</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w61)"> THUNDER</span></td>
+                                <td>Trovão</td>
+                                <td><span class="frases cyan" onclick="play(w62)"> THUNDERY</span></td>
+                                <td>Trovejante</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w63)"> TORNADO</span></td>
+                                <td>Tornado</td>
+                                <td><span class="frases cyan" onclick="play(w64)"> WIND</span></td>
+                                <td>Vento</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w65)"> WINDY</span></td>
+                                <td>Ventoso</td>
+                                <td><span class="frases cyan" onclick="play(w66)"> HEAT</span></td>
+                                <td>Calor</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w67)"> HOT</span></td>
+                                <td>Calor</td>
+                                <td><span class="frases cyan" onclick="play(w68)"> WARMTH</span></td>
+                                <td>Caloroso</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w69)"> WARM</span></td>
+                                <td>Calor</td>
+                                <td><span class="frases cyan" onclick="play(w70)"> COOLNESS</span></td>
+                                <td>Frieza</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w71)"> COOL</span></td>
+                                <td>Frio</td>
+                                <td><span class="frases cyan" onclick="play(w72)"> COLD</span></td>
+                                <td>Frio</td>
+                            </tr>
+                            <tr>
+                                <td><span class="frases cyan" onclick="play(w73)"> FREEZING</span></td>
+                                <td>Congelando</td>
+                                <td><span class="frases cyan" onclick="play(w74)"> </span></td>
+                                <td></td>
+                            </tr>
                             
 
                         </tbody>
                     </table>
+              <!--END OF VOCABULARY1 words-->
+
+              
         <!--END OF VOCABULARY 1-->
 
       
@@ -189,37 +437,9 @@
               
 
                <!--START OF GAMES_VOCABULARY1-->
-               <div
-                  class="divition-vocabulary mt-3 mb-2"
-                  style="background-color: rgb(103, 81, 226); color: white">
-                  Learn English with Games
-                </div>
-                <div class="game mb-4">
-                 <a target="_blank" href="https://wordwall.net/resource/3190306/english-starter/pronouns?ref=embed-icon"><img src="//az779572.vo.msecnd.net/res/content/images/global/icon.png|1omhwxl4ub6c7qbjdg8bmyw2.png" width="24" height="24" style="display:inline-block;margin-bottom:-7px;"/>Pronouns</a>
-                </div>
-
+              
                <!--END OF GAMES_VOCABULARY1-->
 
-
-                
-
-              <!--START OF SENTENCES VOCABULARY 2-->
-              <img
-                src="./img/numbers.gif"
-                alt="Numbers"
-                width="100%"
-                height="100%"
-              />
-              <img
-                src="../../../images/audio.png"
-                style="width: 30px; height: 30px"
-                class="frases cyan mb-2"
-                onclick="play(v2)"
-              />
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/a1MVnJunEVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 
-                 
-             <!--END OF SENTENCES VOCABULARY 2-->
 
     
 
@@ -261,15 +481,43 @@
                   <audio id="CS2" src="./audio/Vocabulary/Common_Sentences/2.mp3" type="audio/mpeg"></audio>
                   <audio id="CS3" src="./audio/Vocabulary/Common_Sentences/3.mp3" type="audio/mpeg"></audio>
                   <audio id="CS4" src="./audio/Vocabulary/Common_Sentences/4.mp3" type="audio/mpeg"></audio>
+                  <audio id="CS5" src="./audio/Vocabulary/Common_Sentences/5.mp3" type="audio/mpeg"></audio>
+                  <audio id="CS6" src="./audio/Vocabulary/Common_Sentences/6.mp3" type="audio/mpeg"></audio>
+                  <audio id="CS7" src="./audio/Vocabulary/Common_Sentences/7.mp3" type="audio/mpeg"></audio>
+                  <audio id="CS8" src="./audio/Vocabulary/Common_Sentences/8.mp3" type="audio/mpeg"></audio>
+                  <audio id="CS9" src="./audio/Vocabulary/Common_Sentences/9.mp3" type="audio/mpeg"></audio>
+                  <audio id="CS10" src="./audio/Vocabulary/Common_Sentences/10.mp3" type="audio/mpeg"></audio>
+                  <audio id="CS11" src="./audio/Vocabulary/Common_Sentences/11.mp3" type="audio/mpeg"></audio>
+                  <audio id="CS12" src="./audio/Vocabulary/Common_Sentences/12.mp3" type="audio/mpeg"></audio>
                   
-                  <li class="list-group-item frases" onclick="play(CS1)"><strong>I'll help you </strong> get a cab.<br/>
-                    <em>Eu te ajudarei a pegar um taxi.</em></li>
-                  <li class="list-group-item frases" onclick="play(CS2)">I <strong>was busy</strong> when you called me.<br/>
-                    <em>Eu estava ocupada quando você me ligou.</em></li>
-                  <li class="list-group-item frases" onclick="play(CS3)"><strong> It´s so hot that</strong> I want to go to the beach.<br/>
-                    <em>Está tão quente que eu quero ir para a praia.</em></li>
-                  <li class="list-group-item frases" onclick="play(CS4)"><strong>He is not only </strong> a good teacher, but an excellent father.<br/>
-                  <em>Ele não é só um bom professor, mas um excelênte pai.</em></li>
+                  <li class="list-group-item frases" onclick="play(CS1)"><strong><span class="cyan">I'm having a hard time </span></strong> answering his questions.<br/>
+                    <em>Estou tendo dificuldade em responder às perguntas dele.</em></li>
+                  <li class="list-group-item frases" onclick="play(CS2)"><strong><span class="cyan">He´s having a hard time </span></strong> washing his car.<br/>
+                    <em>Ele está tendo dificuldade em lavar seu carro.</em></li>
+                  <li class="list-group-item frases" onclick="play(CS3)"><strong><span class="cyan">They´re having a hard time </span></strong> winning the game.<br/>
+                    <em>Eles estão tendo dificuldade em ganhar o jogo.</em></li>
+
+                  <li class="list-group-item frases" onclick="play(CS4)"><strong><span class="danger">She´s thinking of </span></strong> moving to a new place.<br/>
+                    <em>Ela está pensando em se mudar para um novo lugar.</em></li>
+                  <li class="list-group-item frases" onclick="play(CS5)"><strong><span class="danger">I´m thinking of </span></strong> traveling abround.<br/>
+                    <em>Estou pensando em viajar para o exterior.</em></li>
+                  <li class="list-group-item frases" onclick="play(CS6)"><strong><span class="danger">He´s thinking of </span></strong> selling his house.<br/>
+                    <em>Ele está pensando em vender sua casa.</em></li>
+
+                  <li class="list-group-item frases" onclick="play(CS7)"><strong><span class="green">I’d hate for you to </span></strong> think she didn´t care.<br/>
+                    <em>Eu odiaria que você pensasse que ela não se importava.</em></li>
+                  <li class="list-group-item frases" onclick="play(CS8)"><strong><span class="green">I’d hate for you to </span></strong> miss my birthday.<br/>
+                    <em>Eu odiaria que você perdesse meu aniversário.</em></li>
+                  <li class="list-group-item frases" onclick="play(CS9)"><strong><span class="green">I’d hate for you to </span></strong> leave this weekend.<br/>
+                    <em>Eu odiaria que você fosse embora neste fim de semana.</em></li>
+
+                  <li class="list-group-item frases" onclick="play(CS10)"><strong><span class="vermelho">Shouldn’t we  </span></strong> ask him to stay?<br/>
+                    <em>Não deveríamos pedir para ele ficar?</em></li>
+                  <li class="list-group-item frases" onclick="play(CS11)"><strong><span class="vermelho">Shouldn’t we </span></strong> check the weather before leaving?<br/>
+                    <em>Não deveríamos verificar o tempo antes de sair?</em></li>
+                  <li class="list-group-item frases" onclick="play(CS12)"><strong><span class="vermelho">Shouldn’t we </span></strong> try to save some money during this difficult time?<br/>
+                     <em>Não deveríamos tentar economizar algum dinheiro durante este período difícil?</em></li>
+                  
                   
                 </ul>
               </div>
@@ -355,6 +603,7 @@
     <script src="../../../js/scrollBack.js"></script>
     <script src="../../../js/videoModal.js"></script>
     <script src="../../../js/youglish.js"></script>
+    <script src="../../../js/sliderVocabulary.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
