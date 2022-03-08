@@ -8,6 +8,13 @@ div iframe {
   height: 100%;
   margin-bottom: 10px;
 }
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
 .pik_link {
   width: 100%;
   height: 100%;
@@ -48,6 +55,10 @@ div iframe {
 }
 .cyan {
   color: rgb(6, 138, 138);
+}
+.cyan-adj {
+  color: rgb(6, 138, 138);
+  font-weight: bold;
 }
 .vermelho {
   color: #8b0000;
@@ -187,6 +198,9 @@ button:hover {
   background-color: #38a;
 }
 
+.pointer {
+  cursor: pointer;
+}
 .slide {
   position: absolute;
   left: 0px;
@@ -335,3 +349,13 @@ button:hover {
   }
 }
 /* END SLIDER IMAGENS VOCABULARY */
+
+@media (max-width: 600px) {
+.grid-3-cols {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  padding-left: 10px;
+}
+}
