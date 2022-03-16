@@ -607,31 +607,54 @@ function changeVideoPt() {
 function repetitionEn() {
   let element = document.getElementById("repetition-sentences");
   let newContent = `
-            <audio id="Tres1" src="./audio/Grammar/Sentences/1.mp3"></audio>
-                        <audio id="Tres2" src="./audio/Grammar/Sentences/2.mp3"></audio>
-                        <audio id="Tres3" src="./audio/Grammar/Sentences/3.mp3"></audio>
-                        <audio id="Tres4" src="./audio/Grammar/Sentences/4.mp3"></audio>
-                        <audio id="Tres5" src="./audio/Grammar/Sentences/5.mp3"></audio>
-                        <audio id="Tres6" src="./audio/Grammar/Sentences/6.mp3"></audio>
-                        <audio id="Tres7" src="./audio/Grammar/Sentences/7.mp3"></audio>
-                        <audio id="Tres8" src="./audio/Grammar/Sentences/8.mp3"></audio>
+  <img
+          src="../../../images/audio.png"
+          style="width: 30px; height: 30px"
+          class="frases cyan mb-2"
+          onclick="play(v22s)"
+        />
+  <audio id="Tres1" src="./audio/Grammar/Sentences/1.mp3"></audio>
+  <audio id="Tres2" src="./audio/Grammar/Sentences/2.mp3"></audio>
+  <audio id="Tres3" src="./audio/Grammar/Sentences/3.mp3"></audio>
+  <audio id="Tres4" src="./audio/Grammar/Sentences/4.mp3"></audio>
+  <audio id="Tres5" src="./audio/Grammar/Sentences/5.mp3"></audio>
+  <audio id="Tres6" src="./audio/Grammar/Sentences/6.mp3"></audio>
+  <audio id="Tres7" src="./audio/Grammar/Sentences/7.mp3"></audio>
+  <audio id="Tres8" src="./audio/Grammar/Sentences/8.mp3"></audio>
+  <audio id="Tres9" src="./audio/Grammar/Sentences/9.mp3"></audio>
+  <audio id="Tres10" src="./audio/Grammar/Sentences/10.mp3"></audio>
+  <audio id="Tres11" src="./audio/Grammar/Sentences/11.mp3"></audio>
+  <audio id="Tres12" src="./audio/Grammar/Sentences/12.mp3"></audio>
+  <audio id="Tres13" src="./audio/Grammar/Sentences/13.mp3"></audio>
+  <audio id="Tres14" src="./audio/Grammar/Sentences/14.mp3"></audio>
+  <audio id="Tres15" src="./audio/Grammar/Sentences/15.mp3"></audio>
+  <audio id="Tres16" src="./audio/Grammar/Sentences/16.mp3"></audio>
+  <audio id="Tres17" src="./audio/Grammar/Sentences/17.mp3"></audio>
+  <audio id="Tres18" src="./audio/Grammar/Sentences/18.mp3"></audio>
+  <audio id="Tres19" src="./audio/Grammar/Sentences/19.mp3"></audio>
+  <audio id="Tres20" src="./audio/Grammar/Sentences/20.mp3"></audio>
+  
+                        <p class="frases" onclick="play(Tres1)"><span class="green">1.</span> I´m from France.</p>
+                        <p class="frases" onclick="play(Tres2)"><span class="green">2.</span> You´re twenty-two.</p>
+                        <p class="frases" onclick="play(Tres3)"><span class="green">3.</span> My name is Jane.</p>
+                        <p class="frases" onclick="play(Tres4)"><span class="green">4.</span> She is a teacher.</p>
+                        <p class="frases" onclick="play(Tres5)"><span class="green">5.</span> They are students.</p>
+                        <p class="frases" onclick="play(Tres6)"><span class="green">6.</span> It is not not late.</p>
+                        <p class="frases" onclick="play(Tres7)"><span class="green">7.</span> He isn´t at the hotel</p>
+                        <p class="frases" onclick="play(Tres8)"><span class="green">8.</span> We are not sick.</p>
+                        <p class="frases" onclick="play(Tres9)"><span class="green">9.</span> I am not his father.</p>
+                        <p class="frases" onclick="play(Tres10)"><span class="green">10.</span> He isn´t here.</p>
+                        <p class="frases" onclick="play(Tres11)"><span class="green">11.</span> I was a famous soccer player.</p>
+                        <p class="frases" onclick="play(Tres12)"><span class="green">12.</span> He was born in 1998.</p>
+                        <p class="frases" onclick="play(Tres13)"><span class="green">13.</span> We were tired last night.</p>
+                        <p class="frases" onclick="play(Tres14)"><span class="green">14.</span> The weather was good last week.</p>
+                        <p class="frases" onclick="play(Tres15)"><span class="green">15.</span> Yes, They were at home.</p>
+                        <p class="frases" onclick="play(Tres16)"><span class="green">16.</span> No, They weren´t here.</p>
+                        <p class="frases" onclick="play(Tres17)"><span class="green">17.</span> Because She wasn´t happy.</p>
+                        <p class="frases" onclick="play(Tres18)"><span class="green">18.</span> It wasn´t beautiful.</p>
+                        <p class="frases" onclick="play(Tres19)"><span class="green">19.</span> The movie wasn´t good.</p>
+                        <p class="frases" onclick="play(Tres20)"><span class="green">20.</span> The boys weren´t poor.</p>
                         
-                        <p class="frases" onclick="play(Tres1)"><span class="green">1.</span> I am / was very brave / chatty /
-                            clever / a coward / easy-going.</p>
-                        <p class="frases" onclick="play(Tres2)"><span class="green">2.</span> You are / were  friendly /  funny
-                            / generous / hard-working / honest.</p>
-                        <p class="frases" onclick="play(Tres3)"><span class="green">3.</span> He is / was kind / lazy / loud / mean
-                            /moody.</p>
-                        <p class="frases" onclick="play(Tres4)"><span class="green">4.</span> She is / was / nasty /neat / nervous /
-                            nice.</p>
-                        <p class="frases" onclick="play(Tres5)"><span class="green">5.</span> It is / was polite / popular / quiet /
-                            rude / selfish.</p>
-                        <p class="frases" onclick="play(Tres6)"><span class="green">6.</span> We are / were  serious / shy / smart /
-                            stupid / tidy.</p>
-                        <p class="frases" onclick="play(Tres7)"><span class="green">7.</span> You are / were  unlucky / untidy /
-                            vain / wise.</p>
-                        <p class="frases" onclick="play(Tres8)"><span class="green">8.</span> They are / were  boring / creative /
-                            impulsive / joyful / reliable.</p>
                 `;
 
   //changing the content in your element
@@ -641,40 +664,74 @@ function repetitionEn() {
 function repetitionPt() {
   let element = document.getElementById("repetition-sentences");
   let newContent = `
-                        <audio id="Tres1" src="./audio/Grammar/Sentences/1.mp3"></audio>
-                        <audio id="Tres2" src="./audio/Grammar/Sentences/2.mp3"></audio>
-                        <audio id="Tres3" src="./audio/Grammar/Sentences/3.mp3"></audio>
-                        <audio id="Tres4" src="./audio/Grammar/Sentences/4.mp3"></audio>
-                        <audio id="Tres5" src="./audio/Grammar/Sentences/5.mp3"></audio>
-                        <audio id="Tres6" src="./audio/Grammar/Sentences/6.mp3"></audio>
-                        <audio id="Tres7" src="./audio/Grammar/Sentences/7.mp3"></audio>
-                        <audio id="Tres8" src="./audio/Grammar/Sentences/8.mp3"></audio>
-                        
-                        <p class="frases" onclick="play(Tres1)"><span class="green">1.</span> I am / was very brave / chatty /
-                            clever / a coward / easy-going. <br>
-                            <em>Eu sou / fui muito corajoso / tagarela / inteligente / covarde / fácil de lidar.</em></p>
-                        <p class="frases" onclick="play(Tres2)"><span class="green">2.</span> You are / were  friendly /  funny
-                            / generous / hard-working / honest.<br>
-                            <em>Você é / era amigável / engraçado / generoso / trabalhador / honesto.</em></p>
-                        <p class="frases" onclick="play(Tres3)"><span class="green">3.</span> He is / was kind / lazy / loud / mean
-                            /moody.<br>
-                            <em>Ele é / era gentil / preguiçoso / barulhento / mesquinho / mal-humorado.</em>
-                            </p>
-                        <p class="frases" onclick="play(Tres4)"><span class="green">4.</span> She is / was / nasty /neat / nervous /
-                            nice.<br>
-                            <em>Ele é / desagradável / limpo / nervoso / legal.</em></p>
-                        <p class="frases" onclick="play(Tres5)"><span class="green">5.</span> It is / was polite / popular / quiet /
-                            rude / selfish.<br>
-                            <em>É / foi educado / popular / quieto / rude / egoísta.</em></p>
-                        <p class="frases" onclick="play(Tres6)"><span class="green">6.</span> We are / were  serious / shy / smart /
-                            stupid / tidy.<br>
-                            <em>Nós somos / éramos sérios / tímidos / inteligentes / estúpidos / arrumados.</em></p>
-                        <p class="frases" onclick="play(Tres7)"><span class="green">7.</span> You are / were  unlucky / untidy /
-                            vain / wise.<br>
-                            <em>Você é / teve azar / desarrumado / vaidoso / sábio.</em></p>
-                        <p class="frases" onclick="play(Tres8)"><span class="green">8.</span> They are / were  boring / creative /
-                            impulsive / joyful / reliable.<br>
-                            <em>Eles são chatos / criativos / impulsivos / alegres / confiáveis.</em></p>
+
+  <img
+          src="../../../images/audio.png"
+          style="width: 30px; height: 30px"
+          class="frases cyan mb-2"
+          onclick="play(v22s)"
+        />
+  <audio id="Tres1" src="./audio/Grammar/Sentences/1.mp3"></audio>
+  <audio id="Tres2" src="./audio/Grammar/Sentences/2.mp3"></audio>
+  <audio id="Tres3" src="./audio/Grammar/Sentences/3.mp3"></audio>
+  <audio id="Tres4" src="./audio/Grammar/Sentences/4.mp3"></audio>
+  <audio id="Tres5" src="./audio/Grammar/Sentences/5.mp3"></audio>
+  <audio id="Tres6" src="./audio/Grammar/Sentences/6.mp3"></audio>
+  <audio id="Tres7" src="./audio/Grammar/Sentences/7.mp3"></audio>
+  <audio id="Tres8" src="./audio/Grammar/Sentences/8.mp3"></audio>
+  <audio id="Tres9" src="./audio/Grammar/Sentences/9.mp3"></audio>
+  <audio id="Tres10" src="./audio/Grammar/Sentences/10.mp3"></audio>
+  <audio id="Tres11" src="./audio/Grammar/Sentences/11.mp3"></audio>
+  <audio id="Tres12" src="./audio/Grammar/Sentences/12.mp3"></audio>
+  <audio id="Tres13" src="./audio/Grammar/Sentences/13.mp3"></audio>
+  <audio id="Tres14" src="./audio/Grammar/Sentences/14.mp3"></audio>
+  <audio id="Tres15" src="./audio/Grammar/Sentences/15.mp3"></audio>
+  <audio id="Tres16" src="./audio/Grammar/Sentences/16.mp3"></audio>
+  <audio id="Tres17" src="./audio/Grammar/Sentences/17.mp3"></audio>
+  <audio id="Tres18" src="./audio/Grammar/Sentences/18.mp3"></audio>
+  <audio id="Tres19" src="./audio/Grammar/Sentences/19.mp3"></audio>
+  <audio id="Tres20" src="./audio/Grammar/Sentences/20.mp3"></audio>
+  
+                        <p class="frases" onclick="play(Tres1)"><span class="green">1.</span> I´m from France.<br>
+                        <em><span class="cyan">Eu sou da França.</span></em></p>
+                        <p class="frases" onclick="play(Tres2)"><span class="green">2.</span> You´re twenty-two.<br>
+                        <em><span class="cyan">Você tem vinte e dois.</span></em></p>
+                        <p class="frases" onclick="play(Tres3)"><span class="green">3.</span> My name is Jane.<br>
+                        <em><span class="cyan">Meu nome é Jane.</span></em></p>
+                        <p class="frases" onclick="play(Tres4)"><span class="green">4.</span> She is a teacher.<br>
+                        <em><span class="cyan">Ela é uma professora.</span></em></p>
+                        <p class="frases" onclick="play(Tres5)"><span class="green">5.</span> They are students.<br>
+                        <em><span class="cyan">Eles são estudantes.</span></em></p>
+                        <p class="frases" onclick="play(Tres6)"><span class="green">6.</span> It is not not late.<br>
+                        <em><span class="cyan">Não é tarde.</span></em></p>
+                        <p class="frases" onclick="play(Tres7)"><span class="green">7.</span> He isn´t at the hotel.<br>
+                        <em><span class="cyan">Ele não está no hotel.</span></em></p>
+                        <p class="frases" onclick="play(Tres8)"><span class="green">8.</span> We are not sick.<br>
+                        <em><span class="cyan">Não estamos doentes.</span></em></p>
+                        <p class="frases" onclick="play(Tres9)"><span class="green">9.</span> I am not his father.<br>
+                        <em><span class="cyan">Eu não sou o pai dele.</span></em></p>
+                        <p class="frases" onclick="play(Tres10)"><span class="green">10.</span> He isn´t here.<br>
+                        <em><span class="cyan">Ele não está aqui.</span></em></p>
+                        <p class="frases" onclick="play(Tres11)"><span class="green">11.</span> I was a famous soccer player.<br>
+                        <em><span class="cyan">Eu era um jogador de futebol famoso.</span></em></p>
+                        <p class="frases" onclick="play(Tres12)"><span class="green">12.</span> He was born in 1998.<br>
+                        <em><span class="cyan">Ele nasceu em 1998.</span></em></p>
+                        <p class="frases" onclick="play(Tres13)"><span class="green">13.</span> We were tired last night.<br>
+                        <em><span class="cyan">Estávamos cansados ​​ontem à noite.</span></em></p>
+                        <p class="frases" onclick="play(Tres14)"><span class="green">14.</span> The weather was good last week.<br>
+                        <em><span class="cyan">O tempo estava bom na semana passada.</span></em></p>
+                        <p class="frases" onclick="play(Tres15)"><span class="green">15.</span> Yes, They were at home.<br>
+                        <em><span class="cyan">Sim, eles estavam em casa.</span></em></p>
+                        <p class="frases" onclick="play(Tres16)"><span class="green">16.</span> No, They weren´t here.<br>
+                        <em><span class="cyan">Não, eles não estavam aqui.</span></em></p>
+                        <p class="frases" onclick="play(Tres17)"><span class="green">17.</span> Because She wasn´t happy.<br>
+                        <em><span class="cyan">Porque ela não estava feliz.</span></em></p>
+                        <p class="frases" onclick="play(Tres18)"><span class="green">18.</span> It wasn´t beautiful.<br>
+                        <em><span class="cyan">Não era bonito.</span></em></p>
+                        <p class="frases" onclick="play(Tres19)"><span class="green">19.</span> The movie wasn´t good.<br>
+                        <em><span class="cyan">O filme não foi bom.</span></em></p>
+                        <p class="frases" onclick="play(Tres20)"><span class="green">20.</span> The boys weren´t poor.<br>
+                        <em><span class="cyan">Os meninos não eram pobres.</span></em></p>
                 `;
 
   //changing the content in your element
@@ -684,6 +741,8 @@ function repetitionPt() {
 function questionsEn() {
   let element = document.getElementById("questions");
   let newContent = `
+
+ 
                         <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
                         <audio id="Quatro2" src=./audio/Grammar/Questions/2.mp3"></audio>
                         <audio id="Quatro3" src=./audio/Grammar/Questions/3.mp3"></audio>
@@ -728,6 +787,8 @@ function questionsEn() {
                         </p>
                         <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Is the sky blue or red?</p>
                         <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> Is your house big?</p>
+                        <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> Are you at home now?</p>
+                        <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Where is your dog?</p>
                 `;
 
   //changing the content in your element
@@ -760,41 +821,45 @@ function questionsPt() {
                     
                     
                         <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span> Who is your best friend?<br>
-                        <em>Quem é seu melhor amigo?</em></p>
+                        <em><span class="cyan">Quem é seu melhor amigo?</span></em></p>
                         <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> Are you married?<br>
-                        <em>Você é casado?</em></p>
+                        <span class="cyan">Você é casado?</em></p>
                         <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> Is your family nice? Explain.<br>
-                        <em>A sua família é legal? Explique.</em></p>
+                        <span class="cyan">A sua família é legal? Explique.</em></p>
                         <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> When were you born?<br>
-                        <em>Quando você nasceu?</em></p>
+                        <span class="cyan">Quando você nasceu?</em></p>
                         <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Are you tired?<br>
-                        <em>Você está cansada?</em></p>
+                        <span class="cyan">Você está cansada?</em></p>
                         <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> Is he sick?<br>
-                        <em>Ele está doente?</em></p>
+                        <span class="cyan">Ele está doente?</em></p>
                         <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Are you tall?<br>
-                        <em>Você é alta?</em></p>
+                        <span class="cyan">Você é alta?</em></p>
                         <p class="frases" onclick="play(Quatro8)"><span class="blue">8.</span> Are they Strong?<br>
-                        <em>Eles são fortes?</em></p>
+                        <span class="cyan">Eles são fortes?</em></p>
                         <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> Is the water cold?<br>
-                        <em>A água está fria?</em></p>
+                        <span class="cyan">A água está fria?</em></p>
                         <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> Are you Brazilian?<br>
-                        <em>Você é Brasileira?</em></p>
+                        <span class="cyan">Você é Brasileira?</em></p>
                         <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> Are you happy this week?<br>
-                        <em>Você está feliz esta semana?</em></p>
+                        <span class="cyan">Você está feliz esta semana?</em></p>
                         <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> What is your name?<br>
-                        <em>Qual é o seu nome?</em></p>
+                        <span class="cyan">Qual é o seu nome?</em></p>
                         <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> What time do you usually get up?<br>
-                        <em>Que horas você geralmente acorda?</em></p>
+                        <span class="cyan">Que horas você geralmente acorda?</em></p>
                         <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> What do you do after you get back home?<br>
-                        <em>O que você faz depois que você volta para casa?</em></p>
+                        <span class="cyan">O que você faz depois que você volta para casa?</em></p>
                         <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> How many hours are you on-line every day?<br>
-                        <em>Quantas horas você fica online todos os dias?</em></p>
+                        <span class="cyan">Quantas horas você fica online todos os dias?</em></p>
                         <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> What do you like to do on weekends?<br>
-                        <em>O que você gosta de fazer nos finais de semana?</em></p>
+                        <span class="cyan">O que você gosta de fazer nos finais de semana?</em></p>
                         <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Is the sky blue or red?<br>
-                        <em>O céu é azul ou vermelho?</em></p>
+                        <span class="cyan">O céu é azul ou vermelho?</em></p>
                         <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> Is your house big?<br>
-                        <em>A sua casa é grande?</em></p>
+                        <span class="cyan">A sua casa é grande?</em></p>
+                        <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> Are you at home now?<br>
+                        <span class="cyan">Você não está em casa?</em></p>
+                        <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Where is your dog?<br>
+                        <span class="cyan">Onde está seu cachorro?</em></p>
                 `;
 
   //changing the content in your element

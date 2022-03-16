@@ -335,26 +335,46 @@ function changePtSummary() {
               <span class="cyan"> Clique on the sentences to listen.</span>
                  
               <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
-              <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
-              <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
-              <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
-              <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
-              <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
-              <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
-              <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
-              <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
-              <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
-                                
-              <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I <span class="green-adj">was talking </span> to Father Christmas.<span class="blue-plural">(mom)</span> </p>
-              <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Your father <span class="green-adj">was telling </span> the truth.<span class="blue-plural">(a lie)</span></p>
-              <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> Actually we  <span class="green-adj">were thinkig </span> of you.<span class="blue-plural">(him))</span></p>
-              <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> I <span class="green-adj">am stopping</span> for a smoke.<span class="blue-plural">(drink)</span></p>
-              <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> My brother <span class="green-adj">is studying</span> at Columbia.<span class="blue-plural">(at home)</span></p>
-              <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> The children <span class="green-adj">are taking</span> a test.<span class="blue-plural">(their toys))</span></p>
-              <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> I <span class="green-adj">will be travelling </span>round Europe next week.<span class="blue-plural">(month)</span></p>
-              <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> He <span class="green-adj">will be turning </span> pro.<span class="blue-plural">(master)</span></p>
-              <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> Well, I'm sure once they hear what their boy did, They<span class="green-adj"> will be understanding.</span><span class="blue-plural"></span></p>
-              <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> Amd the doctor <span class="green-adj">will be visiting</span> her on the 14th.<span class="blue-plural"> (in 10 days)</span></p>
+                        <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
+                        <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
+                        <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
+                        <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
+                        <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
+                        <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
+                        <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
+                        <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
+                        <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
+                        <audio id="Tres11" src="./audio/Grammar/Sentences/Repetition/11.mp3"></audio>
+                        <audio id="Tres12" src="./audio/Grammar/Sentences/Repetition/12.mp3"></audio>
+                        <audio id="Tres13" src="./audio/Grammar/Sentences/Repetition/13.mp3"></audio>
+                        <audio id="Tres14" src="./audio/Grammar/Sentences/Repetition/14.mp3"></audio>
+                        <audio id="Tres15" src="./audio/Grammar/Sentences/Repetition/15.mp3"></audio>
+                        <audio id="Tres16" src="./audio/Grammar/Sentences/Repetition/16.mp3"></audio>
+                        <audio id="Tres17" src="./audio/Grammar/Sentences/Repetition/17.mp3"></audio>
+                        <audio id="Tres18" src="./audio/Grammar/Sentences/Repetition/18.mp3"></audio>
+                        <audio id="Tres19" src="./audio/Grammar/Sentences/Repetition/19.mp3"></audio>
+                        <audio id="Tres20" src="./audio/Grammar/Sentences/Repetition/20.mp3"></audio>
+                                          
+                        <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I <span class="green-adj">was talking </span> to Father Christmas.<span class="blue-plural"> (mom)</span> </p>
+                        <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Your father <span class="green-adj">was telling </span> the truth.<span class="blue-plural"> (a lie)</span></p>
+                        <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> Actually we <span class="green-adj">were thinking </span> of you.<span class="blue-plural"> (him)</span></p>
+                        <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> We <span class="green-adj">were walking </span> home when I met Jane. <span class="blue-plural"> (them)</span></p>
+                        <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> It <span class="green-adj">was raining </span> when I got up. <span class="blue-plural"> (snowing)</span></p>
+                        <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> I hurt my back while I <span class="green-adj">was working </span> in the garden. <span class="blue-plural"> (arm)</span></p>
+                        <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> I waved to Jane, but she <span class="green-adj">wasn’t looking. </span> <span class="blue-plural">(Bob)</span></p>
+                        <p class="frases" onclick="play(Tres8)"><span class="cyan-adj">8.</span> I <span class="cyan-adj">am stopping</span> for a smoke.<span class="blue-plural"> (drink)</span></p>
+                        <p class="frases" onclick="play(Tres9)"><span class="cyan-adj">9.</span> My brother <span class="cyan-adj">is studying</span> at Columbia.<span class="blue-plural"> (at home)</span></p>
+                        <p class="frases" onclick="play(Tres10)"><span class="cyan-adj">10.</span> The children <span class="cyan-adj">are taking</span> a test.<span class="blue-plural"> (their toys)</span></p>
+                        <p class="frases" onclick="play(Tres11)"><span class="cyan-adj">11.</span> The water <span class="cyan-adj">is boiling</span>. Be careful! <span class="blue-plural"> (Don´t touch it)</span></p>
+                        <p class="frases" onclick="play(Tres12)"><span class="cyan-adj">12.</span> I<span class="cyan-adj">´m getting</span> thirst. Let’s go and drink.<span class="blue-plural"> (hungry - to eat)</span></p>
+                        <p class="frases" onclick="play(Tres13)"><span class="cyan-adj">13.</span> The population of the world <span class="cyan-adj">is increasing</span> very fast.<span class="blue-plural"> (in China)</span></p>
+                        <p class="frases" onclick="play(Tres14)"><span class="cyan-adj">14.</span> You <span class="cyan-adj">are working</span> hard today.<span class="blue-plural"> <span class="blue-plural"> (study)</span></p>
+                        <p class="frases" onclick="play(Tres15)"><span class="yellow-adj">15.</span>  Don’t phone between 10 and 11. We<span class="yellow-adj">´ll be eating</span>.<span class="blue-plural"> (to sleep)</span></p>
+                        <p class="frases" onclick="play(Tres16)"><span class="yellow-adj">16.</span> The government <span class="yellow-adj"> will be making</span> a statement about the crisis later today. <span class="blue-plural"> (The President)</span></p>
+                        <p class="frases" onclick="play(Tres17)"><span class="yellow-adj">17.</span> I <span class="yellow-adj">will be travelling </span>round Europe next week.<span class="blue-plural"> (month)</span></p>
+                        <p class="frases" onclick="play(Tres18)"><span class="yellow-adj">18.</span> He <span class="yellow-adj">will be turning </span> pro.<span class="blue-plural"> (master)</span></p>
+                        <p class="frases" onclick="play(Tres19)"><span class="yellow-adj">19.</span> Well, I'm sure once they hear what their boy did, They<span class="yellow-adj"> will be understanding.</span><span class="blue-plural"> (child)</span></p>
+                        <p class="frases" onclick="play(Tres20)"><span class="yellow-adj">20.</span> And the doctor <span class="yellow-adj">will be visiting</span> her on the 14th.<span class="blue-plural"> (in 10 days)</span></p>
                   `;
   
     //changing the content in your element
@@ -371,37 +391,67 @@ function changePtSummary() {
                         onclick="play(v22s)"
                       />
                       <span class="cyan"> Clique on the sentences to listen.</span>
-                           <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
-                          <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
-                          <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
-                          <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
-                          <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
-                          <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
-                          <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
-                          <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
-                          <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
-                          <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
-                                            
-                          <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I <span class="green-adj">was talking </span> to Father Christmas.<span class="blue-plural">(mom)</span></br>
-                          <em>Eu estava conversando com o Papai Noel. (Mãe)</em></p>
-                          <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Your father <span class="green-adj">was telling </span> the truth.<span class="blue-plural">(a lie)</span></br>
-                          <em>Seu pai estava falando a verdade. (Mentira)</em></p>
-                          <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> Actually we <span class="green-adj">were thinkig </span> of you.<span class="blue-plural">(him))</span></br>
-                          <em>Na verdade, estávamos pensando em você.(Ele)</em></p>
-                          <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> I <span class="green-adj">am stopping</span> for a smoke.<span class="blue-plural">(drink)</span></br>
-                          <em>Estou parando para fumar. (Bebida)</em></p>
-                          <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> My brother <span class="green-adj">is studying</span> at Columbia.<span class="blue-plural">(at home)</span></br>
-                          <em>Meu irmão está estudando na Universidade de Columbia. (Em casa)</em></p>
-                          <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> The children <span class="green-adj">are taking</span> a test.<span class="blue-plural">(their toys)</span></br>
-                          <em>As crianças estão fazendo um teste.(Seus brinquedos)</em></p>
-                          <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> I <span class="green-adj">will be travelling </span>round Europe next week.<span class="blue-plural">(month)</span></br>
-                          <em>Estarei viajando pela Europa na próxima semana.(Mês)</em></p>
-                          <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> He <span class="green-adj">will be turning </span> pro.<span class="blue-plural">(master)</span></br>
-                          <em>Ele vai se tornar profissional.(Mestre)</em></p>
-                          <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> Well, I'm sure once they hear what their boy did, They<span class="green-adj"> will be understanding.</span></br>
-                          <em>Bem, tenho certeza de que, uma vez que ouvirem o que seu filho fez, eles serão compreensivos.</em></p>
-                          <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> And the doctor <span class="green-adj">will be visiting</span> her on the 14th.<span class="blue-plural"> (in 10 days)</span></br>
-                          <em>E o médico vai visitá-la no dia 14.(em 10 dias)</em></p>
+                      <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
+                      <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
+                      <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
+                      <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
+                      <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
+                      <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
+                      <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
+                      <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
+                      <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
+                      <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
+                      <audio id="Tres11" src="./audio/Grammar/Sentences/Repetition/11.mp3"></audio>
+                      <audio id="Tres12" src="./audio/Grammar/Sentences/Repetition/12.mp3"></audio>
+                      <audio id="Tres13" src="./audio/Grammar/Sentences/Repetition/13.mp3"></audio>
+                      <audio id="Tres14" src="./audio/Grammar/Sentences/Repetition/14.mp3"></audio>
+                      <audio id="Tres15" src="./audio/Grammar/Sentences/Repetition/15.mp3"></audio>
+                      <audio id="Tres16" src="./audio/Grammar/Sentences/Repetition/16.mp3"></audio>
+                      <audio id="Tres17" src="./audio/Grammar/Sentences/Repetition/17.mp3"></audio>
+                      <audio id="Tres18" src="./audio/Grammar/Sentences/Repetition/18.mp3"></audio>
+                      <audio id="Tres19" src="./audio/Grammar/Sentences/Repetition/19.mp3"></audio>
+                      <audio id="Tres20" src="./audio/Grammar/Sentences/Repetition/20.mp3"></audio>
+                                        
+                      <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I <span class="green-adj">was talking </span> to Father Christmas.<span class="blue-plural"> (mom)</span> <br>
+                      <em>Eu estava falando com o Papai Noel.</em></p>
+                      <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Your father <span class="green-adj">was telling </span> the truth.<span class="blue-plural"> (a lie)</span><br>
+                      <em>Seu pai estava dizendo a verdade.</em></p>
+                      <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> Actually we <span class="green-adj">were thinking </span> of you.<span class="blue-plural"> (him)</span><br>
+                      <em>Na verdade, estávamos pensando em você.</em></p>
+                      <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> We <span class="green-adj">were walking </span> home when I met Jane. <span class="blue-plural"> (them)</span><br>
+                      <em>Estávamos voltando para casa quando encontramos Jane.</em></p>
+                      <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> It <span class="green-adj">was raining </span> when I got up. <span class="blue-plural"> (snowing)</span><br>
+                      <em>Chovia quando me levantei.</em></p>
+                      <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> I hurt my back while I <span class="green-adj">was working </span> in the garden. <span class="blue-plural"> (arm)</span><br>
+                      <em>Machuquei minhas costas enquanto trabalhava no jardim.</em></p>
+                      <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> I waved to Jane, but she <span class="green-adj">wasn’t looking. </span> <span class="blue-plural">(Bob)</span><br>
+                      <em>Acenei para Jane, mas ela não estava olhando.</em></p>
+                      <p class="frases" onclick="play(Tres8)"><span class="cyan-adj">8.</span> I <span class="cyan-adj">am stopping</span> for a smoke.<span class="blue-plural"> (drink)</span><br>
+                      <em>Estou parando para fumar.</em></p>
+                      <p class="frases" onclick="play(Tres9)"><span class="cyan-adj">9.</span> My brother <span class="cyan-adj">is studying</span> at Columbia.<span class="blue-plural"> (at home)</span><br>
+                      <em>Meu irmão está estudando na Columbia.</em></p>
+                      <p class="frases" onclick="play(Tres10)"><span class="cyan-adj">10.</span> The children <span class="cyan-adj">are taking</span> a test.<span class="blue-plural"> (their toys)</span><br>
+                      <em>As crianças estão fazendo um teste.</em></p>
+                      <p class="frases" onclick="play(Tres11)"><span class="cyan-adj">11.</span> The water <span class="cyan-adj">is boiling</span>. Be careful! <span class="blue-plural"> (Don´t touch it)</span><br>
+                      <em>A água esta fervendo. Tome cuidado!</em></p>
+                      <p class="frases" onclick="play(Tres12)"><span class="cyan-adj">12.</span> I<span class="cyan-adj">´m getting</span> thirst. Let’s go and drink.<span class="blue-plural"> (hungry - to eat)</span><br>
+                      <em>Estou ficando com sede. Vamos beber.</em></p>
+                      <p class="frases" onclick="play(Tres13)"><span class="cyan-adj">13.</span> The population of the world <span class="cyan-adj">is increasing</span> very fast.<span class="blue-plural"> (in China)</span><br>
+                      <em>A população do mundo está aumentando muito rapidamente.</em></p>
+                      <p class="frases" onclick="play(Tres14)"><span class="cyan-adj">14.</span> You <span class="cyan-adj">are working</span> hard today.<span class="blue-plural"> <span class="blue-plural"> (study)</span><br>
+                      <em>Você está trabalhando duro hoje.</em></p>
+                      <p class="frases" onclick="play(Tres15)"><span class="yellow-adj">15.</span>  Don’t phone between 10 and 11. We<span class="yellow-adj">´ll be eating</span>.<span class="blue-plural"> (to sleep)</span><br>
+                      <em>Não ligue entre 10 e 11. Vamos comer.</em></p>
+                      <p class="frases" onclick="play(Tres16)"><span class="yellow-adj">16.</span> The government <span class="yellow-adj"> will be making</span> a statement about the crisis later today. <span class="blue-plural"> (The President)</span><br>
+                      <em>O governo fará uma declaração sobre a crise ainda hoje.</em></p>
+                      <p class="frases" onclick="play(Tres17)"><span class="yellow-adj">17.</span> I <span class="yellow-adj">will be travelling </span>round Europe next week.<span class="blue-plural"> (month)</span><br>
+                      <em>Estarei viajando pela Europa na próxima semana.</em></p>
+                      <p class="frases" onclick="play(Tres18)"><span class="yellow-adj">18.</span> He <span class="yellow-adj">will be turning </span> pro.<span class="blue-plural"> (master)</span><br>
+                      <em>Ele vai se tornar profissional.</em></p>
+                      <p class="frases" onclick="play(Tres19)"><span class="yellow-adj">19.</span> Well, I'm sure once they hear what their boy did, They<span class="yellow-adj"> will be understanding.</span><span class="blue-plural"> (child)</span><br>
+                      <em>Bem, tenho certeza que quando eles ouvirem o que o garoto deles fez, eles entenderão.</em></p>
+                      <p class="frases" onclick="play(Tres20)"><span class="yellow-adj">20.</span> And the doctor <span class="yellow-adj">will be visiting</span> her on the 14th.<span class="blue-plural"> (in 10 days)</span><br>
+                      <em>E o médico irá visitá-la no dia 14.</em></p>
                   `;
   
     //changing the content in your element
@@ -445,7 +495,7 @@ function changePtSummary() {
                         <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> <span class="blue-adj">Is your son</span> buying a new phone?</p>
                         <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> <span class="blue-adj">Are they</span> playing soccer?</p>
                         <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> <span class="blue-adj">Are you</span> enjoying the music?</p>
-                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> <span class="blue-adj">Is it</span> rainning?</p>
+                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> <span class="blue-adj">Is it</span> raining?</p>
                         <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> <span class="blue-adj">Are you</span> really helping me?</p>
                         <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> <span class="blue-adj">Is she </span> taking her medicines?</p>
                         <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> <span class="blue-adj">Will he </span> be going to school?</p>
@@ -508,7 +558,7 @@ function changePtSummary() {
                         <em>Eles estão jogando futebol?</em></p>
                         <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> <span class="blue-adj">Are you</span> enjoying the music?</br>
                         <em>Você está curtindo a música?</em></p>
-                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> <span class="blue-adj">Is it</span> rainning?</br>
+                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> <span class="blue-adj">Is it</span> raining?</br>
                         <em>Está chovendo?</em></p>
                         <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> <span class="blue-adj">Are you</span> really helping me?</br>
                         <em>Você está realmente me ajudando?</em></p>

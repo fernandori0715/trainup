@@ -345,20 +345,30 @@ function changePtSummary() {
               />
               <span class="cyan"> Clique on the sentences to listen.</span>
                  
-              <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
-              <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
-              <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
-              <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
-              <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
-              <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
-              <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
-              <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
-              <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
-              <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
-                                
-              <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I <span class="green-adj">can </span> speak Spanish.<span class="blue-plural"> (Italian)</span> </p>
+                        <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
+                        <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
+                        <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
+                        <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
+                        <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
+                        <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
+                        <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
+                        <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
+                        <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
+                        <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
+                        <audio id="Tres11" src="./audio/Grammar/Sentences/Repetition/11.mp3"></audio>
+                        <audio id="Tres12" src="./audio/Grammar/Sentences/Repetition/12.mp3"></audio>
+                        <audio id="Tres13" src="./audio/Grammar/Sentences/Repetition/13.mp3"></audio>
+                        <audio id="Tres14" src="./audio/Grammar/Sentences/Repetition/14.mp3"></audio>
+                        <audio id="Tres15" src="./audio/Grammar/Sentences/Repetition/15.mp3"></audio>
+                        <audio id="Tres16" src="./audio/Grammar/Sentences/Repetition/16.mp3"></audio>
+                        <audio id="Tres17" src="./audio/Grammar/Sentences/Repetition/17.mp3"></audio>
+                        <audio id="Tres18" src="./audio/Grammar/Sentences/Repetition/18.mp3"></audio>
+                        <audio id="Tres19" src="./audio/Grammar/Sentences/Repetition/19.mp3"></audio>
+                        <audio id="Tres20" src="./audio/Grammar/Sentences/Repetition/20.mp3"></audio>
+                                          
+                        <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I <span class="green-adj">can </span> speak Spanish.<span class="blue-plural"> (Italian)</span> </p>
               <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> <span class="green-adj">Can </span> I go to the bathroom?<span class="blue-plural"> (my room)</span></p>
-              <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> It  <span class="green-adj">can´t </span> be Jane. She is at work now.<span class="blue-plural"> (not at home)</span></p>
+              <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> It  <span class="green-adj">can´t </span> be Jane. She is at work now.<span class="blue-plural"> (not at home))</span></p>
               <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> She <span class="green-adj">could</span> play the piano when she was five years old.<span class="blue-plural"> (swim)</span></p>
               <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> My brother <span class="green-adj">could </span> go to the club.<span class="blue-plural"> (stay)</span></p>
               <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> It <span class="green-adj">could</span> get much hotter in December.<span class="blue-plural"> (January))</span></p>
@@ -370,7 +380,12 @@ function changePtSummary() {
               <p class="frases" onclick="play(Tres12)"><span class="green-adj">12.</span> It´s quite dark, it <span class="green-adj">must</span> be after 9 o´clock.<span class="blue-plural"> (10)</span></p>
               <p class="frases" onclick="play(Tres13)"><span class="green-adj">13.</span> She <span class="green-adj">shouldn´t</span> smoke.<span class="blue-plural"> (drink)</span></p>
               <p class="frases" onclick="play(Tres14)"><span class="green-adj">14.</span> I believe she <span class="green-adj">will</span> study harder this time.<span class="blue-plural"> (pass the exam)</span></p>
-              <p class="frases" onclick="play(Tres15)"><span class="green-adj">15.</span> It´s very cold here. I <span class="green-adj">will</span> close the windown.<span class="blue-plural"> (get a coat)</span></p>
+              <p class="frases" onclick="play(Tres15)"><span class="green-adj">15.</span> It´s very cold here. I <span class="green-adj">will</span> close the window.<span class="blue-plural"> (get a coat)</span></p>
+              <p class="frases" onclick="play(Tres16)"><span class="green-adj">16.</span> I <span class="green-adj">could</span> swim when I was 6 years old.<span class="blue-plural"> (play the piano)</span></p>
+              <p class="frases" onclick="play(Tres17)"><span class="green-adj">17.</span> She <span class="green-adj">couldn´t </span> understand what I was saying.<span class="blue-plural"> (sing)</span></p>
+              <p class="frases" onclick="play(Tres18)"><span class="green-adj">18.</span> My grandfather <span class="green-adj">could</span> speak 5 languages.<span class="blue-plural"> (mother)</span></p>
+              <p class="frases" onclick="play(Tres19)"><span class="green-adj">19.</span> Jane <span class="green-adj">shouldn´t</span> be on the street at this time.<span class="blue-plural"> (play)</span></p>
+              <p class="frases" onclick="play(Tres20)"><span class="green-adj">20.</span> You <span class="green-adj">should</span> go for a walk sometimes.<span class="blue-plural"> (exercise)</span></p>
                   `;
   
     //changing the content in your element
@@ -402,6 +417,11 @@ function changePtSummary() {
                           <audio id="Tres13" src="./audio/Grammar/Sentences/Repetition/13.mp3"></audio>
                           <audio id="Tres14" src="./audio/Grammar/Sentences/Repetition/14.mp3"></audio>
                           <audio id="Tres15" src="./audio/Grammar/Sentences/Repetition/15.mp3"></audio>
+                          <audio id="Tres16" src="./audio/Grammar/Sentences/Repetition/16.mp3"></audio>
+                          <audio id="Tres17" src="./audio/Grammar/Sentences/Repetition/17.mp3"></audio>
+                          <audio id="Tres18" src="./audio/Grammar/Sentences/Repetition/18.mp3"></audio>
+                          <audio id="Tres19" src="./audio/Grammar/Sentences/Repetition/19.mp3"></audio>
+                          <audio id="Tres20" src="./audio/Grammar/Sentences/Repetition/20.mp3"></audio>
                                             
                           <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I <span class="green-adj">can </span> speak Spanish.<span class="blue-plural"> (Italian)</span></br>
                           <em>Eu posso falar Espanhol.</em></p>
@@ -431,8 +451,18 @@ function changePtSummary() {
                           <em>Ela não deveria fumar. (beber)</em></p>
                           <p class="frases" onclick="play(Tres14)"><span class="green-adj">14.</span> I believe she <span class="green-adj">will</span> study harder this time.<span class="blue-plural"> (pass the exam)</span></br>
                           <em>Eu acredito que ela vai estudar mais desta vez. (passar no exame)</em></p>
-                          <p class="frases" onclick="play(Tres15)"><span class="green-adj">15.</span> It´s very cold here. I <span class="green-adj">will</span> close the windown.<span class="blue-plural"> (get a coat)</span></br>
+                          <p class="frases" onclick="play(Tres15)"><span class="green-adj">15.</span> It´s very cold here. I <span class="green-adj">will</span> close the window.<span class="blue-plural"> (get a coat)</span></br>
                           <em>Está muito frio aqui. Eu vou fechar a janela. (pegue um casaco)</em></p>
+                          <p class="frases" onclick="play(Tres16)"><span class="green-adj">16.</span> I <span class="green-adj">could</span> swim when I was 6 years old.<span class="blue-plural"> (play the piano)</span></br>
+                          <em>Eu sabia nadar quando tinha 6 anos.</em></p>
+                          <p class="frases" onclick="play(Tres17)"><span class="green-adj">17.</span> She <span class="green-adj">couldn´t </span> understand what I was saying.<span class="blue-plural"> (sing)</span></br>
+                          <em>Ela não conseguia entender o que eu estava dizendo.</em></p>
+                          <p class="frases" onclick="play(Tres18)"><span class="green-adj">18.</span> My grandfather <span class="green-adj">could</span> speak 5 languages.<span class="blue-plural"> (mother)</span></br>
+                          <em>Meu avô falava 5 idiomas.</em></p>
+                          <p class="frases" onclick="play(Tres19)"><span class="green-adj">19.</span> Jane <span class="green-adj">shouldn´t</span> be on the street at this time.<span class="blue-plural"> (play)</span></br>
+                          <em>Jane não deveria estar na rua neste momento.</em></p>
+                          <p class="frases" onclick="play(Tres20)"><span class="green-adj">20.</span> You <span class="green-adj">should</span> go for a walk sometimes.<span class="blue-plural"> (exercise)</span></br>
+                          <em>Devias dar uma volta de vez em quando.</em></p>
                   `;
   
     //changing the content in your element

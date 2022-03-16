@@ -614,7 +614,7 @@ function repetitionEn() {
               onclick="play(v22s)"
             />
             <span class="cyan"> Clique on the sentences to listen.</span>
-            <audio id="Tres1" src="./audio/Grammar/Sentences/1.mp3"></audio>
+                        <audio id="Tres1" src="./audio/Grammar/Sentences/1.mp3"></audio>
                         <audio id="Tres2" src="./audio/Grammar/Sentences/2.mp3"></audio>
                         <audio id="Tres3" src="./audio/Grammar/Sentences/3.mp3"></audio>
                         <audio id="Tres4" src="./audio/Grammar/Sentences/4.mp3"></audio>
@@ -675,7 +675,8 @@ function repetitionPt() {
                       onclick="play(v22s)"
                     />
                     <span class="cyan"> Clique on the sentences to listen.</span>
-                    <audio id="Tres2" src="./audio/Grammar/Sentences/2.mp3"></audio>
+                        <audio id="Tres1" src="./audio/Grammar/Sentences/1.mp3"></audio>
+                        <audio id="Tres2" src="./audio/Grammar/Sentences/2.mp3"></audio>
                         <audio id="Tres3" src="./audio/Grammar/Sentences/3.mp3"></audio>
                         <audio id="Tres4" src="./audio/Grammar/Sentences/4.mp3"></audio>
                         <audio id="Tres5" src="./audio/Grammar/Sentences/5.mp3"></audio>

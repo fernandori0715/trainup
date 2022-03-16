@@ -361,34 +361,70 @@ function changeVideoPt() {
 function repetitionEn() {
   let element = document.getElementById("repetition-sentences");
   let newContent = `
-            <img
-              src="../../../images/audio.png"
-              style="width: 30px; height: 30px"
-              class="frases cyan mb-2"
-              onclick="play(v22s)"
-            />
-            <span class="cyan"> Clique on the sentences to listen.</span>
-                         <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
-                        <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
-                        <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
-                        <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
-                        <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
-                        <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
-                        <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
-                        <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
-                        <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
-                        <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
-                                          
-                        <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I left the <span class="green-adj">keys</span> at home.<span class="blue-plural">(papers)</span> </p>
-                        <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Buy me two kilos of <span class="green-adj">potatoes</span>.<span class="blue-plural">(apples)</span></p>
-                        <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> This pair of <span class="green-adj">scissors</span> are new.<span class="blue-plural">(socks))</span></p>
-                        <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> Your <span class="green-adj">jeans</span> are black.<span class="blue-plural">(coats)</span></p>
-                        <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> <span class="green-adj">Mice</span> are very fast.<span class="blue-plural">(birds)</span></p>
-                        <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> There are lots of <span class="green-adj">fish</span> in the lake.<span class="blue-plural">(papers)</span></p>
-                        <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> They are very nice <span class="green-adj">people</span>.<span class="blue-plural">(players)</span></p>
-                        <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> How many <span class="green-adj">men</span> work with you?<span class="blue-plural">(women)</span></p>
-                        <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> <span class="green-adj">Cats</span> love to catch mice.<span class="blue-plural"></span></p>
-                        <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> There are not <span class="green-adj">pictures</span> on the wall.<span class="blue-plural"></span></p>
+           
+
+    <p class="frases" onclick="play(Tres1)">
+      <span class="green">1.</span> It was <span class="cyan">brutally</span> clear he was not interested in hearing my opinion.</i>
+    </p>
+    <p class="frases" onclick="play(Tres2)">
+      <span class="green">2.</span> She will plant her garden <span class="cyan">here</span>.
+    </p>
+    <p class="frases" onclick="play(Tres3)">
+      <span class="green">3.</span> The boy <span class="cyan">almost</span> quit his job after that.
+    </p>
+    <p class="frases" onclick="play(Tres4)">
+      <span class="green">4.</span> She <span class="cyan">totally</span> gets me.
+    </p>
+    <p class="frases" onclick="play(Tres5)">
+      <span class="green">5.</span> I <span class="cyan">really</span> don't care what you think.
+     
+    </p>
+    <p class="frases" onclick="play(Tres6)">
+      <span class="green">6.</span> You  <span class="cyan">simply</span> don't understand.
+    </p>
+    <p class="frases" onclick="play(Tres7)">
+      <span class="green">7.</span> I am <span class="cyan">so</span> hungry, I could eat a horse.
+    </p>
+    <p class="frases" onclick="play(Tres8)">
+      <span class="green">8.</span> He swims  <span class="cyan">well</span>.
+    </p>
+    <p class="frases" onclick="play(Tres9)">
+      <span class="green">9.</span> He ran <span class="cyan">quickly</span>.
+    </p>
+    <p class="frases" onclick="play(Tres10)">
+      <span class="green">10.</span> The rain fell <span class="cyan">hard</span> during the storm.
+    </p>
+    <p class="frases" onclick="play(Tres11)">
+      <span class="green">11.</span> Jane was sitting <span class="cyan">under</span> the tree.
+    </p>
+    <p class="frases" onclick="play(Tres12)">
+      <span class="green">12.</span> I have a sister who lives in<span class="cyan"> Italy</span>.
+    </p>
+    <p class="frases" onclick="play(Tres13)">
+      <span class="green">13.</span> There is a tree <span class="cyan">beside</span> my house.
+    </p>
+    <p class="frases" onclick="play(Tres14)">
+      <span class="green">14.</span> Bob and Jane are hiding <span class="cyan">inside</span> the wardrobe. 
+    </p>
+    <p class="frases" onclick="play(Tres15)">
+      <span class="green">15.</span> He keeps all the coins <span class="cyan">in </span> a box.
+    </p>
+    <p class="frases" onclick="play(Tres16)">
+      <span class="green">16.</span> The two countries were <span class="cyan">at</span> war.
+    </p>
+    <p class="frases" onclick="play(Tres17)">
+      <span class="green">17.</span> <span class="cyan">At</span> the end of the day.
+    </p>
+    <p class="frases" onclick="play(Tres18)">
+      <span class="green">18.</span> The army is <span class="cyan">on</span> the move.
+    </p>
+    <p class="frases" onclick="play(Tres19)">
+      <span class="green">19.</span> She is <span class="cyan">in</span> dept to her mother.
+    </p>
+    <p class="frases" onclick="play(Tres20)">
+      <span class="green">20.</span> Perhaps they are already there <span class="cyan">by now</span>.
+    </p>
+  
                 `;
 
   //changing the content in your element
@@ -398,44 +434,85 @@ function repetitionEn() {
 function repetitionPt() {
   let element = document.getElementById("repetition-sentences");
   let newContent = `
-                    <img
-                      src="../../../images/audio.png"
-                      style="width: 30px; height: 30px"
-                      class="frases cyan mb-2"
-                      onclick="play(v22s)"
-                    />
-                    <span class="cyan"> Clique on the sentences to listen.</span>
-                         <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
-                        <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
-                        <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
-                        <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
-                        <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
-                        <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
-                        <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
-                        <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
-                        <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
-                        <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
-                                          
-                        <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I left the <span class="green-adj">keys</span> at home.<span class="blue-plural">(papers)</span></br>
-                        <em>Eu deixei as chaves me casa.</em></p>
-                        <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Buy me two kilos of <span class="green-adj">potatoes</span>.<span class="blue-plural">(apples)</span></br>
-                        <em>Compre-me dois quilos de batatas.</em></p>
-                        <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> This pair of <span class="green-adj">scissors</span> are new.<span class="blue-plural">(socks))</span></br>
-                        <em>Esta tesoura é nova.</em></p>
-                        <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> Your <span class="green-adj">jeans</span> are black.<span class="blue-plural">(coats)</span></br>
-                        <em>Seu jeans é preto.</em></p>
-                        <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> <span class="green-adj">Mice</span> are very fast.<span class="blue-plural">(birds)</span></br>
-                        <em>Os ratos são muito rápidos.</em></p>
-                        <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> There are lots of <span class="green-adj">fish</span> in the lake.<span class="blue-plural">(papers)</span></br>
-                        <em>Há muitos peixes no lago.</em></p>
-                        <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> They are very nice <span class="green-adj">people</span>.<span class="blue-plural">(players)</span></br>
-                        <em>Elas são ótimas pessoas.</em></p>
-                        <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> How many <span class="green-adj">men</span> work with you?<span class="blue-plural">(women)</span></br>
-                        <em>Quantos homens trabalham com você?</em></p>
-                        <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> <span class="green-adj">Cats</span> love to catch mice.<span class="blue-plural"></span></br>
-                        <em>Os gatos adoram pegar ratos.</em></p>
-                        <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> There are not <span class="green-adj">pictures</span> on the wall.<span class="blue-plural"></span></br>
-                        <em>Não há fotos na parede.</em></p>
+                                       
+                        <p class="frases" onclick="play(Tres1)">
+                          <span class="green">1.</span> It was <span class="cyan">brutally</span> clear he was not interested in hearing my opinion.</span></br>
+                        <em>Ficou <span class="cyan">brutalmente</span> claro que ele não estava interessado em ouvir minha opinião.</em></p>
+                        <p class="frases" onclick="play(Tres2)">
+                          <span class="green">2.</span> She will plant her garden <span class="cyan">here</span>.</br>
+                        <em>Ela vai plantar seu jardim <span class="cyan">aqui</span>.</em></p>
+                        <p class="frases" onclick="play(Tres3)">
+                          <span class="green">3.</span> The boy <span class="cyan">almost</span> quit his job after that.</br>
+                        <em>O menino <span class="cyan">quase</span> largou o emprego depois disso.</em></p>
+                        <p class="frases" onclick="play(Tres4)">
+                          <span class="green">4.</span> She <span class="cyan">totally</span> gets me.
+                        </br>
+                        <em>Ela me entende <span class="cyan">totalmente</span>.</em></p>
+                        <p class="frases" onclick="play(Tres5)">
+                          <span class="green">5.</span> I <span class="cyan">really</span> don't care what you think.
+                        </br>
+                        <em>Eu <span class="cyan">realmente</span> não me importo com o que você pensa.</em></p>
+                        <p class="frases" onclick="play(Tres6)">
+                          <span class="green">6.</span> You  <span class="cyan">simply</span> don't understand.
+                        </br>
+                        <em>Você <span class="cyan">simplesmente</span> não entende.</em></p>
+                        <p class="frases" onclick="play(Tres7)">
+                          <span class="green">7.</span> I am <span class="cyan">so</span> hungry, I could eat a horse.
+                        </br>
+                        <em>Estou com <span class="cyan">tanta</span> fome que poderia comer um cavalo.</em></p>
+                        <p class="frases" onclick="play(Tres8)">
+                          <span class="green">8.</span> He swims  <span class="cyan">well</span>.
+                        </br>
+                        <em>Ele nada <span class="cyan">bem</span>.</em></p>
+                        <p class="frases" onclick="play(Tres9)">
+                          <span class="green">9.</span> He ran <span class="cyan">quickly</span>.
+                        </br>
+                        <em>Ele correu <span class="cyan">rapidamente</span>.</em></p>
+                        <p class="frases" onclick="play(Tres10)">
+                          <span class="green">10.</span> The rain fell <span class="cyan">hard</span> during the storm.
+                        </br>
+                        <em>A chuva caiu <span class="cyan">forte</span> durante a tempestade.</em></p>
+                        <p class="frases" onclick="play(Tres11)">
+                          <span class="green">11.</span> Jane was sitting <span class="cyan">under</span> the tree.
+                        </br>
+                        <em>Jane estava sentada <span class="cyan">debaixo</span> da árvore.</em></p>
+                        <p class="frases" onclick="play(Tres12)">
+                          <span class="green">12.</span> I have a sister who lives in<span class="cyan"> Italy</span>.
+                        </br>
+                        <em>Tenho uma irmã que mora na <span class="cyan">Itália</span>.</em></p>
+                        <p class="frases" onclick="play(Tres13)">
+                          <span class="green">13.</span> There is a tree <span class="cyan">beside</span> my house.
+                        </br>
+                        <em>Há uma árvore <span class="cyan">ao lado</span> da minha casa.</em></p>
+                        <p class="frases" onclick="play(Tres14)">
+                          <span class="green">14.</span> Bob and Jane are hiding <span class="cyan">inside</span> the wardrobe. 
+                        </br>
+                        <em>Bob e Jane estão escondidos <span class="cyan">dentro</span> do guarda-roupa.</em></p>
+                        <p class="frases" onclick="play(Tres15)">
+                          <span class="green">15.</span> He keeps all the coins <span class="cyan">in </span> a box.
+                        </br>
+                        <em>Ele guarda todas as moedas <span class="cyan">dentro</span> caixa.</em></p>
+                        <p class="frases" onclick="play(Tres16)">
+                          <span class="green">16.</span> The two countries were <span class="cyan">at</span> war.
+                        </br>
+                        <em>Os dois países estavam <span class="cyan">em</span> guerra.</em></p>
+                        <p class="frases" onclick="play(Tres17)">
+                          <span class="green">17.</span> <span class="cyan">At</span> the end of the day.
+                        </br>
+                        <em><span class="cyan">No</span> fim do dia.</em></p>
+                        <p class="frases" onclick="play(Tres18)">
+                          <span class="green">18.</span> The army is <span class="cyan">on</span> the move.
+                        </br>
+                        <em>O exército está <span class="cyan">em</span> movimento.</em></p>
+                        <p class="frases" onclick="play(Tres19)">
+                          <span class="green">19.</span> She is <span class="cyan">in</span> dept to her mother.
+                        </br>
+                        <em>Ela está <span class="cyan">em</span> dept para sua mãe.</em></p>
+                        <p class="frases" onclick="play(Tres20)">
+                          <span class="green">20.</span> Perhaps they are already there <span class="cyan">by now</span>.
+                        </br>
+                        <em>Talvez eles já estejam lá <span class="cyan">agora</span>.</em></p>
+                      
                 `;
 
   //changing the content in your element
@@ -446,47 +523,49 @@ function repetitionPt() {
 function questionsEn() {
   let element = document.getElementById("questions");
   let newContent = `
-                        <audio id="Quatro2" src="./audio/licao2/Perguntas/2.mp3"></audio>
-                        <audio id="Quatro3" src="./audio/licao2/Perguntas/3.mp3"></audio>
-                        <audio id="Quatro4" src="./audio/licao2/Perguntas/4.mp3"></audio>
-                        <audio id="Quatro5" src="./audio/licao2/Perguntas/5.mp3"></audio>
-                        <audio id="Quatro6" src="./audio/licao2/Perguntas/6.mp3"></audio>
-                        <audio id="Quatro7" src="./audio/licao2/Perguntas/7.mp3"></audio>
-                        <audio id="Quatro8" src="./audio/licao2/Perguntas/8.mp3"></audio>
-                        <audio id="Quatro9" src="./audio/licao2/Perguntas/9.mp3"></audio>
-                        <audio id="Quatro10" src="./audio/licao2/Perguntas/10.mp3"></audio>
-                        <audio id="Quatro11" src="./audio/licao2/Perguntas/11.mp3"></audio>
-                        <audio id="Quatro12" src="./audio/licao2/Perguntas/12.mp3"></audio>
-                        <audio id="Quatro13" src="./audio/licao2/Perguntas/13.mp3"></audio>
-                        <audio id="Quatro14" src="./audio/licao2/Perguntas/14.mp3"></audio>
-                        <audio id="Quatro15" src="./audio/licao2/Perguntas/15.mp3"></audio>
-                        <audio id="Quatro16" src="./audio/licao2/Perguntas/16.mp3"></audio>
-                        <audio id="Quatro17" src="./audio/licao2/Perguntas/17.mp3"></audio>
-                        <audio id="Quatro18" src="./audio/licao2/Perguntas/18.mp3"></audio>
-                        <audio id="Quatro19" src="./audio/licao2/Perguntas/19.mp3"></audio>
-                        <audio id="Quatro20" src="./audio/licao2/Perguntas/20.mp3"></audio>
+                    
+  <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
+  <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
+  <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
+  <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
+  <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
+  <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
+  <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
+  <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
+  <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
+  <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
+  <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
+  <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
+  <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
+  <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
+  <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
+  <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
+  <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
+  <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
+  <audio id="Quatro19" src="./audio/Grammar/Questions/19.mp3"></audio>
+  <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
                         
-                        
-                        <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span> How many <span class="blue-adj">houses</span> do you have?</p>
-                        <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> How many <span class="blue-adj">books</span> do you read per year?</p>
-                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> What are your favorite <span class="blue-adj">colors</span>?</p>
-                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> How many <span class="blue-adj">shirts</span> do you have?</p>
-                        <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Do the <span class="blue-adj">boys</span> play soccer?</p>
-                        <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> Do the <span class="blue-adj">cats</span> like to drink milk?</p>
-                        <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Do your <span class="blue-adj">children</span> sing well?</p>
-                        <p class="frases" onclick="play(Quatro8)"><span class="blue">8.</span> Does your mother have three <span class="blue-adj">shirts</span>?</p>
-                        <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> How many <span class="blue-adj">keys</span> do you have now?</p>
-                        <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> What are your favorite <span class="blue-adj">movies</span>?</p>
-                        <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> Do you like <span class="blue-adj">tomatoes</span>?</p>
-                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> Are Brazil and Canada big <span class="blue-adj">countries</span>?</p>
-                        <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> Are you good at <span class="blue-adj">quizzes</span>?</p>
-                        <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> How many <span class="blue-adj">lives</span> does a cat have?</p>
-                        <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> Where do <span class="blue-adj">fish</span> swim?</p>
-                        <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> Are there 2 <span class="blue-adj">chairs</span> here?</p>
-                        <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Does the doctor help the <span class="blue-adj">children</span>?</p>
-                        <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> Do you like to clean the <span class="blue-adj">windows</span>?</p>
-                        <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> Do you drink 2 <span class="blue-adj">bottles</span> of water a day?</p>
-                        <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Two <span class="blue-adj">mountains</span> or two mountain?</p>    
+                        <p class="frases" onclick="play(Quatro1)">1. What do you <span class="cyan">always</span> do on the weekend?</p>
+                        <p class="frases" onclick="play(Quatro2)">2. What time do you <span class="cyan">usually</span> get up in the mornings?</p>
+                        <p class="frases" onclick="play(Quatro3)">3. What do you <span class="cyan">often</span> do at home?</p>
+                        <p class="frases" onclick="play(Quatro4)">4. <span class="cyan">Where</span> is your wallet?</p>
+                        <p class="frases" onclick="play(Quatro5)">5. <span class="cyan">Why</span> are you so happy?</p>
+                        <p class="frases" onclick="play(Quatro6)">6. <span class="cyan">How</span> complicated is to learn English?</p>
+                        <p class="frases" onclick="play(Quatro7)">7. <span class="cyan">How</span> old is your house?</p>
+                        <p class="frases" onclick="play(Quatro8)">8. Do you work hard <span class="cyan">at</span> studying?</p>
+                        <p class="frases" onclick="play(Quatro9)">9. Do you sing <span class="cyan">well</span>? </p>
+                        <p class="frases" onclick="play(Quatro10)">10. What is something you can do <span class="cyan">easily</span>?</p>
+                        <p class="frases" onclick="play(Quatro11)">11. Are you <span class="cyan">in</span> dept to someone?</p>
+                        <p class="frases" onclick="play(Quatro12)">12. Can you study 05 hours <span class="cyan">without</span> a break?</p>
+                        <p class="frases" onclick="play(Quatro13)">13. What do you want to do <span class="cyan">at</span> the age of 50?</p>
+                        <p class="frases" onclick="play(Quatro14)">14. Do you spend money with <span class="cyan">no</span> regret?</p>
+                        <p class="frases" onclick="play(Quatro15)">15. Does anyone know <span class="cyan">about</span> it?</p>
+                        <p class="frases" onclick="play(Quatro16)">16. Was she <span class="cyan">at</span> home last night?</p>
+                        <p class="frases" onclick="play(Quatro17)">17. Did you lose your ring <span class="cyan">at</span> the beach?</p>
+                        <p class="frases" onclick="play(Quatro18)">18. Does your mother listen <span class="cyan">to</span> music?</p>
+                        <p class="frases" onclick="play(Quatro19)">19. Do you need to sit down <span class="cyan">for</span> a while?</p>
+                        <p class="frases" onclick="play(Quatro20)">20. Is the car <span class="cyan">on</span> fire?</p>           
+                                                     
                 `;
 
   //changing the content in your element
@@ -496,67 +575,68 @@ function questionsEn() {
 function questionsPt() {
   let element = document.getElementById("questions");
   let newContent = `
-                        <audio id="Quatro2" src="./audio/licao2/Perguntas/2.mp3"></audio>
-                        <audio id="Quatro3" src="./audio/licao2/Perguntas/3.mp3"></audio>
-                        <audio id="Quatro4" src="./audio/licao2/Perguntas/4.mp3"></audio>
-                        <audio id="Quatro5" src="./audio/licao2/Perguntas/5.mp3"></audio>
-                        <audio id="Quatro6" src="./audio/licao2/Perguntas/6.mp3"></audio>
-                        <audio id="Quatro7" src="./audio/licao2/Perguntas/7.mp3"></audio>
-                        <audio id="Quatro8" src="./audio/licao2/Perguntas/8.mp3"></audio>
-                        <audio id="Quatro9" src="./audio/licao2/Perguntas/9.mp3"></audio>
-                        <audio id="Quatro10" src="./audio/licao2/Perguntas/10.mp3"></audio>
-                        <audio id="Quatro11" src="./audio/licao2/Perguntas/11.mp3"></audio>
-                        <audio id="Quatro12" src="./audio/licao2/Perguntas/12.mp3"></audio>
-                        <audio id="Quatro13" src="./audio/licao2/Perguntas/13.mp3"></audio>
-                        <audio id="Quatro14" src="./audio/licao2/Perguntas/14.mp3"></audio>
-                        <audio id="Quatro15" src="./audio/licao2/Perguntas/15.mp3"></audio>
-                        <audio id="Quatro16" src="./audio/licao2/Perguntas/16.mp3"></audio>
-                        <audio id="Quatro17" src="./audio/licao2/Perguntas/17.mp3"></audio>
-                        <audio id="Quatro18" src="./audio/licao2/Perguntas/18.mp3"></audio>
-                        <audio id="Quatro19" src="./audio/licao2/Perguntas/19.mp3"></audio>
-                        <audio id="Quatro20" src="./audio/licao2/Perguntas/20.mp3"></audio>
-                        
-                        
-                        <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span> How many <span class="blue-adj">houses</span> do you have?</br>
-                        <em>Quantas casas você tem?</em></p>
-                        <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> How many <span class="blue-adj">books</span> do you read per year?</br>
-                        <em>Quantos livros você lê por ano?</em></p>
-                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> What are your favorite <span class="blue-adj">colors</span>?</br>
-                        <em>Quais são suas cores favoritas?</em></p>
-                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> How many <span class="blue-adj">shirts</span> do you have?</br>
-                        <em>Quantas camisas você tem?</em></p>
-                        <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Do the <span class="blue-adj">boys</span> play soccer?</br>
-                        <em>Os meninos jogam futebol?</em></p>
-                        <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> Do the <span class="blue-adj">cats</span> like to drink milk?</br>
-                        <em>Os gatos gostam de beber leite?</em></p>
-                        <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Do your <span class="blue-adj">children</span> sing well?</br>
-                        <em>Seus filhos cantam bem?</em></p>
-                        <p class="frases" onclick="play(Quatro8)"><span class="blue">8.</span> Does your mother have three <span class="blue-adj">shirts</span>?</br>
-                        <em>Sua mãe tem 03 camisetas?</em></p>
-                        <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> How many <span class="blue-adj">keys</span> do you have now?</br>
-                        <em>Quantas chaves você tem agora?</em></p>
-                        <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> What are your favorite <span class="blue-adj">movies</span>?</br>
-                        <em>Quais são seus filmes favoritos?</em></p>
-                        <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> Do you like <span class="blue-adj">tomatoes</span>?</br>
-                        <em>Voce gosta de tomates?</em></p>
-                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> Are Brazil and Canada big <span class="blue-adj">countries</span>?</br>
-                        <em>Brasil e Canadá são países grandes?</em></p>
-                        <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> Are you good at <span class="blue-adj">quizzes</span>?</br>
-                        <em>Você é bom em questionários?</em></p>
-                        <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> How many <span class="blue-adj">lives</span> does a cat have?</br>
-                        <em>Quantas vidas um gato tem?</em></p>
-                        <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> Where do <span class="blue-adj">fish</span> swim?</br>
-                        <em>Onde os peixes nadam?</em></p>
-                        <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> Are there 2 <span class="blue-adj">chairs</span> here?</br>
-                        <em>Existem 2 cadeiras aqui?</em></p>
-                        <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Does the doctor help the <span class="blue-adj">children</span>?</br>
-                        <em>O médico ajuda as crianças?</em></p>
-                        <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> Do you like to clean the <span class="blue-adj">windows</span>?</br>
-                        <em>Você gosta de limpar as janelas?</em></p>
-                        <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> Do you drink 2 <span class="blue-adj">bottles</span> of water a day?</br>
-                        <em>Você bebe 2 garrafas de água por dia?</em></p>
-                        <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Two <span class="blue-adj">mountains</span> or two mountain?</br>
-                        <em>Duas montanhas ou duas montanhas?</em></p>    
+  <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
+  <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
+  <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
+  <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
+  <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
+  <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
+  <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
+  <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
+  <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
+  <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
+  <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
+  <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
+  <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
+  <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
+  <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
+  <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
+  <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
+  <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
+  <audio id="Quatro19" src="./audio/Grammar/Questions/19.mp3"></audio>
+  <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
+   
+                        <p class="frases" onclick="play(Quatro1)">1. What do you <span class="cyan">always</span> do on the weekend?</br>
+                        <em>O que você <span class="cyan">sempre</span> faz no fim de semana?</em></p>
+                        <p class="frases" onclick="play(Quatro2)">2. What time do you <span class="cyan">usually</span> get up in the mornings?</br>
+                        <em>A que horas você <span class="cyan">usualmente</span> se levantar de manhã?</em></p>
+                        <p class="frases" onclick="play(Quatro3)">3. What do you <span class="cyan">often</span> do at home?</br>
+                        <em>O que você <span class="cyan">frequentemente</span> fazer em casa?</em></p>
+                        <p class="frases" onclick="play(Quatro4)">4. <span class="cyan">Where</span> is your wallet?</br>
+                        <em><span class="cyan">Onde</span> está sua carteira?</em></p>
+                        <p class="frases" onclick="play(Quatro5)">5. <span class="cyan">Why</span> are you so happy?</br>
+                        <em><span class="cyan">Por que</span> você está tão feliz?</em></p>
+                        <p class="frases" onclick="play(Quatro6)">6. <span class="cyan">How</span> complicated is to learn English?</br>
+                        <em><span class="cyan">Qão</span> complicado é aprender inglês?</em></p>
+                        <p class="frases" onclick="play(Quatro7)">7. <span class="cyan">How</span> old is your house?</br>
+                        <em><span class="cyan">Quantos</span> anos tem a sua casa?</em></p>
+                        <p class="frases" onclick="play(Quatro8)">8. Do you work hard <span class="cyan">at</span> studying?</br>
+                        <em>Você dá duro <span class="cyan">nos</span> estudos?</em></p>
+                        <p class="frases" onclick="play(Quatro9)">9. Do you sing <span class="cyan">well</span>? </br>
+                        <em>Você canta <span class="cyan">bem</span>?</em></p>
+                        <p class="frases" onclick="play(Quatro10)">10. What is something you can do <span class="cyan">easily</span>?</br>
+                        <em>O que é algo que você pode fazer <span class="cyan">facilmente</span>?</em></p>
+                        <p class="frases" onclick="play(Quatro11)">11. Are you <span class="cyan">in</span> debt to someone?</br>
+                        <em>Você está <span class="cyan">em</span> dívida com alguém?</em></p>
+                        <p class="frases" onclick="play(Quatro12)">12. Can you study 05 hours <span class="cyan">without</span> a break?</br>
+                        <em>Você consegue estudar 05 horas <span class="cyan">sem</span> descanso?</em></p>
+                        <p class="frases" onclick="play(Quatro13)">13. What do you want to do <span class="cyan">at</span> the age of 50?</br>
+                        <em>O que você quer fazer <span class="cyan">aos</span> 50 anos?</em></p>
+                        <p class="frases" onclick="play(Quatro14)">14. Do you spend money with <span class="cyan">no</span> regret?</br>
+                        <em>Você gasta dinheiro <span class="cyan">sem</span> se arrepender?</em></p>
+                        <p class="frases" onclick="play(Quatro15)">15. Does anyone know <span class="cyan">about</span> it?</br>
+                        <em>Alguém sabe <span class="cyan">sobre</span> isso?</em></p>
+                        <p class="frases" onclick="play(Quatro16)">16. Was she <span class="cyan">at</span> home last night?</br>
+                        <em>Ela estava <span class="cyan">em</span> casa ontem à noite?</em></p>
+                        <p class="frases" onclick="play(Quatro17)">17. Did you lose your ring <span class="cyan">at</span> the beach?</br>
+                        <em>Perdeu seu anel <span class="cyan">na</span> praia?</em></p>
+                        <p class="frases" onclick="play(Quatro18)">18. Does your mother listen <span class="cyan">to</span> music?</br>
+                        <em>Sua mãe ouve música?</em></p>
+                        <p class="frases" onclick="play(Quatro19)">19. Do you need to sit down <span class="cyan">for</span> a while?</br>
+                        <em>Você precisa se sentar <span class="cyan">por</span> um tempo?</em></p>
+                        <p class="frases" onclick="play(Quatro20)">20. Is the car <span class="cyan">on</span> fire?</br>
+                        <em>O carro está <span class="cyan">em</span> chamas?</em></p>           
+                                                    
                     
                         
                 `;
@@ -564,4 +644,4 @@ function questionsPt() {
   //changing the content in your element
   element.innerHTML = newContent;
 }
-s;
+;
