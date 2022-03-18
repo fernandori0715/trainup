@@ -611,27 +611,50 @@ function changePtSummary() {
                 onclick="play(v22s)"
               />
               <span class="cyan"> Clique on the sentences to listen.</span>
-                           <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
-                          <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
-                          <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
-                          <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
-                          <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
-                          <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
-                          <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
-                          <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
-                          <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
-                          <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
-                                            
-                          <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I left the <span class="green-adj">keys</span> at home.<span class="blue-plural">(papers)</span> </p>
-                          <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Buy me two kilos of <span class="green-adj">potatoes</span>.<span class="blue-plural">(apples)</span></p>
-                          <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> This pair of <span class="green-adj">scissors</span> are new.<span class="blue-plural">(socks))</span></p>
-                          <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> Your <span class="green-adj">jeans</span> are black.<span class="blue-plural">(coats)</span></p>
-                          <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> <span class="green-adj">Mice</span> are very fast.<span class="blue-plural">(birds)</span></p>
-                          <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> There are lots of <span class="green-adj">fish</span> in the lake.<span class="blue-plural">(papers)</span></p>
-                          <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> They are very nice <span class="green-adj">people</span>.<span class="blue-plural">(players)</span></p>
-                          <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> How many <span class="green-adj">men</span> work with you?<span class="blue-plural">(women)</span></p>
-                          <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> <span class="green-adj">Cats</span> love to catch mice.<span class="blue-plural"></span></p>
-                          <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> There are not <span class="green-adj">pictures</span> on the wall.<span class="blue-plural"></span></p>
+              <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
+              <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
+              <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
+              <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
+              <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
+              <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
+              <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
+              <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
+              <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
+              <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
+              <audio id="Tres11" src="./audio/Grammar/Sentences/Repetition/11.mp3"></audio>
+              <audio id="Tres12" src="./audio/Grammar/Sentences/Repetition/12.mp3"></audio>
+              <audio id="Tres13" src="./audio/Grammar/Sentences/Repetition/13.mp3"></audio>
+              <audio id="Tres14" src="./audio/Grammar/Sentences/Repetition/14.mp3"></audio>
+              <audio id="Tres15" src="./audio/Grammar/Sentences/Repetition/15.mp3"></audio>
+              <audio id="Tres16" src="./audio/Grammar/Sentences/Repetition/16.mp3"></audio>
+              <audio id="Tres17" src="./audio/Grammar/Sentences/Repetition/17.mp3"></audio>
+              <audio id="Tres18" src="./audio/Grammar/Sentences/Repetition/18.mp3"></audio>
+              <audio id="Tres19" src="./audio/Grammar/Sentences/Repetition/19.mp3"></audio>
+              <audio id="Tres20" src="./audio/Grammar/Sentences/Repetition/20.mp3"></audio>
+              
+                                
+              <h5 class="green">Comparative</h5>
+              <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> Your bike is <span class="green-adj">better than</span> mine.<span class="blue-plural"> (car)</span> </p>
+              <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> My daughter is <span class="green-adj">taller than</span> yours.<span class="blue-plural"> (son)</span></p>
+              <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> Jane and Bob play soccer, but Karol <span class="green-adj">is better.</span><span class="blue-plural"> (sing)</span></p>
+              <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> I am <span class="green-adj">happier now than</span> before.<span class="blue-plural"> (We)</span></p>
+              <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> We need a <span class="green-adj">bigger </span> house.<span class="blue-plural"> (table)</span></p>
+              <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> He is three years <span class="green-adj">older than </span> me.<span class="blue-plural"> (younger)</span></p>
+              <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> His dog runs <span class="green-adj">faster than </span> Jane´s dog.<span class="blue-plural"> (cat)</span></p>
+              <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> Your t-shirt is <span class="green-adj">less expensive than</span> mine.<span class="blue-plural"> (cheaper than)</span></p>
+              <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> Canada is<span class="green-adj"> colder than </span> Argentina.<span class="blue-plural"> (Brazil)</span></p>
+              <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> The work is much <span class="green-adj">more difficult than</span> I thought.<span class="blue-plural"> (case)</span></p>
+              <h5 class="vermelho">Superlative</h5>
+              <p class="frases" onclick="play(Tres11)"><span class="vermelho-adj">11.</span> I am  <span class="vermelho-adj">the youngest</span> man in class.<span class="blue-plural"></span></p>
+              <p class="frases" onclick="play(Tres12)"><span class="vermelho-adj">12.</span> You are <span class="vermelho-adj">the smartest</span> person I know.<span class="blue-plural"></span></p>
+              <p class="frases" onclick="play(Tres13)"><span class="vermelho-adj">13.</span> Jane isn´t <span class="vermelho-adj">the most beautiful</span> cousin in the family.<span class="blue-plural"></span></p>
+              <p class="frases" onclick="play(Tres14)"><span class="vermelho-adj">14.</span> Bob and Jane are <span class="vermelho-adj">the most intelligent</span>.<span class="blue-plural"></span></p>      
+              <p class="frases" onclick="play(Tres15)"><span class="vermelho-adj">15.</span> Jane is <span class="vermelho-adj">the eldest</span> of the three sisters.<span class="blue-plural"></span></p>
+              <p class="frases" onclick="play(Tres16)"><span class="vermelho-adj">16.</span> Mount Everest is <span class="vermelho-adj">the highest</span> mountain in the world.<span class="blue-plural"></span></p>
+              <p class="frases" onclick="play(Tres17)"><span class="vermelho-adj">17.</span> That´s  <span class="vermelho-adj">the best</span> film I have ever seen.<span class="blue-plural"></span></p>
+              <p class="frases" onclick="play(Tres18)"><span class="vermelho-adj">18.</span> She has <span class="vermelho-adj">the biggest</span> house in the city.<span class="blue-plural"></span></p>
+              <p class="frases" onclick="play(Tres19)"><span class="vermelho-adj">19.</span> I believe Paris is <span class="vermelho-adj">the most romantic</span> town in the world.<span class="blue-plural"></span></p>
+              <p class="frases" onclick="play(Tres20)"><span class="vermelho-adj">20.</span> Yesterday was <span class="vermelho-adj">the most special</span> day of my entire life.<span class="blue-plural"></span></p>
                   `;
   
     //changing the content in your element
@@ -648,37 +671,70 @@ function changePtSummary() {
                         onclick="play(v22s)"
                       />
                       <span class="cyan"> Clique on the sentences to listen.</span>
-                           <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
-                          <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
-                          <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
-                          <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
-                          <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
-                          <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
-                          <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
-                          <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
-                          <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
-                          <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
-                                            
-                          <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I left the <span class="green-adj">keys</span> at home.<span class="blue-plural">(papers)</span></br>
-                          <em>Eu deixei as chaves me casa.</em></p>
-                          <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Buy me two kilos of <span class="green-adj">potatoes</span>.<span class="blue-plural">(apples)</span></br>
-                          <em>Compre-me dois quilos de batatas.</em></p>
-                          <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> This pair of <span class="green-adj">scissors</span> are new.<span class="blue-plural">(socks))</span></br>
-                          <em>Esta tesoura é nova.</em></p>
-                          <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> Your <span class="green-adj">jeans</span> are black.<span class="blue-plural">(coats)</span></br>
-                          <em>Seu jeans é preto.</em></p>
-                          <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> <span class="green-adj">Mice</span> are very fast.<span class="blue-plural">(birds)</span></br>
-                          <em>Os ratos são muito rápidos.</em></p>
-                          <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> There are lots of <span class="green-adj">fish</span> in the lake.<span class="blue-plural">(papers)</span></br>
-                          <em>Há muitos peixes no lago.</em></p>
-                          <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> They are very nice <span class="green-adj">people</span>.<span class="blue-plural">(players)</span></br>
-                          <em>Elas são ótimas pessoas.</em></p>
-                          <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> How many <span class="green-adj">men</span> work with you?<span class="blue-plural">(women)</span></br>
-                          <em>Quantos homens trabalham com você?</em></p>
-                          <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> <span class="green-adj">Cats</span> love to catch mice.<span class="blue-plural"></span></br>
-                          <em>Os gatos adoram pegar ratos.</em></p>
-                          <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> There are not <span class="green-adj">pictures</span> on the wall.<span class="blue-plural"></span></br>
-                          <em>Não há fotos na parede.</em></p>
+                      <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
+                      <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
+                      <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
+                      <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
+                      <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
+                      <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
+                      <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
+                      <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
+                      <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
+                      <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
+                      <audio id="Tres11" src="./audio/Grammar/Sentences/Repetition/11.mp3"></audio>
+                      <audio id="Tres12" src="./audio/Grammar/Sentences/Repetition/12.mp3"></audio>
+                      <audio id="Tres13" src="./audio/Grammar/Sentences/Repetition/13.mp3"></audio>
+                      <audio id="Tres14" src="./audio/Grammar/Sentences/Repetition/14.mp3"></audio>
+                      <audio id="Tres15" src="./audio/Grammar/Sentences/Repetition/15.mp3"></audio>
+                      <audio id="Tres16" src="./audio/Grammar/Sentences/Repetition/16.mp3"></audio>
+                      <audio id="Tres17" src="./audio/Grammar/Sentences/Repetition/17.mp3"></audio>
+                      <audio id="Tres18" src="./audio/Grammar/Sentences/Repetition/18.mp3"></audio>
+                      <audio id="Tres19" src="./audio/Grammar/Sentences/Repetition/19.mp3"></audio>
+                      <audio id="Tres20" src="./audio/Grammar/Sentences/Repetition/20.mp3"></audio>
+                      
+                                        
+                      <h5 class="green">Comparative</h5>
+                      <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> Your bike is <span class="green-adj">better than</span> mine.<span class="blue-plural"> (car)</span><br>
+                      <em>Sua moto é melhor que a minha.</em></p>
+                      <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> My daughter is <span class="green-adj">taller than</span> yours.<span class="blue-plural"> (son)</span><br>
+                      <em>Minha filha é mais alta que a sua.</em></p>
+                      <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> Jane and Bob play soccer, but Karol <span class="green-adj">is better.</span><span class="blue-plural"> (sing)</span><br>
+                      <em>Jane e Bob jogam futebol, mas Karol é melhor.</em></p>
+                      <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> I am <span class="green-adj">happier now than</span> before.<span class="blue-plural"> (We)</span><br>
+                      <em>Estou mais feliz agora do que antes.</em></p>
+                      <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> We need a <span class="green-adj">bigger </span> house.<span class="blue-plural"> (table)</span><br>
+                      <em>Precisamos de uma casa maior.</em></p>
+                      <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> He is three years <span class="green-adj">older than </span> me.<span class="blue-plural"> (younger)</span><br>
+                      <em>Ele é três anos mais velho que eu.</em></p>
+                      <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> His dog runs <span class="green-adj">faster than </span> Jane´s dog.<span class="blue-plural"> (cat)</span><br>
+                      <em>Seu cachorro corre mais rápido que o cachorro de Jane.</em></p>
+                      <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> Your t-shirt is <span class="green-adj">less expensive than</span> mine.<span class="blue-plural"> (cheaper than)</span><br>
+                      <em>Sua camiseta é mais barata que a minha.</em></p>
+                      <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> Canada is<span class="green-adj"> colder than </span> Argentina.<span class="blue-plural"> (Brazil)</span><br>
+                      <em>O Canadá é mais frio que a Argentina.</em></p>
+                      <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> The work is much <span class="green-adj">more difficult than</span> I thought.<span class="blue-plural"> (case)</span><br>
+                      <em>O trabalho é muito mais difícil do que eu pensava.</em></p>
+                      <h5 class="vermelho">Superlative</h5>
+                      <p class="frases" onclick="play(Tres11)"><span class="vermelho-adj">11.</span> I am  <span class="vermelho-adj">the youngest</span> man in class.<span class="blue-plural"></span><br>
+                      <em>Eu sou o homem mais novo da classe.</em></p>
+                      <p class="frases" onclick="play(Tres12)"><span class="vermelho-adj">12.</span> You are <span class="vermelho-adj">the smartest</span> person I know.<span class="blue-plural"></span><br>
+                      <em>Você é a pessoa mais inteligente que eu conheço.</em></p>
+                      <p class="frases" onclick="play(Tres13)"><span class="vermelho-adj">13.</span> Jane isn´t <span class="vermelho-adj">the most beautiful</span> cousin in the family.<span class="blue-plural"></span><br>
+                      <em>Jane não é a prima mais bonita da família.</em></p>
+                      <p class="frases" onclick="play(Tres14)"><span class="vermelho-adj">14.</span> Bob and Jane are <span class="vermelho-adj">the most intelligent</span>.<span class="blue-plural"></span><br>
+                      <em>Bob e Jane são os mais inteligentes.</em></p>      
+                      <p class="frases" onclick="play(Tres15)"><span class="vermelho-adj">15.</span> Jane is <span class="vermelho-adj">the eldest</span> of the three sisters.<span class="blue-plural"></span><br>
+                      <em>Jane é a mais velha das três irmãs.</em></p>
+                      <p class="frases" onclick="play(Tres16)"><span class="vermelho-adj">16.</span> Mount Everest is <span class="vermelho-adj">the highest</span> mountain in the world.<span class="blue-plural"></span><br>
+                      <em>O Monte Everest é a montanha mais alta do mundo.</em></p>
+                      <p class="frases" onclick="play(Tres17)"><span class="vermelho-adj">17.</span> That´s  <span class="vermelho-adj">the best</span> film I have ever seen.<span class="blue-plural"></span><br>
+                      <em>Esse é o melhor filme que eu já vi.</em></p>
+                      <p class="frases" onclick="play(Tres18)"><span class="vermelho-adj">18.</span> She has <span class="vermelho-adj">the biggest</span> house in the city.<span class="blue-plural"></span><br>
+                      <em>Ela tem a maior casa da cidade.</em></p>
+                      <p class="frases" onclick="play(Tres19)"><span class="vermelho-adj">19.</span> I believe Paris is <span class="vermelho-adj">the most romantic</span> town in the world.<span class="blue-plural"></span><br>
+                      <em>Acredito que Paris é a cidade mais romântica do mundo.</em></p>
+                      <p class="frases" onclick="play(Tres20)"><span class="vermelho-adj">20.</span> Yesterday was <span class="vermelho-adj">the most special</span> day of my entire life.<span class="blue-plural"></span><br>
+                      <em>Ontem foi o dia mais especial de toda a minha vida.</em></p>
                   `;
   
     //changing the content in your element
@@ -689,47 +745,48 @@ function changePtSummary() {
   function questionsEn() {
     let element = document.getElementById("questions");
     let newContent = `
-                          <audio id="Quatro2" src="./audio/licao2/Perguntas/2.mp3"></audio>
-                          <audio id="Quatro3" src="./audio/licao2/Perguntas/3.mp3"></audio>
-                          <audio id="Quatro4" src="./audio/licao2/Perguntas/4.mp3"></audio>
-                          <audio id="Quatro5" src="./audio/licao2/Perguntas/5.mp3"></audio>
-                          <audio id="Quatro6" src="./audio/licao2/Perguntas/6.mp3"></audio>
-                          <audio id="Quatro7" src="./audio/licao2/Perguntas/7.mp3"></audio>
-                          <audio id="Quatro8" src="./audio/licao2/Perguntas/8.mp3"></audio>
-                          <audio id="Quatro9" src="./audio/licao2/Perguntas/9.mp3"></audio>
-                          <audio id="Quatro10" src="./audio/licao2/Perguntas/10.mp3"></audio>
-                          <audio id="Quatro11" src="./audio/licao2/Perguntas/11.mp3"></audio>
-                          <audio id="Quatro12" src="./audio/licao2/Perguntas/12.mp3"></audio>
-                          <audio id="Quatro13" src="./audio/licao2/Perguntas/13.mp3"></audio>
-                          <audio id="Quatro14" src="./audio/licao2/Perguntas/14.mp3"></audio>
-                          <audio id="Quatro15" src="./audio/licao2/Perguntas/15.mp3"></audio>
-                          <audio id="Quatro16" src="./audio/licao2/Perguntas/16.mp3"></audio>
-                          <audio id="Quatro17" src="./audio/licao2/Perguntas/17.mp3"></audio>
-                          <audio id="Quatro18" src="./audio/licao2/Perguntas/18.mp3"></audio>
-                          <audio id="Quatro19" src="./audio/licao2/Perguntas/19.mp3"></audio>
-                          <audio id="Quatro20" src="./audio/licao2/Perguntas/20.mp3"></audio>
-                          
-                          
-                          <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span> How many <span class="blue-adj">houses</span> do you have?</p>
-                          <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> How many <span class="blue-adj">books</span> do you read per year?</p>
-                          <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> What are your favorite <span class="blue-adj">colors</span>?</p>
-                          <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> How many <span class="blue-adj">shirts</span> do you have?</p>
-                          <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Do the <span class="blue-adj">boys</span> play soccer?</p>
-                          <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> Do the <span class="blue-adj">cats</span> like to drink milk?</p>
-                          <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Do your <span class="blue-adj">children</span> sing well?</p>
-                          <p class="frases" onclick="play(Quatro8)"><span class="blue">8.</span> Does your mother have three <span class="blue-adj">shirts</span>?</p>
-                          <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> How many <span class="blue-adj">keys</span> do you have now?</p>
-                          <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> What are your favorite <span class="blue-adj">movies</span>?</p>
-                          <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> Do you like <span class="blue-adj">tomatoes</span>?</p>
-                          <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> Are Brazil and Canada big <span class="blue-adj">countries</span>?</p>
-                          <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> Are you good at <span class="blue-adj">quizzes</span>?</p>
-                          <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> How many <span class="blue-adj">lives</span> does a cat have?</p>
-                          <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> Where do <span class="blue-adj">fish</span> swim?</p>
-                          <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> Are there 2 <span class="blue-adj">chairs</span> here?</p>
-                          <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Does the doctor help the <span class="blue-adj">children</span>?</p>
-                          <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> Do you like to clean the <span class="blue-adj">windows</span>?</p>
-                          <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> Do you drink 2 <span class="blue-adj">bottles</span> of water a day?</p>
-                          <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Two <span class="blue-adj">mountains</span> or two mountain?</p>    
+    <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
+    <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
+    <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
+    <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
+    <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
+    <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
+    <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
+    <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
+    <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
+    <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
+    <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
+    <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
+    <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
+    <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
+    <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
+    <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
+    <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
+    <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
+    <audio id="Quatro19" src="./audio/Grammar/Questions/19.mp3"></audio>
+    <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
+    
+    
+    <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span> Which is <span class="blue-adj">better,</span> English or math?</p>
+    <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> Who is  <span class="blue-adj">taller, </span> your mom or dad?</p>
+    <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> Who is smaller,  <span class="blue-adj">you or your brother / sister</span>?</p>
+    <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> Which is <span class="blue-adj">tastier, </span> Coca-Cola or Pepsi?</p>
+    <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Which is <span class="blue-adj">better, </span> McDonald’s or Burger King?</p>
+    <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> Which is <span class="blue-adj">healthier, </span> salad or pizza?</p>
+    <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Which sport is <span class="blue-adj">more fun </span> to watch, soccer or tennis?</p>
+    <p class="frases" onclick="play(Quatro8)"><span class="blue">8.</span> Which is <span class="blue-adj">faster,</span>a horse or a tiger?</p>
+    <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> Who is <span class="blue-adj">stronger,</span> superman or batman?</p>
+    <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> What is <span class="blue-adj">more expensive,</span> gold or silver?</p>
+    <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> Who’s <span class="blue-adj"> the funniest </span>person in your family?</p>
+    <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> Who is the <span class="blue-adj">tallest  </span> person in your family?</p>
+    <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> What is the <span class="blue-adj">most interesting</span> book you have read?</p>
+    <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> How many <span class="blue-adj">lives</span> does a cat have?</p>
+    <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> What was <span class="blue-adj">the most important</span> invention in history? </p>
+    <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> What´s  <span class="blue-adj">the most delicious</span> food you have tried?</p>
+    <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Where’s  <span class="blue-adj">the hottest</span>place you’ve ever been?</p>
+    <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> What’s <span class="blue-adj"> the coldest </span>temperature you’ve ever experienced?</p>
+    <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> What´s <span class="blue-adj">the most expensive</span> thing you’ve ever bought?</p>
+    <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Who is  <span class="blue-adj">the most famous</span> person you’ve ever seen in person?</p>           
                   `;
   
     //changing the content in your element
@@ -739,67 +796,68 @@ function changePtSummary() {
   function questionsPt() {
     let element = document.getElementById("questions");
     let newContent = `
-                          <audio id="Quatro2" src="./audio/licao2/Perguntas/2.mp3"></audio>
-                          <audio id="Quatro3" src="./audio/licao2/Perguntas/3.mp3"></audio>
-                          <audio id="Quatro4" src="./audio/licao2/Perguntas/4.mp3"></audio>
-                          <audio id="Quatro5" src="./audio/licao2/Perguntas/5.mp3"></audio>
-                          <audio id="Quatro6" src="./audio/licao2/Perguntas/6.mp3"></audio>
-                          <audio id="Quatro7" src="./audio/licao2/Perguntas/7.mp3"></audio>
-                          <audio id="Quatro8" src="./audio/licao2/Perguntas/8.mp3"></audio>
-                          <audio id="Quatro9" src="./audio/licao2/Perguntas/9.mp3"></audio>
-                          <audio id="Quatro10" src="./audio/licao2/Perguntas/10.mp3"></audio>
-                          <audio id="Quatro11" src="./audio/licao2/Perguntas/11.mp3"></audio>
-                          <audio id="Quatro12" src="./audio/licao2/Perguntas/12.mp3"></audio>
-                          <audio id="Quatro13" src="./audio/licao2/Perguntas/13.mp3"></audio>
-                          <audio id="Quatro14" src="./audio/licao2/Perguntas/14.mp3"></audio>
-                          <audio id="Quatro15" src="./audio/licao2/Perguntas/15.mp3"></audio>
-                          <audio id="Quatro16" src="./audio/licao2/Perguntas/16.mp3"></audio>
-                          <audio id="Quatro17" src="./audio/licao2/Perguntas/17.mp3"></audio>
-                          <audio id="Quatro18" src="./audio/licao2/Perguntas/18.mp3"></audio>
-                          <audio id="Quatro19" src="./audio/licao2/Perguntas/19.mp3"></audio>
-                          <audio id="Quatro20" src="./audio/licao2/Perguntas/20.mp3"></audio>
-                          
-                          
-                          <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span> How many <span class="blue-adj">houses</span> do you have?</br>
-                          <em>Quantas casas você tem?</em></p>
-                          <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> How many <span class="blue-adj">books</span> do you read per year?</br>
-                          <em>Quantos livros você lê por ano?</em></p>
-                          <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> What are your favorite <span class="blue-adj">colors</span>?</br>
-                          <em>Quais são suas cores favoritas?</em></p>
-                          <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> How many <span class="blue-adj">shirts</span> do you have?</br>
-                          <em>Quantas camisas você tem?</em></p>
-                          <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Do the <span class="blue-adj">boys</span> play soccer?</br>
-                          <em>Os meninos jogam futebol?</em></p>
-                          <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> Do the <span class="blue-adj">cats</span> like to drink milk?</br>
-                          <em>Os gatos gostam de beber leite?</em></p>
-                          <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Do your <span class="blue-adj">children</span> sing well?</br>
-                          <em>Seus filhos cantam bem?</em></p>
-                          <p class="frases" onclick="play(Quatro8)"><span class="blue">8.</span> Does your mother have three <span class="blue-adj">shirts</span>?</br>
-                          <em>Sua mãe tem 03 camisetas?</em></p>
-                          <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> How many <span class="blue-adj">keys</span> do you have now?</br>
-                          <em>Quantas chaves você tem agora?</em></p>
-                          <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> What are your favorite <span class="blue-adj">movies</span>?</br>
-                          <em>Quais são seus filmes favoritos?</em></p>
-                          <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> Do you like <span class="blue-adj">tomatoes</span>?</br>
-                          <em>Voce gosta de tomates?</em></p>
-                          <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> Are Brazil and Canada big <span class="blue-adj">countries</span>?</br>
-                          <em>Brasil e Canadá são países grandes?</em></p>
-                          <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> Are you good at <span class="blue-adj">quizzes</span>?</br>
-                          <em>Você é bom em questionários?</em></p>
-                          <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> How many <span class="blue-adj">lives</span> does a cat have?</br>
-                          <em>Quantas vidas um gato tem?</em></p>
-                          <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> Where do <span class="blue-adj">fish</span> swim?</br>
-                          <em>Onde os peixes nadam?</em></p>
-                          <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> Are there 2 <span class="blue-adj">chairs</span> here?</br>
-                          <em>Existem 2 cadeiras aqui?</em></p>
-                          <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Does the doctor help the <span class="blue-adj">children</span>?</br>
-                          <em>O médico ajuda as crianças?</em></p>
-                          <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> Do you like to clean the <span class="blue-adj">windows</span>?</br>
-                          <em>Você gosta de limpar as janelas?</em></p>
-                          <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> Do you drink 2 <span class="blue-adj">bottles</span> of water a day?</br>
-                          <em>Você bebe 2 garrafas de água por dia?</em></p>
-                          <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Two <span class="blue-adj">mountains</span> or two mountain?</br>
-                          <em>Duas montanhas ou duas montanhas?</em></p>    
+    <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
+    <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
+    <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
+    <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
+    <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
+    <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
+    <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
+    <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
+    <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
+    <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
+    <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
+    <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
+    <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
+    <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
+    <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
+    <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
+    <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
+    <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
+    <audio id="Quatro19" src="./audio/Grammar/Questions/19.mp3"></audio>
+    <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
+    
+    
+    <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span> Which is <span class="blue-adj">better,</span> English or math?<br>
+    <em>O que é melhor, inglês ou matemática?</em></p>
+    <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> Who is  <span class="blue-adj">taller, </span> your mom or dad?<br>
+    <em>Quem é mais alto, sua mãe ou seu pai?</em></p>
+    <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> Who is smaller,  <span class="blue-adj">you or your brother / sister</span>?<br>
+    <em>Quem é menor, você ou seu irmão/irmã?</em></p>
+    <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> Which is <span class="blue-adj">tastier, </span> Coca-Cola or Pepsi?<br>
+    <em>Qual é mais saborosa, Coca-Cola ou Pepsi?</em></p>
+    <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Which is <span class="blue-adj">better, </span> McDonald’s or Burger King?<br>
+    <em>Qual é melhor, McDonald's ou Burger King?</em></p>
+    <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> Which is <span class="blue-adj">healthier, </span> salad or pizza?<br>
+    <em>O que é mais saudável, salada ou pizza?</em></p>
+    <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Which sport is <span class="blue-adj">more fun </span> to watch, soccer or tennis?<br>
+    <em>Qual esporte é mais divertido de assistir, futebol ou tênis?</em></p>
+    <p class="frases" onclick="play(Quatro8)"><span class="blue">8.</span> Which is <span class="blue-adj">faster,</span>a horse or a tiger?<br>
+    <em>O que é mais rápido, um cavalo ou um tigre?</em></p>
+    <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> Who is <span class="blue-adj">stronger,</span> superman or batman?<br>
+    <em>Quem é mais forte, superman ou batman?</em></p>
+    <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> What is <span class="blue-adj">more expensive,</span> gold or silver?<br>
+    <em>O que é mais caro, ouro ou prata?</em></p>
+    <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> Who’s <span class="blue-adj"> the funniest </span>person in your family?<br>
+    <em>Quem é a pessoa mais engraçada da sua família?</em></p>
+    <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> Who is the <span class="blue-adj">tallest  </span> person in your family?<br>
+    <em>Quem é a pessoa mais alta da sua família?</em></p>
+    <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> What is the <span class="blue-adj">most interesting</span> book you have read?<br>
+    <em>Qual é o livro mais interessante que você leu?</em></p>
+    <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> How many <span class="blue-adj">lives</span> does a cat have?<br>
+    <em>Quantas vidas tem um gato?</em></p>
+    <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> What was <span class="blue-adj">the most important</span> invention in history? <br>
+    <em>Qual foi a invenção mais importante da história?</em></p>
+    <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> What´s  <span class="blue-adj">the most delicious</span> food you have tried?<br>
+    <em>Qual é a comida mais deliciosa que você experimentou?</em></p>
+    <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Where’s  <span class="blue-adj">the hottest</span>place you’ve ever been?<br>
+    <em>Onde é o lugar mais quente que você já esteve?</em></p>
+    <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> What’s <span class="blue-adj"> the coldest </span>temperature you’ve ever experienced?<br>
+    <em>Qual é a temperatura mais fria que você já experimentou?</em></p>
+    <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> What´s <span class="blue-adj">the most expensive</span> thing you’ve ever bought?<br>
+    <em>Qual é a coisa mais cara que você já comprou?</em></p>
+    <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Who is  <span class="blue-adj">the most famous</span> person you’ve ever seen in person?<br>
+    <em>Quem é a pessoa mais famosa que você já viu pessoalmente?</em></p>             
                       
                           
                   `;
