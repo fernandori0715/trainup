@@ -52,15 +52,8 @@
 
       <div class="card card-body h-100">
         <div id="videoGrammar">
-           <iframe width="370" height="300" src="https://www.youtube.com/embed/IJ5nqhFaqoY"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-          <iframe width="370" height="300" src="https://www.youtube.com/embed/2JKcJ238Ulk"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/EWSUUiMbf40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/hpUrLBEuHrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         
           
         </div>
         <!--BUTTONS OF MODAL-->
@@ -222,16 +215,17 @@
         <!-- END OF MODAL -->
     <!--END OF VERBS -->
 
-    <!-- START OF TEXT -->
+    <!-- START OF SUMMARY -->
     <div class="card me-3 ms-3 mt-3 mb-2">
       <h5 class="card-header">Summary</h5>
       
       <div class="card-body" id="text_summary">
+        <!-- START OF SUMMARY BODY -->
                
    
-        <!--START OF PRONOUNS-->
+        
         <img
-                src="./img/pronouns.jpg"
+                src="./img/present_perfect.jpg"
                 alt="List of Pronouns"
                 width="100%"
                 height="100%"
@@ -244,71 +238,107 @@
                 class="frases cyan mb-2"
                 onclick="play(v2)"
               />
-                <span class="cyan"> Listen to the sentences.</span></audio>
-        <audio id="Dois1" src="./audio/Grammar/Sentences/1.mp3"></audio>
-        <audio id="Dois2" src="./audio/Grammar/Sentences/2.mp3"></audio>
-        <audio id="Dois3" src="./audio/Grammar/Sentences/3.mp3"></audio>
-        <audio id="Dois4" src="./audio/Grammar/Sentences/4.mp3"></audio>
-        <audio id="Dois5" src="./audio/Grammar/Sentences/5.mp3"></audio>
-        <audio id="Dois6" src="./audio/Grammar/Sentences/6.mp3"></audio>
-        <audio id="Dois7" src="./audio/Grammar/Sentences/7.mp3"></audio>
-        <audio id="Dois8" src="./audio/Grammar/Sentences/8.mp3"></audio>
-        <audio id="Dois9" src="./audio/Grammar/Sentences/9.mp3"></audio>
-        <audio id="Dois10" src="./audio/Grammar/Sentences/10.mp3"></audio>
-        <audio id="Dois11" src="./audio/Grammar/Sentences/11.mp3"></audio>
-        <audio id="Dois12" src="./audio/Grammar/Sentences/12.mp3"></audio>
-        <audio id="Dois13" src="./audio/Grammar/Sentences/13.mp3"></audio>
-        <audio id="Dois14" src="./audio/Grammar/Sentences/14.mp3"></audio>
-        <audio id="Dois15" src="./audio/Grammar/Sentences/15.mp3"></audio>
-        <audio id="Dois16" src="./audio/Grammar/Sentences/16.mp3"></audio>
-        <audio id="Dois17" src="./audio/Grammar/Sentences/17.mp3"></audio>
-        <audio id="Dois18" src="./audio/Grammar/Sentences/18.mp3"></audio>
-        <audio id="Dois19" src="./audio/Grammar/Sentences/19.mp3"></audio>
-        <audio id="Dois20" src="./audio/Grammar/Sentences/20.mp3"></audio>
-        <audio id="Dois21" src="./audio/Grammar/Sentences/21.mp3"></audio>
-        <audio id="Dois22" src="./audio/Grammar/Sentences/22.mp3"></audio>
-        <audio id="Dois23" src="./audio/Grammar/Sentences/23.mp3"></audio>
-        <audio id="Dois24" src="./audio/Grammar/Sentences/24.mp3"></audio>
-        <audio id="Dois25" src="./audio/Grammar/Sentences/25.mp3"></audio>
-        <audio id="Dois26" src="./audio/Grammar/Sentences/26.mp3"></audio>
-        <audio id="Dois27" src="./audio/Grammar/Sentences/27.mp3"></audio>
+                
+        <audio id="Dois1" src="./audio/Grammar/Summary/1.mp3"></audio>
+        <audio id="Dois2" src="./audio/Grammar/Summary/2.mp3"></audio>
+        <audio id="Dois3" src="./audio/Grammar/Summary/3.mp3"></audio>
+        <audio id="Dois4" src="./audio/Grammar/Summary/4.mp3"></audio>
+        <audio id="Dois5" src="./audio/Grammar/Summary/5.mp3"></audio>
+        <audio id="Dois6" src="./audio/Grammar/Summary/6.mp3"></audio>
+        <audio id="Dois7" src="./audio/Grammar/Summary/7.mp3"></audio>
+        <audio id="Dois8" src="./audio/Grammar/Summary/8.mp3"></audio>
+        <audio id="Dois9" src="./audio/Grammar/Summary/9.mp3"></audio>
+        <audio id="Dois10" src="./audio/Grammar/Summary/10.mp3"></audio>
+        <audio id="Dois11" src="./audio/Grammar/Summary/11.mp3"></audio>
+        <audio id="Dois12" src="./audio/Grammar/Summary/12.mp3"></audio>
+        <audio id="Dois13" src="./audio/Grammar/Summary/13.mp3"></audio>
+        <audio id="Dois14" src="./audio/Grammar/Summary/14.mp3"></audio>
+        <audio id="Dois15" src="./audio/Grammar/Summary/15.mp3"></audio>
+        <audio id="Dois16" src="./audio/Grammar/Summary/16.mp3"></audio>
+        <audio id="Dois17" src="./audio/Grammar/Summary/17.mp3"></audio>
+        <audio id="Dois18" src="./audio/Grammar/Summary/18.mp3"></audio>
+        <audio id="Dois19" src="./audio/Grammar/Summary/19.mp3"></audio>
+        <audio id="Dois20" src="./audio/Grammar/Summary/20.mp3"></audio>
+        <audio id="Dois21" src="./audio/Grammar/Summary/21.mp3"></audio>
+       
+
+        <div class="buttons">
+          <button
+            type="button"
+            class="btn btn-dark my-2 ms-2"
+            id="text_en"
+            onclick="changeEnSummary()"
+          >
+            English
+          </button>
+          <button
+            type="button"
+            class="btn btn-info"
+            id="text-pt"
+            onclick="changePtSummary()"
+          >
+            Portuguese
+          </button>
+        </div>
         
-        <h5>Object Pronouns</h5>
-        <p class="frases" onclick="play(Dois1)"><span class="blue">1.</span> Give <span class="blue-adj">me</span> that, please.</p>
-        <p class="frases" onclick="play(Dois2)"><span class="blue">2.</span> I like <span class="blue-adj">you</span> but you don't like me.</p>
-        <p class="frases" onclick="play(Dois3)"><span class="blue">3.</span> She begged <span class="blue-adj">him</span> to live with her.</p>
-        <p class="frases" onclick="play(Dois4)"><span class="blue">4.</span> Bob took <span class="blue-adj">her</span> to work on Monday.</p>
-        <p class="frases" onclick="play(Dois5)"><span class="blue">5.</span> The movie was hilarious! We really liked <span class="blue-adj">it</span>.</p>
-        <p class="frases" onclick="play(Dois6)"><span class="blue">6.</span> It also teaches <span class="blue-adj">us</span> about human nature.</p>
-        <p class="frases" onclick="play(Dois7)"><span class="blue">7.</span> He also loved <span class="blue-adj">them</span> and cared about them.</p>
+        <h5 class="black-adj">Quando usar o Present Perfect?</h5>
+        <p>Indicar um vínculo entre o presente e o passado.<br>
+          O período em que a ação ocorre é anterior ao presente momento, mas não é especificado.</p>
+        <p class="black-adj">Ações Concluídas</p>
+        <p class="frases" onclick="play(Dois1)"><span class="black">1.</span> He <span class="">has lost </span> his wallet.</p>
+        <p class="black-adj">Ações concluídas recentemente</p>
+        <p class="frases" onclick="play(Dois2)"><span class="black">2.</span> I <span class="">have just finished</span> my project.</p>
+        <p class="black-adj">Ações inacabadas</p>
+        <p class="frases" onclick="play(Dois3)"><span class="black">3.</span> She <span class="">has lived </span> in Paris for 5 years.</p>
+        <p class="black-adj">Múltiplas Ações em Tempos Diferentes</p>
+        <p class="frases" onclick="play(Dois4)"><span class="black">4.</span> I <span class="">have seen</span> David several times.</p>
+        <p class="black-adj">Experiências de vida</p>
+        <p class="frases" onclick="play(Dois5)"><span class="black">5.</span> <span class="">Have you ever eaten</span> sushi before?</p>
+        <p class="black-adj">Realizações</p>
+        <p class="frases" onclick="play(Dois6)"><span class="black">6.</span> Man <span class="">has walked</span> on the moon.</p>
+        <p class="black-adj">Mudanças ao longo do tempo</p>
+        <p class="frases" onclick="play(Dois7)"><span class="black">7.</span> I <span class="">have become </span> more interested in medicine.</p>
 
-        <h5>Possessive Adjective</h5>
-        <p class="frases" onclick="play(Dois8)"><span class="green">8.</span> <span class="green-adj">My</span> car is new.</p>
-        <p class="frases" onclick="play(Dois9)"><span class="green">9.</span> Is this <span class="green-adj">your</span> house?</p>
-        <p class="frases" onclick="play(Dois10)"><span class="green">10.</span> She is selling <span class="green-adj">her</span> apartment.</p>
-        <p class="frases" onclick="play(Dois11)"><span class="green">11.</span> Oxford (= it) is famous for <span class="green-adj">its</span> university.</p>
-        <p class="frases" onclick="play(Dois12)"><span class="green">12.</span> <span class="green-adj">Our</span> teacher is late.</p>
-        <p class="frases" onclick="play(Dois13)"><span class="green">13.</span> I saw <span class="green-adj">their</span> children this morning..</p>
+        <h5 class="green-adj">EVER</h5>
+        <p class="green">Já , alguma vez na sua vida</p>
+        <p class="frases" onclick="play(Dois8)"><span class="green">8.</span> Have you<span class="green-adj"> ever</span> been to England?</p>
+        <p class="frases" onclick="play(Dois9)"><span class="green">9.</span> Nobody has <span class="green-adj">ever</span> said that to me.</p>
+        
+        <h5 class="vermelho-adj">NEVER</h5>
+        <p class="vermelho">Nunca</p>
+        <p class="frases" onclick="play(Dois10)"><span class="vermelho">10.</span> We have <span class="vermelho-adj">never</span> seen it before.</p>
+        <p class="frases" onclick="play(Dois11)"><span class="vermelho">11.</span> The series has <span class="vermelho-adj">never</span> been shown on television.</p>
+        
+        <h5 class="cyan-adj">JUST</h5>
+        <p class="cyan">Acabou de acontecer</p>
+        <p class="frases" onclick="play(Dois12)"><span class="cyan">12.</span> I have <span class="cyan-adj">just</span> done it.</p>
+        <p class="frases" onclick="play(Dois13)"><span class="cyan">13.</span> You have <span class="cyan-adj">just </span> arrived.</p>
+        
+        <h5 class="roxo-adj">ALREADY</h5>
+        <p class="roxo">ação já ocorreu</p>
+        <p class="frases" onclick="play(Dois14)"><span class="roxo">14.</span> She <span class="roxo-adj">already</span> knows everything.</p>
+        <p class="frases" onclick="play(Dois15)"><span class="roxo">15.</span> He has <span class="roxo-adj">already </span>arrived at home.</p>
+        
+        <h5 class="ouro-adj">YET</h5>
+        <p class="ouro">AINDA em frases negativas;<br>
+                         JÁ em frases interrogativas</p>
+        <p class="frases" onclick="play(Dois16)"><span class="ouro">16.</span> I haven't seen the Central Park Gallary <span class="ouro-adj">yet</span>.</p>
+        <p class="frases" onclick="play(Dois17)"><span class="ouro">17.</span> Have you met Bob <span class="ouro-adj">yet</span>?</p>
 
-        <h5>Possessive Pronouns</h5>
-                  <p class="frases" onclick="play(Dois14)"><span class="blue">14.</span> This car is <span class="blue-adj">mine</span>.</p>
-                  <p class="frases" onclick="play(Dois15)"><span class="blue">15.</span> Which T-shirt is <span class="blue-adj">yours</span>?</p>
-                  <p class="frases" onclick="play(Dois16)"><span class="blue">16.</span> That red car is <span class="blue-adj">his</span>.</p>
-                  <p class="frases" onclick="play(Dois17)"><span class="blue">17.</span> This pen is <span class="blue-adj">hers.</span>.</p>
-                  <p class="frases" onclick="play(Dois18)"><span class="blue">18.</span> Remember not to judge a book by <span class="blue-adj">its</span> cover.</p>
-                  <p class="frases" onclick="play(Dois19)"><span class="blue">19.</span> This problem is <span class="blue-adj">ours</span>.</p>
-                  <p class="frases" onclick="play(Dois20)"><span class="blue">20.</span> The house on the corner is <span class="blue-adj">theirs</span>.</p>
+        <h5 class="limao-adj">FOR</h5>
+        <p class="limao">por, há | Usado em Duração - for + período de tempo</p>
+        <p class="limao">for five years, for a week, for a month, for hours, for three hours</p>
 
-                  <h5>Reflexive Pronouns</h5>
-
-                  <p class="frases" onclick="play(Dois21)"><span class="green">21.</span> I'm going to make <span class="green-adj">myself</span> a sandwich.</p>
-                  <p class="frases" onclick="play(Dois22)"><span class="green">22.</span> Make <span class="green-adj">yourself</span> at home.</p>
-                  <p class="frases" onclick="play(Dois23)"><span class="green">23.</span> He hurt <span class="green-adj">himself</span>.</p>
-                  <p class="frases" onclick="play(Dois24)"><span class="green">24.</span> She didn't mind living abroad by <span class="green-adj">herself</span>.</p>
-                  <p class="frases" onclick="play(Dois25)"><span class="green">25.</span> The problem will work <span class="green-adj">itself</span> out.</p>
-                  <p class="frases" onclick="play(Dois26)"><span class="green">26.</span> We ask <span class="green-adj">ourselves</span> over and over: Why?</p>
-                  <p class="frases" onclick="play(Dois27)"><span class="green">27.</span> My father always said that heaven helps those who help <span class="green-adj">themselves</span>.</p>
-          <!--END OF PRONOUNS-->
+        <p class="frases" onclick="play(Dois18)"><span class="limao">18.</span> I have lived here <span class="limao-adj">for</span> 10 years.</p>
+        <p class="frases" onclick="play(Dois19)"><span class="limao">19.</span> She has taught at this univerity <span class="limao-adj">for</span> a long time.</p>
+        
+        <h5 class="rosa-escuro-adj">SINCE</h5>
+        <p class="rosa-escuro">desde | Usado em Ponto de Partida - Since + momento concreto</p>
+        <p class="rosa-escuro">since this morning, since last week, since yesterday
+          since He was a child, since Friday, since 3 o'clock</p>
+        <p class="frases" onclick="play(Dois20)"><span class="rosa-escuro">20.</span> I have lived here <span class="rosa-escuro-adj">since</span> 1990.</p>
+        <p class="frases" onclick="play(Dois21)"><span class="rosa-escuro">21.</span> She has taught at this univerity <span class="rosa-escuro-adj">since</span> 1983.</p>
+          <!--END OF SUMMARY BODY-->
       </div>
     </div>
 
@@ -316,83 +346,12 @@
 
    
 
-    <!-- START OF REPETITION -->
-    <div class="card me-3 ms-3 mt-3 mb-2">
-      <h5 class="card-header">Repetition</h5>
-      <p class="cyan ms-2">
-        <strong>Instructions:</strong><br />
-        a) Speak the sentences aloud changing them into positive, negative and
-        interrogative.<br />
-        b) Speak the sentences aloud, replacing the clored words with the words
-        inside the parentheses.
-      </p>
-      <div class="buttons">
-        <button
-          type="button"
-          class="btn btn-dark my-2 ms-2"
-          id="text_en"
-          onclick="repetitionEn()"
-        >
-          English
-        </button>
-        <button
-          type="button"
-          class="btn btn-info"
-          id="text-pt"
-          onclick="repetitionPt()"
-        >
-          Portuguese
-        </button>
-      </div>
-      <div class="card-body" id="repetition-sentences">
-        <audio
-          id="v22"
-          src="../licoes/audio/licao1/Obrigatorio/Verbs/1.mp3"
-          type="audio/mpeg"
-        ></audio>
-        <img
-          src="../../../images/audio.png"
-          style="width: 30px; height: 30px"
-          class="frases cyan mb-2"
-          onclick="play(v22s)"
-        />
-        <span class="cyan"> Clique on the sentences to listen.</span>
-
-                        <audio id="Tres1" src="./audio/Grammar/Sentences/Repetition/1.mp3"></audio>
-                        <audio id="Tres2" src="./audio/Grammar/Sentences/Repetition/2.mp3"></audio>
-                        <audio id="Tres3" src="./audio/Grammar/Sentences/Repetition/3.mp3"></audio>
-                        <audio id="Tres4" src="./audio/Grammar/Sentences/Repetition/4.mp3"></audio>
-                        <audio id="Tres5" src="./audio/Grammar/Sentences/Repetition/5.mp3"></audio>
-                        <audio id="Tres6" src="./audio/Grammar/Sentences/Repetition/6.mp3"></audio>
-                        <audio id="Tres7" src="./audio/Grammar/Sentences/Repetition/7.mp3"></audio>
-                        <audio id="Tres8" src="./audio/Grammar/Sentences/Repetition/8.mp3"></audio>
-                        <audio id="Tres9" src="./audio/Grammar/Sentences/Repetition/9.mp3"></audio>
-                        <audio id="Tres10" src="./audio/Grammar/Sentences/Repetition/10.mp3"></audio>
-                                          
-                        <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I left the <span class="green-adj">keys</span> at home.<span class="blue-plural">(papers)</span> </p>
-                        <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> Buy me two kilos of <span class="green-adj">potatoes</span>.<span class="blue-plural">(apples)</span></p>
-                        <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> This pair of <span class="green-adj">scissors</span> are new.<span class="blue-plural">(socks))</span></p>
-                        <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> Your <span class="green-adj">jeans</span> are black.<span class="blue-plural">(coats)</span></p>
-                        <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> <span class="green-adj">Mice</span> are very fast.<span class="blue-plural">(birds)</span></p>
-                        <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> There are lots of <span class="green-adj">fish</span> in the lake.<span class="blue-plural">(papers)</span></p>
-                        <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> They are very nice <span class="green-adj">people</span>.<span class="blue-plural">(players)</span></p>
-                        <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> How many <span class="green-adj">men</span> work with you?<span class="blue-plural">(women)</span></p>
-                        <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> <span class="green-adj">Cats</span> love to catch mice.<span class="blue-plural"></span></p>
-                        <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> There are not <span class="green-adj">pictures</span> on the wall.<span class="blue-plural"></span></p>
-                       
-        </div>
-      </div>
-    </div>
-
-    <!-- END OF REPETITION -->
+    
 
     <!--START OF QUESTIONS-->
     <div class="card me-3 ms-3 mt-3 mb-2">
       <h5 class="card-header">Questions</h5>
-      <p class="cyan ms-2">
-        <strong>Instructions:</strong><br />
-        a) Listen to the questions and answer them
-      </p>
+      
       <div class="buttons">
         <button
           type="button"
@@ -423,7 +382,7 @@
           class="frases cyan mb-2"
           onclick="play(v22s)"
         />
-        <span class=""> Clique on the sentences to listen.
+        
         <div id="questions">
                         <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
                         <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
@@ -447,26 +406,26 @@
                         <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
                         
                         
-                        <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span> How many <span class="blue-adj">houses</span> do you have?</p>
-                        <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> How many <span class="blue-adj">books</span> do you read per year?</p>
-                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> What are your favorite <span class="blue-adj">colors</span>?</p>
-                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> How many <span class="blue-adj">shirts</span> do you have?</p>
-                        <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Do the <span class="blue-adj">boys</span> play soccer?</p>
-                        <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> Do the <span class="blue-adj">cats</span> like to drink milk?</p>
-                        <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Do your <span class="blue-adj">children</span> sing well?</p>
-                        <p class="frases" onclick="play(Quatro8)"><span class="blue">8.</span> Does your mother have tree <span class="blue-adj">shirts</span>?</p>
-                        <p class="frases" onclick="play(Quatro9)"><span class="blue">9.</span> How many <span class="blue-adj">keys</span> do you have now?</p>
-                        <p class="frases" onclick="play(Quatro10)"><span class="blue">10.</span> What are your favorite <span class="blue-adj">movies</span>?</p>
-                        <p class="frases" onclick="play(Quatro11)"><span class="blue">11.</span> Do you like <span class="blue-adj">tomatoes</span>?</p>
-                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12.</span> Are Brazil and Canada big <span class="blue-adj">countries</span>?</p>
-                        <p class="frases" onclick="play(Quatro13)"><span class="blue">13.</span> Are you good at <span class="blue-adj">quizzes</span>?</p>
-                        <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> How many <span class="blue-adj">lives</span> does a cat have?</p>
-                        <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> Where do <span class="blue-adj">fish</span> swim?</p>
-                        <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> Are there 2 <span class="blue-adj">chairs</span> here?</p>
-                        <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Does the doctor help the <span class="blue-adj">children</span>?</p>
-                        <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> Do you like to clean the <span class="blue-adj">windows</span>?</p>
-                        <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> Do you drink 2 <span class="blue-adj">bottles</span> of water a day?</p>
-                        <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Two <span class="blue-adj">mountains</span> or two mountain?</p>           
+                          <p class="frases" onclick="play(Quatro1)"><span class="cyan">1.</span> Have you ever met a famous person?</p>
+                          <p class="frases" onclick="play(Quatro2)"><span class="cyan">2.</span> What have you done today?</p>
+                          <p class="frases" onclick="play(Quatro3)"><span class="cyan">3.</span> Have you tried computer programming?</p>
+                          <p class="frases" onclick="play(Quatro4)"><span class="cyan">4.</span> Have you sung in public before?</p>
+                          <p class="frases" onclick="play(Quatro5)"><span class="cyan">5.</span> Who in your family has helped you a lot?</p>
+                          <p class="frases" onclick="play(Quatro6)"><span class="cyan">6.</span> Which countries have been in the news this week?</p>
+                          <p class="frases" onclick="play(Quatro7)"><span class="cyan">7.</span> How long have you studied English?</p>
+                          <p class="frases" onclick="play(Quatro8)"><span class="cyan">8.</span> Where have you traveled?</p>
+                          <p class="frases" onclick="play(Quatro9)"><span class="cyan">9.</span> Have you ever shot a gun?</p>
+                          <p class="frases" onclick="play(Quatro10)"><span class="cyan">10.</span> Have you ever screamed at someone in public?</p>
+                          <p class="frases" onclick="play(Quatro11)"><span class="cyan">11.</span> What is the best and worst restaurant you have eaten at?</p>
+                          <p class="frases" onclick="play(Quatro12)"><span class="cyan">12.</span> Have you ever forgotten an important birthday?</p>
+                          <p class="frases" onclick="play(Quatro13)"><span class="cyan">13.</span> Have you ever fallen asleep while talking on the phone?</p>
+                          <p class="frases" onclick="play(Quatro14)"><span class="cyan">14.</span> Have you ever worked a job you hated?</p>
+                          <p class="frases" onclick="play(Quatro15)"><span class="cyan">15.</span> Have you ever hunted and killed an animal?</p>
+                          <p class="frases" onclick="play(Quatro16)"><span class="cyan">16.</span> Have you ever sold something you own?</p>
+                          <p class="frases" onclick="play(Quatro17)"><span class="cyan">17.</span> Have you ever hurt yourself in the kitchen?</p>
+                          <p class="frases" onclick="play(Quatro18)"><span class="cyan">18.</span> How long	have	they	lived	in Japan?</p>
+                          <p class="frases" onclick="play(Quatro19)"><span class="cyan">19.</span> Where	has	he	been?</p>
+                          <p class="frases" onclick="play(Quatro20)"><span class="cyan">20.</span> What is the longest time away from home you have ever spent?</p>         
                                            
                         
                         

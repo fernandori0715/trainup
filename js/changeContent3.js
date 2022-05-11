@@ -596,6 +596,10 @@ function changeVideoPt() {
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
+            <iframe width="370" height="300" src="https://www.youtube.com/embed/5pUgDHQCP9U"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                 `;
 
   //changing the content in your element
@@ -750,50 +754,50 @@ function repetitionPt() {
 function questionsEn() {
   let element = document.getElementById("questions");
   let newContent = `
-                        <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
-                        <audio id="Quatro2" src=./audio/Grammar/Questions/2.mp3"></audio>
-                        <audio id="Quatro3" src=./audio/Grammar/Questions/3.mp3"></audio>
-                        <audio id="Quatro4" src=./audio/Grammar/Questions/4.mp3"></audio>
-                        <audio id="Quatro5" src=./audio/Grammar/Questions/5.mp3"></audio>
-                        <audio id="Quatro6" src=./audio/Grammar/Questions/6.mp3"></audio>
-                        <audio id="Quatro7" src=./audio/Grammar/Questions/7.mp3"></audio>
-                        <audio id="Quatro8" src=./audio/Grammar/Questions/8.mp3"></audio>
-                        <audio id="Quatro9" src=./audio/Grammar/Questions/9.mp3"></audio>
-                        <audio id="Quatro10" src=./audio/Grammar/Questions/10.mp3"></audio>
-                        <audio id="Quatro11" src=./audio/Grammar/Questions/11.mp3"></audio>
-                        <audio id="Quatro12" src=./audio/Grammar/Questions/12.mp3"></audio>
-                        <audio id="Quatro13" src=./audio/Grammar/Questions/13.mp3"></audio>
-                        <audio id="Quatro14" src=./audio/Grammar/Questions/14.mp3"></audio>
-                        <audio id="Quatro15" src=./audio/Grammar/Questions/15.mp3"></audio>
-                        <audio id="Quatro16" src=./audio/Grammar/Questions/16.mp3"></audio>
-                        <audio id="Quatro17" src=./audio/Grammar/Questions/17.mp3"></audio>
-                        <audio id="Quatro18" src=./audio/Grammar/Questions/18.mp3"></audio>
-                        <audio id="Quatro19" src=./audio/Grammar/Questions/19.mp3"></audio>
-                        <audio id="Quatro20" src=./audio/Grammar/Questions/20.mp3"></audio>
-                    
-                    
-                        <p class="frases" onclick="play(Quatro1)"><span class="blue">1. Who is your best friend?</span></p>
-                        <p class="frases" onclick="play(Quatro2)"><span class="blue">2. Are you married?</span></p>
-                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3. Is your family nice? Explain.</span></p>
-                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4. When were you born?</span></p>
-                        <p class="frases" onclick="play(Quatro5)"><span class="blue">5. Are you tired?</span></p>
-                        <p class="frases" onclick="play(Quatro6)"><span class="blue">6. Is he sick?</span></p>
-                        <p class="frases" onclick="play(Quatro7)"><span class="blue">7. Are you tall?</span></p>
-                        <p class="frases" onclick="play(Quatro8)"><span class="blue">8. Are they Strong?</span></p>
-                        <p class="frases" onclick="play(Quatro9)"><span class="blue">9. Is the water cold?</span></p>
-                        <p class="frases" onclick="play(Quatro10)"><span class="blue">10. Are you Brazilian?</span></p>
-                        <p class="frases" onclick="play(Quatro11)"><span class="blue">11. Are you happy this week?</span></p>
-                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12. What is your name?</span></p>
-                        <p class="frases" onclick="play(Quatro13)"><span class="blue">13. What time do you usually get up?
-                        </span></p>
-                        <p class="frases" onclick="play(Quatro14)"><span class="blue">14. What do you do after you get back
-                            home?</span></p>
-                        <p class="frases" onclick="play(Quatro15)"><span class="blue">15. How many hours are you on-line
-                            every day?</span></p>
-                        <p class="frases" onclick="play(Quatro16)"><span class="blue">16. What do you like to do on weekends?
-                        </span></p>
-                        <p class="frases" onclick="play(Quatro17)"><span class="blue">17. Is the sky blue or red?</span></p>
-                        <p class="frases" onclick="play(Quatro18)"><span class="blue">18. Is your house big?</span></p>
+  <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
+  <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
+  <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
+  <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
+  <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
+  <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
+  <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
+  <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
+  <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
+  <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
+  <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
+  <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
+  <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
+  <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
+  <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
+  <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
+  <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
+  <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
+  <audio id="Quatro19" src="./audio/Grammar/Questions/19.mp3"></audio>
+  <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
+  
+  
+  
+  <p class="frases" onclick="play(Quatro1)"><span class="">1. What did you do for your last birthday?</p>
+  <p class="frases" onclick="play(Quatro2)"><span class="">2. Did you study hard in high school?</p>
+  <p class="frases" onclick="play(Quatro3)"><span class="">3. Where did you go last weekend?</p>
+  <p class="frases" onclick="play(Quatro4)"><span class="">4. What did you eat last dinner?</p>
+  <p class="frases" onclick="play(Quatro5)"><span class="">5. Did you paint your house last year?</p>
+  <p class="frases" onclick="play(Quatro6)"><span class="">6. What color towel did you use last time?</p>
+  <p class="frases" onclick="play(Quatro7)"><span class="">7. Did they lose the match?</p>
+  <p class="frases" onclick="play(Quatro8)"><span class="">8. Did you have dinner last night?</p>
+  <p class="frases" onclick="play(Quatro9)"><span class="">9. Did you just call Jane?</p>
+  <p class="frases" onclick="play(Quatro10)"><span class="">10. Did Phillip buy his mother a gift?</p>
+  <p class="frases" onclick="play(Quatro11)"><span class="">11. Did Amanda sing at the festival?</p>
+  <p class="frases" onclick="play(Quatro12)"><span class="">12. Did John give you all this money?</p>
+  <p class="frases" onclick="play(Quatro13)"><span class="">13. Did you watch tvl ast night?</p>
+  <p class="frases" onclick="play(Quatro14)"><span class="">14. Did you enjoy the party yesterday?</p>
+  <p class="frases" onclick="play(Quatro15)"><span class="">15. Did she like the surprise?</p>
+  <p class="frases" onclick="play(Quatro16)"><span class="">16. Did he arrive on time?</p>
+  <p class="frases" onclick="play(Quatro17)"><span class="">17. What did you say to Bob?</p>
+  <p class="frases" onclick="play(Quatro18)"><span class="">18. Did they bring their friends?</p>
+  <p class="frases" onclick="play(Quatro19)"><span class="">19. Did you have a nice weekend?</p>
+  <p class="frases" onclick="play(Quatro20)"><span class="">20. What did you have for dinner last night?</p>
+                        
                 `;
 
   //changing the content in your element
@@ -803,64 +807,69 @@ function questionsEn() {
 function questionsPt() {
   let element = document.getElementById("questions");
   let newContent = `
-                        <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
-                        <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
-                        <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
-                        <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
-                        <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
-                        <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
-                        <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
-                        <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
-                        <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
-                        <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
-                        <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
-                        <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
-                        <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
-                        <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
-                        <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
-                        <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
-                        <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
-                        <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
-                        <audio id="Quatro19" src="./audio/Grammar/Questions/19.mp3"></audio>
-                        <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
-                    
-                    
-                        <p class="frases" onclick="play(Quatro1)"><span class="blue">1. Who is your best friend?</span><br>
-                        <em>Quem é seu melhor amigo?</em></p>
-                        <p class="frases" onclick="play(Quatro2)"><span class="blue">2. Are you married?</span><br>
-                        <em>Você é casado?</em></p>
-                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3. Is your family nice? Explain.</span><br>
-                        <em>A sua família é legal? Explique.</em></p>
-                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4. When were you born?</span><br>
-                        <em>Quando você nasceu?</em></p>
-                        <p class="frases" onclick="play(Quatro5)"><span class="blue">5. Are you tired?</span><br>
-                        <em>Você está cansada?</em></p>
-                        <p class="frases" onclick="play(Quatro6)"><span class="blue">6. Is he sick?</span><br>
-                        <em>Ele está doente?</em></p>
-                        <p class="frases" onclick="play(Quatro7)"><span class="blue">7. Are you tall?</span><br>
-                        <em>Você é alta?</em></p>
-                        <p class="frases" onclick="play(Quatro8)"><span class="blue">8. Are they Strong?</span><br>
-                        <em>Eles são fortes?</em></p>
-                        <p class="frases" onclick="play(Quatro9)"><span class="blue">9. Is the water cold?</span><br>
-                        <em>A água está fria?</em></p>
-                        <p class="frases" onclick="play(Quatro10)"><span class="blue">10. Are you Brazilian?</span><br>
-                        <em>Você é Brasileira?</em></p>
-                        <p class="frases" onclick="play(Quatro11)"><span class="blue">11. Are you happy this week?</span><br>
-                        <em>Você está feliz esta semana?</em></p>
-                        <p class="frases" onclick="play(Quatro12)"><span class="blue">12. What is your name?</span><br>
-                        <em>Qual é o seu nome?</em></p>
-                        <p class="frases" onclick="play(Quatro13)"><span class="blue">13. What time do you usually get up?</span><br>
-                        <em>Que horas você geralmente acorda?</em></p>
-                        <p class="frases" onclick="play(Quatro14)"><span class="blue">14. What do you do after you get back home?</span><br>
-                        <em>O que você faz depois que você volta para casa?</em></p>
-                        <p class="frases" onclick="play(Quatro15)"><span class="blue">15. How many hours are you on-line every day?</span><br>
-                        <em>Quantas horas você fica online todos os dias?</em></p>
-                        <p class="frases" onclick="play(Quatro16)"><span class="blue">16. What do you like to do on weekends?</span><br>
-                        <em>O que você gosta de fazer nos finais de semana?</em></p>
-                        <p class="frases" onclick="play(Quatro17)"><span class="blue">17. Is the sky blue or red?</span><br>
-                        <em>O céu é azul ou vermelho?</em></p>
-                        <p class="frases" onclick="play(Quatro18)"><span class="blue">18. Is your house big?</span><br>
-                        <em>A sua casa é grande?</em></p>
+  <audio id="Quatro1" src="./audio/Grammar/Questions/1.mp3"></audio>
+  <audio id="Quatro2" src="./audio/Grammar/Questions/2.mp3"></audio>
+  <audio id="Quatro3" src="./audio/Grammar/Questions/3.mp3"></audio>
+  <audio id="Quatro4" src="./audio/Grammar/Questions/4.mp3"></audio>
+  <audio id="Quatro5" src="./audio/Grammar/Questions/5.mp3"></audio>
+  <audio id="Quatro6" src="./audio/Grammar/Questions/6.mp3"></audio>
+  <audio id="Quatro7" src="./audio/Grammar/Questions/7.mp3"></audio>
+  <audio id="Quatro8" src="./audio/Grammar/Questions/8.mp3"></audio>
+  <audio id="Quatro9" src="./audio/Grammar/Questions/9.mp3"></audio>
+  <audio id="Quatro10" src="./audio/Grammar/Questions/10.mp3"></audio>
+  <audio id="Quatro11" src="./audio/Grammar/Questions/11.mp3"></audio>
+  <audio id="Quatro12" src="./audio/Grammar/Questions/12.mp3"></audio>
+  <audio id="Quatro13" src="./audio/Grammar/Questions/13.mp3"></audio>
+  <audio id="Quatro14" src="./audio/Grammar/Questions/14.mp3"></audio>
+  <audio id="Quatro15" src="./audio/Grammar/Questions/15.mp3"></audio>
+  <audio id="Quatro16" src="./audio/Grammar/Questions/16.mp3"></audio>
+  <audio id="Quatro17" src="./audio/Grammar/Questions/17.mp3"></audio>
+  <audio id="Quatro18" src="./audio/Grammar/Questions/18.mp3"></audio>
+  <audio id="Quatro19" src="./audio/Grammar/Questions/19.mp3"></audio>
+  <audio id="Quatro20" src="./audio/Grammar/Questions/20.mp3"></audio>
+  
+  
+  
+  <p class="frases" onclick="play(Quatro1)"><span class="">1. What did you do for your last birthday?<br>
+  <em>O que você fez no seu último aniversário?</em></p>
+  <p class="frases" onclick="play(Quatro2)"><span class="">2. Did you study hard in high school?<br>
+  <em>Você estudou muito no ensino médio?</em></p>
+  <p class="frases" onclick="play(Quatro3)"><span class="">3. Where did you go last weekend?<br>
+  <em>Onde você foi no último final de semana?</em></p>
+  <p class="frases" onclick="play(Quatro4)"><span class="">4. What did you eat last dinner?<br>
+  <em>O que você comeu no último jantar?</em></p>
+  <p class="frases" onclick="play(Quatro5)"><span class="">5. Did you paint your house last year?<br>
+  <em>Você pintou sua casa no ano passado?</em></p>
+  <p class="frases" onclick="play(Quatro6)"><span class="">6. What color towel did you use last time?<br>
+  <em>Que cor de toalha você usou da última vez?</em></p>
+  <p class="frases" onclick="play(Quatro7)"><span class="">7. Did they lose the match?<br>
+  <em>Eles perderam a partida?</em></p>
+  <p class="frases" onclick="play(Quatro8)"><span class="">8. Did you have dinner last night?<br>
+  <em>Você jantou ontem à noite?</em></p>
+  <p class="frases" onclick="play(Quatro9)"><span class="">9. Did you just call Jane?<br>
+  <em>Você acabou de ligar para Jane?</em></p>
+  <p class="frases" onclick="play(Quatro10)"><span class="">10. Did Phillip buy his mother a gift?<br>
+  <em>Phillip comprou um presente para sua mãe?</em></p>
+  <p class="frases" onclick="play(Quatro11)"><span class="">11. Did Amanda sing at the festival?<br>
+  <em>Amanda cantou no festival?</em></p>
+  <p class="frases" onclick="play(Quatro12)"><span class="">12. Did John give you all this money?<br>
+  <em>O John te deu todo este dinheiro?</em></p>
+  <p class="frases" onclick="play(Quatro13)"><span class="">13. Did you watch tv last night?<br>
+  <em>Você assistiu televisão ontem à noite?</em></p>
+  <p class="frases" onclick="play(Quatro14)"><span class="">14. Did you enjoy the party yesterday?<br>
+  <em>Gostou da festa ontem?</em></p>
+  <p class="frases" onclick="play(Quatro15)"><span class="">15. Did she like the surprise?<br>
+  <em>Ela gostou da surpresa?</em></p>
+  <p class="frases" onclick="play(Quatro16)"><span class="">16. Did he arrive on time?<br>
+  <em>Ele chegou a tempo?</em></p>
+  <p class="frases" onclick="play(Quatro17)"><span class="">17. What did you say to Bob?<br>
+  <em>O que você disse para Bob?</em></p>
+  <p class="frases" onclick="play(Quatro18)"><span class="">18. Did they bring their friends?<br>
+  <em>Eles trouxeram seus amigos?</em></p>
+  <p class="frases" onclick="play(Quatro19)"><span class="">19. Did you have a nice weekend?<br>
+  <em>Você teve um bom fim de semana?</em></p>
+  <p class="frases" onclick="play(Quatro20)"><span class="">20. What did you have for dinner last night?<br>
+  <em>O que você jantou ontem à noite?</em></p>
                 `;
 
   //changing the content in your element

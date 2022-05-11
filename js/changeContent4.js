@@ -589,11 +589,8 @@ function changeVideoEn() {
 function changeVideoPt() {
   let element = document.getElementById("videoGrammar");
   let newContent = `
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nPEnu2-fYjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="370" height="300" src="https://www.youtube.com/embed/haCJd1GdG5s"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VT6zaTqCu44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/B-F5AAG1dgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 `;
 
   //changing the content in your element
@@ -634,26 +631,26 @@ function repetitionEn() {
                         <audio id="Tres20" src="./audio/Grammar/Sentences/20.mp3"></audio>
                         
                         
-                        <p class="frases" onclick="play(Tres1)"><span class="green-adj">1.</span> I had <span class="green-adj">red</span> books.(cars)</p>
-                        <p class="frases" onclick="play(Tres2)"><span class="green-adj">2.</span> You need to buy 2 <span class="green-adj">big</span> houses.(tables)</p>
-                        <p class="frases" onclick="play(Tres3)"><span class="green-adj">3.</span> He drank <span class="green-adj">cold</span> water.(juice)</p>
-                        <p class="frases" onclick="play(Tres4)"><span class="green-adj">4.</span> She lost her <span class="green-adj">expensive</span> keys all the time.(voice)</p>
-                        <p class="frases" onclick="play(Tres5)"><span class="green-adj">5.</span> It had <span class="green-adj">several beautiful</span> colors.(bright)</p>
-                        <p class="frases" onclick="play(Tres6)"><span class="green-adj">6.</span> We took two <span class="green-adj">old</span> boxes.(tickets)</p>
-                        <p class="frases" onclick="play(Tres7)"><span class="green-adj">7.</span> You wore <span class="green-adj">nice</span> shirts.(rings)</p>
-                        <p class="frases" onclick="play(Tres8)"><span class="green-adj">8.</span> They watched <span class="green-adj">wonderful</span> films at night.(movies)</p>
-                        <p class="frases" onclick="play(Tres9)"><span class="green-adj">9.</span> I didn´t have two <span class="green-adj">empty</span> bags.(black)</p>
-                        <p class="frases" onclick="play(Tres10)"><span class="green-adj">10.</span> You didn´t need <span class="green-adj">different</span> models.(actors)</p>
-                        <p class="frases" onclick="play(Tres11)"><span class="green-adj">11.</span> He didn´t  drink my <span class="green-adj">great</span> juice.(orange juice)</p>
-                        <p class="frases" onclick="play(Tres12)"><span class="green-adj">12.</span> She didn´t lose her <span class="green-adj">important</span> document.(keys)</p>
-                        <p class="frases" onclick="play(Tres13)"><span class="green-adj">13.</span> It didn´t have <span class="green-adj">bright</span> colors.(nice)</p>
-                        <p class="frases" onclick="play(Tres14)"><span class="green-adj">14.</span> We didn´t take that <span class="green-adj">difficult</span> test.(easy)</p>
-                        <p class="frases" onclick="play(Tres15)"><span class="green-adj">15.</span> You didn´t wear <span class="green-adj">cheap</span> shirts.(expensive)</p>
-                        <p class="frases" onclick="play(Tres16)"><span class="green-adj">16.</span> They didn´t watch <span class="green-adj">appropriate</span> series at night.(movies)</p>
-                        <p class="frases" onclick="play(Tres17)"><span class="green-adj">17.</span> He is a <span class="green-adj">good</span> lawyer.(doctor)</p>
-                        <p class="frases" onclick="play(Tres18)"><span class="green-adj">18.</span> The sea is blue and the sun is <span class="green-adj">hot</span>.(yellow)</p>
-                        <p class="frases" onclick="play(Tres19)"><span class="green-adj">19.</span> I want to have a <span class="green-adj">fast</span> car.(plane)</p>
-                        <p class="frases" onclick="play(Tres20)"><span class="green-adj">20.</span> Don´t take that <span class="green-adj">heavy</span> bag.(tv)</p>
+                        <p class="frases" onclick="play(Tres1)"><span class="roxo-adj">1.</span> I had <span class="roxo-adj">red</span> books. (cars)</p>
+                        <p class="frases" onclick="play(Tres2)"><span class="roxo-adj">2.</span> You need to buy 2 <span class="roxo-adj">big</span> houses. (tables)</p>
+                        <p class="frases" onclick="play(Tres3)"><span class="roxo-adj">3.</span> He drank <span class="roxo-adj">cold</span> water. (juice)</p>
+                        <p class="frases" onclick="play(Tres4)"><span class="roxo-adj">4.</span> She lost her <span class="roxo-adj">expensive</span> keys all the time. (voice)</p>
+                        <p class="frases" onclick="play(Tres5)"><span class="roxo-adj">5.</span> It had <span class="roxo-adj">several beautiful</span> colors. (bright)</p>
+                        <p class="frases" onclick="play(Tres6)"><span class="roxo-adj">6.</span> We took two <span class="roxo-adj">old</span> boxes. (tickets)</p>
+                        <p class="frases" onclick="play(Tres7)"><span class="roxo-adj">7.</span> You wore <span class="roxo-adj">nice</span> shirts. (rings)</p>
+                        <p class="frases" onclick="play(Tres8)"><span class="roxo-adj">8.</span> They watched <span class="roxo-adj">wonderful</span> films at night.(movies)</p>
+                        <p class="frases" onclick="play(Tres9)"><span class="roxo-adj">9.</span> I didn´t have two <span class="roxo-adj">empty</span> bags. (black)</p>
+                        <p class="frases" onclick="play(Tres10)"><span class="roxo-adj">10.</span> You didn´t need <span class="roxo-adj">different</span> models. (actors)</p>
+                        <p class="frases" onclick="play(Tres11)"><span class="roxo-adj">11.</span> He didn´t  drink my <span class="roxo-adj">great</span> juice. (orange juice)</p>
+                        <p class="frases" onclick="play(Tres12)"><span class="roxo-adj">12.</span> She didn´t lose her <span class="roxo-adj">important</span> document. (keys)</p>
+                        <p class="frases" onclick="play(Tres13)"><span class="roxo-adj">13.</span> It didn´t have <span class="roxo-adj">bright</span> colors. (nice)</p>
+                        <p class="frases" onclick="play(Tres14)"><span class="roxo-adj">14.</span> We didn´t take that <span class="roxo-adj">difficult</span> test. (easy)</p>
+                        <p class="frases" onclick="play(Tres15)"><span class="roxo-adj">15.</span> You didn´t wear <span class="roxo-adj">cheap</span> shirts. (expensive)</p>
+                        <p class="frases" onclick="play(Tres16)"><span class="roxo-adj">16.</span> They didn´t watch <span class="roxo-adj">appropriate</span> series at night. (movies)</p>
+                        <p class="frases" onclick="play(Tres17)"><span class="roxo-adj">17.</span> He is a <span class="roxo-adj">good</span> lawyer. (doctor)</p>
+                        <p class="frases" onclick="play(Tres18)"><span class="roxo-adj">18.</span> The sea is blue and the sun is <span class="roxo-adj">hot</span>. (yellow)</p>
+                        <p class="frases" onclick="play(Tres19)"><span class="roxo-adj">19.</span> I want to have a <span class="roxo-adj">fast</span> car. (plane)</p>
+                        <p class="frases" onclick="play(Tres20)"><span class="roxo-adj">20.</span> Don´t take that <span class="roxo-adj">heavy</span> bag. (tv)</p>
                 `;
 
   //changing the content in your element
@@ -693,45 +690,45 @@ function repetitionPt() {
                         
                        
                         
-                        <p class="frases" onclick="play(Tres1)"><span class="green">1. I had two red books.(cars)</span><br>
+                        <p class="frases" onclick="play(Tres1)"><span class="roxo">1. I had two red books.(cars)</span><br>
                         <em>Eu tinha dois livros vermelhos.</em></p>
-                        <p class="frases" onclick="play(Tres2)"><span class="green">2. You need to buy 2 big apartments.(tables)</span><br>
+                        <p class="frases" onclick="play(Tres2)"><span class="roxo">2. You need to buy 2 big apartments.(tables)</span><br>
                         <em>Você precisa comprar 2 grandes casas.</em></p>
-                        <p class="frases" onclick="play(Tres3)"><span class="green">3. He drank cold of water.(juice)</span><br>
+                        <p class="frases" onclick="play(Tres3)"><span class="roxo">3. He drank cold of water.(juice)</span><br>
                         <em>Ele bebeu três água fria.</em></p>
-                        <p class="frases" onclick="play(Tres4)"><span class="green">4. She lost her expensive keys all the time.(voice)</span><br>
+                        <p class="frases" onclick="play(Tres4)"><span class="roxo">4. She lost her expensive keys all the time.(voice)</span><br>
                         <em>Ela perdia suas caras chaves o tempo todo.</em></p>
-                        <p class="frases" onclick="play(Tres5)"><span class="green">5. It had several beautiful colors.(bright)</span><br>
+                        <p class="frases" onclick="play(Tres5)"><span class="roxo">5. It had several beautiful colors.(bright)</span><br>
                         <em>Tinha várias cores lindas.</em></p>
-                        <p class="frases" onclick="play(Tres6)"><span class="green">6. We took two old boxes.(tickets)</span><br>
+                        <p class="frases" onclick="play(Tres6)"><span class="roxo">6. We took two old boxes.(tickets)</span><br>
                         <em>Pegamos duas caixas velhas.</em></p>
-                        <p class="frases" onclick="play(Tres7)"><span class="green">7. You wore nice shirts.(rings)</span><br>
+                        <p class="frases" onclick="play(Tres7)"><span class="roxo">7. You wore nice shirts.(rings)</span><br>
                         <em>Você usava camisas bonitas.</em></p>
-                        <p class="frases" onclick="play(Tres8)"><span class="green">8. They watched wonderful films at night.(movies)</span><br>
+                        <p class="frases" onclick="play(Tres8)"><span class="roxo">8. They watched wonderful films at night.(movies)</span><br>
                         <em>Eles assistiam filmes maravilhosos à noite.</em></p>
-                        <p class="frases" onclick="play(Tres9)"><span class="green">9. I didn´t have two empty bags.(black)(5)</span><br>
+                        <p class="frases" onclick="play(Tres9)"><span class="roxo">9. I didn´t have two empty bags.(black)(5)</span><br>
                         <em>Eu não tinha duas sacolas vazias.</em></p>
-                        <p class="frases" onclick="play(Tres10)"><span class="green">10. You didn´t need different models.(actors)</span><br>
+                        <p class="frases" onclick="play(Tres10)"><span class="roxo">10. You didn´t need different models.(actors)</span><br>
                         <em>Você não precisava de modelos diferentes.</em></p>
-                        <p class="frases" onclick="play(Tres11)"><span class="green">11. He didn´t drink my great juice.(orange juice)</span><br>
+                        <p class="frases" onclick="play(Tres11)"><span class="roxo">11. He didn´t drink my great juice.(orange juice)</span><br>
                         <em>Ele não bebeu meu ótimo suco.</em></p>
-                        <p class="frases" onclick="play(Tres12)"><span class="green">12. She didn´t lose her important document.(Keys)</span><br>
+                        <p class="frases" onclick="play(Tres12)"><span class="roxo">12. She didn´t lose her important document.(Keys)</span><br>
                         <em>Ela não perdeu seu importante documento.</em></p>
-                        <p class="frases" onclick="play(Tres13)"><span class="green">13. It didn´t have bright colors.(nice)</span><br>
+                        <p class="frases" onclick="play(Tres13)"><span class="roxo">13. It didn´t have bright colors.(nice)</span><br>
                         <em>Não tinha cores vivas.</em></p>
-                        <p class="frases" onclick="play(Tres14)"><span class="green">14. We didn´t take that difficult test.(easy)</span><br>
+                        <p class="frases" onclick="play(Tres14)"><span class="roxo">14. We didn´t take that difficult test.(easy)</span><br>
                         <em>Não fizemos aquele teste difícil.</em></p>
-                        <p class="frases" onclick="play(Tres15)"><span class="green">15. You didn´t wear cheap shirts.(expensive)</span><br>
+                        <p class="frases" onclick="play(Tres15)"><span class="roxo">15. You didn´t wear cheap shirts.(expensive)</span><br>
                         <em>Você não usava camisas baratas.</em></p>
-                        <p class="frases" onclick="play(Tres16)"><span class="green">16. They didn´t watch appropriate series.(movies)</span><br>
+                        <p class="frases" onclick="play(Tres16)"><span class="roxo">16. They didn´t watch appropriate series.(movies)</span><br>
                         <em>Eles não assistiram séries apropriadas.</em></p>
-                        <p class="frases" onclick="play(Tres17)"><span class="green">17. He is a good lawyer.(doctor)</span><br>
+                        <p class="frases" onclick="play(Tres17)"><span class="roxo">17. He is a good lawyer.(doctor)</span><br>
                         <em>Ele é um bom advogado.</em></p>
-                        <p class="frases" onclick="play(Tres18)"><span class="green">18. The sea is blue and the sun is hot.(yellow)</span><br>
+                        <p class="frases" onclick="play(Tres18)"><span class="roxo">18. The sea is blue and the sun is hot.(yellow)</span><br>
                         <em>O mar é azul e o sol é quente.</em></p>
-                        <p class="frases" onclick="play(Tres19)"><span class="green">19. I want to have a fast car.(plane)</span><br>
+                        <p class="frases" onclick="play(Tres19)"><span class="roxo">19. I want to have a fast car.(plane)</span><br>
                         <em>Eu quero um carro rápido.</em></p>
-                        <p class="frases" onclick="play(Tres20)"><span class="green">20. Don´t take that heavy bag.(tv)</span><br>
+                        <p class="frases" onclick="play(Tres20)"><span class="roxo">20. Don´t take that heavy bag.(tv)</span><br>
                         <em>Não leve essa bolsa pesada.</em></p>
                 `;
 

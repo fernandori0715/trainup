@@ -590,9 +590,7 @@ function changePtSummary() {
     let element = document.getElementById("videoGrammar");
     let newContent = `
     <iframe width="560" height="315" src="https://www.youtube.com/embed/wKBdmIH248A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/f4uCUDWJXM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0l_zGoyssgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          
+    
                   `;
   
     //changing the content in your element
@@ -783,7 +781,7 @@ function changePtSummary() {
     <p class="frases" onclick="play(Quatro14)"><span class="blue">14.</span> How many <span class="blue-adj">lives</span> does a cat have?</p>
     <p class="frases" onclick="play(Quatro15)"><span class="blue">15.</span> What was <span class="blue-adj">the most important</span> invention in history? </p>
     <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> What´s  <span class="blue-adj">the most delicious</span> food you have tried?</p>
-    <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Where’s  <span class="blue-adj">the hottest</span>place you’ve ever been?</p>
+    <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Where’s  <span class="blue-adj">the hottest </span>place you’ve ever been?</p>
     <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> What’s <span class="blue-adj"> the coldest </span>temperature you’ve ever experienced?</p>
     <p class="frases" onclick="play(Quatro19)"><span class="blue">19.</span> What´s <span class="blue-adj">the most expensive</span> thing you’ve ever bought?</p>
     <p class="frases" onclick="play(Quatro20)"><span class="blue">20.</span> Who is  <span class="blue-adj">the most famous</span> person you’ve ever seen in person?</p>           
@@ -850,7 +848,7 @@ function changePtSummary() {
     <em>Qual foi a invenção mais importante da história?</em></p>
     <p class="frases" onclick="play(Quatro16)"><span class="blue">16.</span> What´s  <span class="blue-adj">the most delicious</span> food you have tried?<br>
     <em>Qual é a comida mais deliciosa que você experimentou?</em></p>
-    <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Where’s  <span class="blue-adj">the hottest</span>place you’ve ever been?<br>
+    <p class="frases" onclick="play(Quatro17)"><span class="blue">17.</span> Where’s  <span class="blue-adj">the hottest </span>place you’ve ever been?<br>
     <em>Onde é o lugar mais quente que você já esteve?</em></p>
     <p class="frases" onclick="play(Quatro18)"><span class="blue">18.</span> What’s <span class="blue-adj"> the coldest </span>temperature you’ve ever experienced?<br>
     <em>Qual é a temperatura mais fria que você já experimentou?</em></p>

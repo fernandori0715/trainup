@@ -441,7 +441,7 @@ function repetitionEn() {
             <span class="cyan">good english</span>.<i>(well)</i>
           </p>
           <p class="frases" onclick="play(Tres6)">
-            <span class="green">6.</span> He goes to the
+            <span class="green">6.</span> She goes to the
             <span class="cyan">beack</span>.every day.<i>(park)</i>
           </p>
           <p class="frases" onclick="play(Tres7)">
@@ -449,7 +449,7 @@ function repetitionEn() {
             <span class="cyan">soccer</span>.<i>(tennis)</i>.
           </p>
           <p class="frases" onclick="play(Tres8)">
-            <span class="green">8.</span> He goes to
+            <span class="green">8.</span> She goes to
             <span class="cyan">school</span>.<i>(work)</i>.
           </p>
           <p class="frases" onclick="play(Tres9)">
@@ -535,9 +535,9 @@ function repetitionPt() {
             <i>Meu pai não fala Inglês bem.</i>
           </p>
           <p class="frases" onclick="play(Tres6)">
-            <span class="green">6.</span> He goes to the
+            <span class="green">6.</span> She goes to the
             <span class="cyan">beack</span>.every day.<i>(park)</i><br>
-            <i>Ele vai a praia todos os dias.</i>
+            <i>Ela vai a praia todos os dias.</i>
           </p>
           <p class="frases" onclick="play(Tres7)">
             <span class="green">7.</span> He loves to play
@@ -545,9 +545,9 @@ function repetitionPt() {
             <i>Ele ama jogar futebol.</i>
           </p>
           <p class="frases" onclick="play(Tres8)">
-            <span class="green">8.</span> He goes to
+            <span class="green">8.</span> She goes to
             <span class="cyan">school</span>.<i>(work)</i>.<br>
-            <i>Ele vai para a escola.</i>
+            <i>Ela vai para a escola.</i>
           </p>
           <p class="frases" onclick="play(Tres9)">
             <span class="green">9.</span> Does he go to
@@ -642,8 +642,8 @@ function questionsEn() {
                     
                         <p class="frases" onclick="play(Quatro1)"><span class="blue">1.</span>Where do you work?</p>
                         <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> What does he do?</p>
-                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span>How do they come here?</p>
-                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span>When do we start?</p>
+                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> How do they come here?</p>
+                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> When do we start?</p>
                         <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Why do they play football so late?</p>
                         <p class="frases" onclick="play(Quatro6)"><span class="blue">6.</span> What does she like doing at the weekend?</p>
                         <p class="frases" onclick="play(Quatro7)"><span class="blue">7.</span> Where do you go to the cinema?</p>
@@ -695,9 +695,9 @@ function questionsPt() {
                         <i>Aonde você mora?</i></p>
                         <p class="frases" onclick="play(Quatro2)"><span class="blue">2.</span> What does he do?<br>
                         <i>O que ele faz?</i></p>
-                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span>How do they come here?<br>
+                        <p class="frases" onclick="play(Quatro3)"><span class="blue">3.</span> How do they come here?<br>
                         <i>Como eles veem aqui?</i></p>
-                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span>When do we start?<br>
+                        <p class="frases" onclick="play(Quatro4)"><span class="blue">4.</span> When do we start?<br>
                         <i>Quando nós começamos?</i></p>
                         <p class="frases" onclick="play(Quatro5)"><span class="blue">5.</span> Why do they play football so late?<br>
                         <i>Por que eles jogam futebol tão tarde?</i></p>

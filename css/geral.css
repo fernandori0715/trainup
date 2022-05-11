@@ -78,9 +78,37 @@ div iframe {
 .roxo {
   color: rgb(112, 48, 160);
 }
+.roxo-adj {
+  color: rgb(112, 48, 160);
+  font-weight: bold;
+}
+
+.black-adj{
+  color: rgb(95, 93, 93);
+  font-weight: bold;
+}
 
 .ouro {
   color: #ddac09;
+}
+.ouro-adj {
+  color: #ddac09;
+  font-weight: bold;
+}
+.limao {
+  color: #3bb117;
+}
+.limao-adj {
+  color: #3bb117;
+  font-weight: bold;
+}
+
+.rosa-escuro {
+  color: #b1174a;
+}
+.rosa-escuro-adj {
+  color: #b1174a;
+  font-weight: bold;
 }
 .italico {
   font-style: italic;
@@ -92,6 +120,10 @@ div iframe {
 }
 .underlined {
   text-decoration: underline;
+}
+
+.videos_homework a{
+  text-decoration: none;
 }
 
 .center {

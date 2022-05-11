@@ -525,7 +525,7 @@ function changeEnSummary() {
                             </tr>
                             <tr>
                                 <td><span class="frases cyan" onclick="play(w29)"> Quite</span></td>
-                                <td>quieto(a)</td>
+                                <td>bastante</td>
                                 <td><span class="frases cyan" onclick="play(w30)"> shy</span></td>
                                 <td>tímido(a)</td>
                             </tr>
@@ -590,14 +590,9 @@ function changeVideoEn() {
 function changeVideoPt() {
   let element = document.getElementById("videoGrammar");
   let newContent = `
-            <iframe width="370" height="300" src="https://www.youtube.com/embed/2Wig3XCO_cs"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                             <iframe width="370" height="300" src="https://www.youtube.com/embed/5pUgDHQCP9U"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pmAUJPsG6Sk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/w2qnQAeZzR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
                 `;
 
   //changing the content in your element
@@ -639,7 +634,7 @@ function repetitionEn() {
                         <p class="frases" onclick="play(Tres3)"><span class="green">3.</span> My name is Jane.</p>
                         <p class="frases" onclick="play(Tres4)"><span class="green">4.</span> She is a teacher.</p>
                         <p class="frases" onclick="play(Tres5)"><span class="green">5.</span> They are students.</p>
-                        <p class="frases" onclick="play(Tres6)"><span class="green">6.</span> It is not not late.</p>
+                        <p class="frases" onclick="play(Tres6)"><span class="green">6.</span> It is not late.</p>
                         <p class="frases" onclick="play(Tres7)"><span class="green">7.</span> He isn´t at the hotel</p>
                         <p class="frases" onclick="play(Tres8)"><span class="green">8.</span> We are not sick.</p>
                         <p class="frases" onclick="play(Tres9)"><span class="green">9.</span> I am not his father.</p>
