@@ -293,6 +293,15 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.btn-flag {
+  width: 35px;
+  height: 35px;
+}
+.sentence-icon {
+  width: 50px;
+  height: 50px;
+}
+
 /* START SLIDER IMAGENS VOCABULARY */
 * {
   box-sizing: border-box;
