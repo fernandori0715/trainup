@@ -395,10 +395,7 @@ function changeEnSummary() {
 function changeVideoEn() {
   let element = document.getElementById("videoGrammar");
   let newContent = `
-            <iframe width="400" height="250" class="ms-2" src="https://www.youtube.com/embed/47LEelX7nhg"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+  <a href="https://www.todamateria.com.br/simple-present/" target="_blank">Link para explicação </a>
                 `;
 
   //changing the content in your element
